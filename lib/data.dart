@@ -4048,5 +4048,6155 @@ List questions = [
         "is_correct": true
       }
     ]
+  },
+  {
+    "id": "136",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\29.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\29.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\29.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "إنتبه طريق واسع",
+        "english": "Caution, wide road",
+        "french": "Attention, route large",
+        "is_correct": false
+      },
+      {
+        "arabic": "إنتبه طريق ضيق على اليسار",
+        "english": "Caution, narrow road on the left",
+        "french": "Attention, route étroite à gauche",
+        "is_correct": false
+      },
+      {
+        "arabic": "إنتبه طريق ضيق",
+        "english": "Caution, narrow road ahead",
+        "french": "Attention, route étroite",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "137",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\30.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\30.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\30.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "أفضلية مرور لليمين",
+        "english": "Priority to the right",
+        "french": "Priorité à droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "طريق ضيق على اليمين",
+        "english": "Narrow road on the right",
+        "french": "Route étroite à droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "إنتبه طريق ضيق على اليسار",
+        "english": "Caution, narrow road on the left",
+        "french": "Attention, route étroite à gauche",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "138",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\31.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\31.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\31.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "نهاية الأفضلية",
+        "english": "End of priority",
+        "french": "Fin de priorité",
+        "is_correct": false
+      },
+      {
+        "arabic": "إنتبه طريق ضيق على اليمين",
+        "english": "Caution, narrow road on the right",
+        "french": "Attention, route étroite à droite",
+        "is_correct": true
+      },
+      {
+        "arabic": "إنتبه أفضلية المرور للسيارات المتجهة من الجهة المقابلة",
+        "english": "Caution, vehicles coming from the opposite direction have the right of way",
+        "french": "Attention, priorité aux véhicules venant en face",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "139",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\32.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\32.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\32.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "منطقة جبلية",
+        "english": "Mountainous area",
+        "french": "Région montagnarde",
+        "is_correct": false
+      },
+      {
+        "arabic": "إنتبه إحتمال سقوط أو وجود صخور",
+        "english": "Caution, falling or fallen rocks ahead",
+        "french": "Attention, roches ou de chute de roches sur la route",
+        "is_correct": true
+      },
+      {
+        "arabic": "إنتبه طريق ضيق",
+        "english": "Caution, narrow road ahead",
+        "french": "Attention, route étroite",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "140",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\33.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\33.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\33.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "ممنوع الدخول لعموم السيارات",
+        "english": "No entry to all types of motor vehicles",
+        "french": "Sens interdit aux véhicules de tous genres",
+        "is_correct": false
+      },
+      {
+        "arabic": "إنتبه إشارات كهربائية",
+        "english": "Caution, electrical signs",
+        "french": "Attention, feu de circulation",
+        "is_correct": true
+      },
+      {
+        "arabic": "إنتبه مستديرة",
+        "english": "Caution, roundabout ahead",
+        "french": "Attention, rond point",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "141",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\37.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\37.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\37.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "ممنوع المرور",
+        "english": "No entry",
+        "french": "Sens interdit",
+        "is_correct": false
+      },
+      {
+        "arabic": "إنتبه أفسح الطريق - طريق أفضلية أمامك",
+        "english": "Give way - priority road ahead",
+        "french": "Ceder le passage, route prioritaire",
+        "is_correct": false
+      },
+      {
+        "arabic": "إنتبه مخاطر متنوعة",
+        "english": "Caution, various dangers",
+        "french": "Attention, dangers divers",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "142",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\38.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\38.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\38.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "ممنوع المرور",
+        "english": "No entry",
+        "french": "Sens interdit",
+        "is_correct": false
+      },
+      {
+        "arabic": "إنتبه أفسح الطريق - طريق أفضلية أمامك",
+        "english": "Give way - priority road ahead",
+        "french": "Céder le passage, route prioritaire",
+        "is_correct": true
+      },
+      {
+        "arabic": "إنتبه مخاطر متنوعة",
+        "english": "Caution, various dangers",
+        "french": "Attention, dangers divers",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "143",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\39.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\39.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\39.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "ممنوع المرور",
+        "english": "No entry",
+        "french": "Sens interdit",
+        "is_correct": false
+      },
+      {
+        "arabic": "نهاية الأفضلية",
+        "english": "End of priority",
+        "french": "Fin de priorité",
+        "is_correct": true
+      },
+      {
+        "arabic": "إنتبه أفضلية المرور للسيارات المتجهة من الجهة المقابلة",
+        "english": "Caution, vehicles coming from the opposite direction have the right of way",
+        "french": "Attention, priorité aux véhicules venant en face",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "144",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\40.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\40.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\40.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "ممنوع التجاوز الجميع المركبات",
+        "english": "No overtaking for all kinds of vehicles",
+        "french": "Dépassement interdit aux véhicules de tous genres",
+        "is_correct": false
+      },
+      {
+        "arabic": "نهاية الأفضلية",
+        "english": "End of priority",
+        "french": "Fin de priorité",
+        "is_correct": false
+      },
+      {
+        "arabic": "إنتبه أفضلية المرور للسيارات المتجهة من الجهة المقابلة",
+        "english": "Caution, vehicles coming from the opposite direction have the right of way",
+        "french": "Attention, priorité aux véhicules venant en face",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "145",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\41.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\41.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\41.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "طريق على خط واحد",
+        "english": "One lane road",
+        "french": "Route à voie unique",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع الدخول",
+        "english": "No entry",
+        "french": "Sens interdit",
+        "is_correct": false
+      },
+      {
+        "arabic": "قف",
+        "english": "Stop",
+        "french": "Arrêtez-vous",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "146",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\42.jpg",
+      "english": "What does this sign mean?- C:\\DTA\\signs\\42.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\42.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "طريق على خط واحد",
+        "english": "One Lane road",
+        "french": "Route à voie unique",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع الوقوف",
+        "english": "No parking",
+        "french": "Stationnement interdit",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع الدخول العموم السيارات",
+        "english": "No entry for all motor vehicles",
+        "french": "Sens interdit aux véhicules de tous genres",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "147",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\43.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\43.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\43.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "أخطار متنوعة",
+        "english": "Various dangers",
+        "french": "Dangers divers",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع الوقوف",
+        "english": "No parking",
+        "french": "Stationnement interdit",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع المرور",
+        "english": "No entry",
+        "french": "Sens interdit",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "148",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\44.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\44.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\44.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "ممنوع التجاوز للشاحنات",
+        "english": "No overtaking allowed for trucks",
+        "french": "Dépassement interdit aux camions",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع التجاوز الجميع المركبات",
+        "english": "No overtaking allowed for all kinds of vehicles",
+        "french": "Dépassement interdit aux véhicules de tous genres",
+        "is_correct": true
+      },
+      {
+        "arabic": "ممنوع المرور",
+        "english": "No entry",
+        "french": "Sens interdit",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "149",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\45.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\45.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\45.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "السرعة القصوى 30 كلم في الساعة",
+        "english": "Upper speed limit: 30 km/hour",
+        "french": "Vitesse maximale: 30 km/heure",
+        "is_correct": true
+      },
+      {
+        "arabic": "السرعة الدنيا 80 كلم في الساعة",
+        "english": "Lower Speed limit: 80 km/hour",
+        "french": "Vitesse minimale: 80 km/heure",
+        "is_correct": false
+      },
+      {
+        "arabic": "إنتبه أفسح الطريق - طريق أفضلية أمامك",
+        "english": "Give way - priority road ahead",
+        "french": "Céder le passage, route prioritaire",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "150",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\46.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\46.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\46.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "مسرح",
+        "english": "Theatre",
+        "french": "Théatre",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع الوقوف",
+        "english": "No parking",
+        "french": "Stationnement interdit",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع التزمير",
+        "english": "You are not allowed to sound your horn",
+        "french": "Klaxonnement interdit",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "151",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\47.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\47.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\47.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "طريق مخصص للشاحنات",
+        "english": "Road reserved for trucks",
+        "french": "Route réservée aux camions",
+        "is_correct": false
+      },
+      {
+        "arabic": "مسموح التجاوز للشاحنات",
+        "english": "Trucks can overtake",
+        "french": "Dépassement permis aux camions",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع التجاوز للشاحنات",
+        "english": "Trucks cannot overtake",
+        "french": "Dépassement interdit aux camions",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "152",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\48.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\48.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\48.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "مسموح مرور عربات الحيوانات",
+        "english": "Animal carts allowed",
+        "french": "Passage autorisé aux véhicules transportant des animaux",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع مرور المشاة",
+        "english": "No entry for pedestrians",
+        "french": "Passage interdit aux piétons",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع مرور عربات الحيوانات",
+        "english": "No entry for animal carts",
+        "french": "Passage interdit aux véhicules transportant des animaux",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "153",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\49.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\49.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\49.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "ممنوع مرور السيارات",
+        "english": "No entry to all types of motor vehicles",
+        "french": "Passage interdit aux voitures",
+        "is_correct": false
+      },
+      {
+        "arabic": "إنتبه طريق مخصص للمشاة",
+        "english": "Caution, Lane reserved for pedestrians",
+        "french": "Attention, voie résérvée aux piétons",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع مرور المشاة",
+        "english": "No entry for pedestrians",
+        "french": "Passage interdit aux piétons",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "154",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - - C:\\DTA\\signs\\50.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\50.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\50.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "ممر إجباري للسيارات",
+        "english": "Compulsory path for motor vehicles",
+        "french": "Passage obligatoire pour les voitures",
+        "is_correct": false
+      },
+      {
+        "arabic": "طريق مخصص للدراجات",
+        "english": "Lane reserved for bikes",
+        "french": "Voie résérvée aux deux roues",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع المرور للدراجات",
+        "english": "No entry for bikes",
+        "french": "Passage interdit aux deux roues",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "155",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\51.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\51.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\51.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "ممر خاص للدراجات النارية",
+        "english": "Cycles crossing",
+        "french": "Voie résérvée aux deux roues",
+        "is_correct": false
+      },
+      {
+        "arabic": "طريق مخصص للدراجات النارية",
+        "english": "Motorbikes Lane",
+        "french": "Voie résérvée aux deux roues",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع المرور للدراجات النارية",
+        "english": "No entry for motorbikes",
+        "french": "Passage interdit aux deux roues",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "156",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\52.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\52.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\52.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "ممنوع وقوف عربات اليد",
+        "english": "Trolleys cannot be parked here",
+        "french": "Stationnement interdit aux poussettes",
+        "is_correct": false
+      },
+      {
+        "arabic": "طريق مخصص لعربات اليد",
+        "english": "Lane reserved for trolleys",
+        "french": "Voie réservée aux poussettes",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع مرور عربات اليد",
+        "english": "Not entry for trolleys",
+        "french": "Passage interdit aux poussettes",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "157",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\53.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\53.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\53.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "ممنوع وقوف السيارات",
+        "english": "No parking",
+        "french": "Interdit aux voitures de stationner",
+        "is_correct": false
+      },
+      {
+        "arabic": "طريق مخصص للسيارات",
+        "english": "Road reserved for motor vehicles",
+        "french": "Voie résérvée aux voitures",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع المرور لعموم السيارات",
+        "english": "No entry to all types of motor vehicles",
+        "french": "Passage interdit aux véhicules de tous genres",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "158",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\55.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\55.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\55.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "ممنوع مرور الشاحنات التي يزيد طولها عن 2,3 متر",
+        "english": "No entry to trucks exceeding 2.3m in height",
+        "french": "Passage interdit aux camions de plus de 2,3 m de longueur",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع مرور الشاحنات",
+        "english": "No entry for trucks",
+        "french": "Passage interdit aux camions",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع مرور السيارات التي يزيد عرضها عن 2,3 متر",
+        "english": "No entry to cars exceeding 2.3m in width",
+        "french": "Passage interdit aux voitures de plus de 2,3 m de largeur",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "159",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\56.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\56.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\56.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "إتجاه إجباري للشاحنات",
+        "english": "Compulsory direction for trucks",
+        "french": "Direction obligatoire pour les camions",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع مرور الشاحنات التي يزيد وزنها عن 3،5 طن",
+        "english": "No entry to trucks exceeding 3.5 tons in weight",
+        "french": "Passage interdit aux camions de plus de 3.5 tonnes",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع مرور الشاحنات التي يفوق علوها عن 3,5 متر",
+        "english": "No entry to trucks exceeding 3.5 m in height",
+        "french": "Passage interdit aux camions de plus de 3,5 m de hauteur",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "160",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\57.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\57.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\57.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "ممنوع زيادة الحمولة أكثر من 10 أمتار",
+        "english": "Cargo cannot exceed 10m",
+        "french": "La cargaison ne doit pas dépasser les 10 m en hauteur",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع مرور الشاحنات التي تزيد حمولتها عن 6,5 طن",
+        "english": "No entry to trucks carrying more than 6.5 tons of cargo",
+        "french": "Passage interdit aux camions transportant plus de 6.5 tonnes de cargaison",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع مرور الشاحنات التي يفوق طولها عن 10 إمتار",
+        "english": "No entry to trucks exceeding 10m in height",
+        "french": "Passage interdit aux aux camions de plus de 10 m de longueur",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "161",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\58.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\58.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\58.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "ممنوع مرور الشاحنات التي يفوق علوها عن 7 أمتار",
+        "english": "No entry to trucks exceeding 7m in height",
+        "french": "Passage interdit aux camions de plus de 7 m de hauteur",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع مرور الشاحنات التي تزيد حمولة كل دولاب منها عن 7 أطنان",
+        "english": "No entry to trucks exceeding 7 tons/wheel",
+        "french": "Passage interdit aux camions portant plus de 7 tonnes par pneu",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع مرور الشاحنات التي تزيد حمولتها عن 7 طن",
+        "english": "No entry to trucks carrying more than 7 tons of cargo",
+        "french": "Passage interdit aux camions transportant plus de 7 tonnes de cargaison",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "162",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\60.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\60.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\60.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "بداية الإشارات الممنوعة",
+        "english": "Start of restriction signs",
+        "french": "Début de signalisation restrictive",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع السرعة",
+        "english": "No speeding",
+        "french": "Excès de vitesse interdit",
+        "is_correct": false
+      },
+      {
+        "arabic": "نهاية الإشارات الممنوعة",
+        "english": "End of restriction sign",
+        "french": "Fin de signalisation restrictive",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "163",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\61.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\61.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\61.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "تحديد السرعة",
+        "english": "Speed limit",
+        "french": "Limite de vitesse",
+        "is_correct": false
+      },
+      {
+        "arabic": "بداية تحديد السرعة",
+        "english": "Start of speed limit",
+        "french": "Début de limite de vitesse",
+        "is_correct": false
+      },
+      {
+        "arabic": "نهاية تحديد السرعة",
+        "english": "End of speed limit",
+        "french": "Fin de limites de vitesse",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "164",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\62.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\62.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\62.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "إتجاه إجباري على اليسار",
+        "english": "Compulsory direction to the left",
+        "french": "Obligation de tourner à gauche",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع الإلتفاف على اليمين",
+        "english": "You cannot turn right",
+        "french": "Interdit de tourner à droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "الإلتفاف على اليمين",
+        "english": "Turn right",
+        "french": "Tourner à droite",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "165",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\63.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\63.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\63.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "إتجاه إختياري مستقيم أو يمين",
+        "english": "You can go straight or turn right",
+        "french": "Obligation d'aller tout droit ou de tourner à droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع الإلتفاف على اليسار",
+        "english": "You cannot turn left",
+        "french": "Interdit de tourner à gauche",
+        "is_correct": false
+      },
+      {
+        "arabic": "الإلتفاف على اليسار",
+        "english": "Turn left",
+        "french": "Tourner à gauche",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "166",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\64.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\64.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\64.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "ممنوع المرور يمين ويسار",
+        "english": "You cannot go right or left",
+        "french": "Interdit de tourner à gauche ou à droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "إتجاه إجباري مستقيم",
+        "english": "You must go straight",
+        "french": "Obligation d'aller tout droit",
+        "is_correct": false
+      },
+      {
+        "arabic": "إتجاه إختياري يمين ويسار",
+        "english": "You can turn right or left",
+        "french": "Il est possible de tourner à gauche ou à droite",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "167",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\65.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\65.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\65.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "إتجاه إجباري للشاحنات الجهة اليمين",
+        "english": "Trucks must go right",
+        "french": "Obligation aux camions de tourner à droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع الإتجاه نحو اليسار",
+        "english": "You cannot turn left",
+        "french": "Interdit de tourner à gauche",
+        "is_correct": false
+      },
+      {
+        "arabic": "إتجاه إختياري يمين أو مستقيم",
+        "english": "You can go straight or turn right",
+        "french": "Il est possible d'aller tout droit ou de tourner à droite",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "168",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\66.jpg",
+      "english": "What does this sign mean? C:\\DTA\\signs\\66.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\66.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "ممنوع الإتجاه نحو اليسار",
+        "english": "You cannot go left",
+        "french": "Interdit de tourner à gauche",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممر إجباري نحو اليسار",
+        "english": "Compulsory direction to the left",
+        "french": "Passage obligatoire à gauche",
+        "is_correct": false
+      },
+      {
+        "arabic": "إتجاه إختياري مستقيم أو يسار",
+        "english": "You can go straight or turn left",
+        "french": "Il est possible d'aller tout droit ou de tourner à gauche",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "169",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - - C:\\DTA\\signs\\67.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\67.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\67.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "إتجاه إختياري نحو اليمين",
+        "english": "You can go right",
+        "french": "Il est possible de tourner à droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "خط الطريق الرئيسية",
+        "english": "Freeway lane",
+        "french": "Voie principale",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممر إجباري نحو اليسار",
+        "english": "Compulsory direction to the left",
+        "french": "Passage obligatoire à gauche",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "170",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\68.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\68.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\68.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "إتجاه إختياري مستقيم",
+        "english": "You must go straight",
+        "french": "Il est possible d'aller tout droit",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع الإلتفاف إلى اليمين",
+        "english": "You cannot turn right",
+        "french": "Interdit de tourner à droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممر إجباري يمين",
+        "english": "Compulsory direction to the right",
+        "french": "Passage obligatoire à droite",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "171",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\69.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\69.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\69.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "ممنوع الإلتفاف يمين أو يسار",
+        "english": "You cannot turn right or left",
+        "french": "Interdit de tourner à gauche ou à droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "إتجاه أختياري نحو اليمين",
+        "english": "Vehicle can only turn right",
+        "french": "Il est possible de tourner à droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممر إجباري يمين أو يسار",
+        "english": "Compulsory direction to the right or the left",
+        "french": "Passage obligatoire à droite ou à gauche",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "172",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\71.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\71.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\71.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "طريق للمشاة والدراجات الهوائية",
+        "english": "Lane reserved for pedestrians and bicycles",
+        "french": "Voie réservée aux piétons et aux deux roues",
+        "is_correct": false
+      },
+      {
+        "arabic": "نهاية حلبة الدراجات الهوائية",
+        "english": "End of bicycle track",
+        "french": "Fin de la piste cyclable",
+        "is_correct": false
+      },
+      {
+        "arabic": "طريق مخصص للدراجات الهوائية",
+        "english": "Lane reserved for bicycles",
+        "french": "Voie réservée aux deux roues",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "173",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\72.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\72.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\72.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "ممنوع مرور المشاة والدراجات الهوائية",
+        "english": "No entry for pedestrians and bicycles",
+        "french": "Passage interdit aux piétons et aux deux roues",
+        "is_correct": false
+      },
+      {
+        "arabic": "طريق للمشاة والدراجات فقط",
+        "english": "Lane reserved for pedestrians and bicycles",
+        "french": "Voie réservée uniquement aux piétons et aux deux roues",
+        "is_correct": true
+      },
+      {
+        "arabic": "نهاية حلبة الدراجات الهوائية",
+        "english": "End of bicycle track",
+        "french": "Fin de la piste cyclable",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "174",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\75.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\75.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\75.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "إتجاه إجباري يمين",
+        "english": "Compulsory direction to the right",
+        "french": "Passage obligatoire à droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع الإلتفاف يميناً",
+        "english": "You cannot turn right",
+        "french": "Interdit de tourner à droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "وجهة السير",
+        "english": "Traffic direction",
+        "french": "Sens de circulation",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "175",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\76.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\76.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\76.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "التفاف إلزامي",
+        "english": "Compulsory turn",
+        "french": "Obligation de tourner",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع الإلتفاف",
+        "english": "You cannot turn",
+        "french": "Interdit de tourner",
+        "is_correct": false
+      },
+      {
+        "arabic": "وجهة السير",
+        "english": "Traffic direction",
+        "french": "Sens de circulation",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "176",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\77.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\77.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\77.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "نهاية منع تجاوز الأوتوبيسات",
+        "english": "End of no bus overtaking zone",
+        "french": "Fin de dépassement interdit aux bus",
+        "is_correct": false
+      },
+      {
+        "arabic": "طريق مخصص للأوتوبيسات",
+        "english": "Lane reserved for buses",
+        "french": "Voie réservée aux bus",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع مرور الاوتوبيسات",
+        "english": "No entry to buses",
+        "french": "Passage interdit aux bus",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "177",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\78.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\78.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\78.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "ممنوع مرور الشاحنات التي يزيد وزنها عن 6،5 طن",
+        "english": "No entry to trucks exceeding 6.5 tons in weight",
+        "french": "Passage interdit aux camions dont le poids dépasse les 6.5 tonnes",
+        "is_correct": false
+      },
+      {
+        "arabic": "طريق مخصص للشاحنات",
+        "english": "Lane reserved for trucks",
+        "french": "Voie réservée aux camions",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع مرور الشاحنات",
+        "english": "No entry to trucks",
+        "french": "Passage interdit aux camions",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "178",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\79.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\79.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\79.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "طريق الزامي للشاحنات",
+        "english": "Compulsory direction for trucks",
+        "french": "Route obligatoire pour les camions",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع وقوف الشاحنات",
+        "english": "Trucks cannot park here",
+        "french": "Stationnement interdit aux camions",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع مرور الشاحنات التي تزيد حمولتها عن 6,5 طن",
+        "english": "No entry to trucks carrying more than 6.5 tons of cargo",
+        "french": "Passage interdit aux camions dont le poids de la cargaison dépasse les 6.5 tonnes",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "179",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\80.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\80.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\80.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "طريق الزامي للشاحنات",
+        "english": "Compulsory direction for trucks",
+        "french": "Route obligatoire pour les camions",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع مرور الشاحنات المحملة بمواد خطرة",
+        "english": "No entry for trucks carrying Hazardous Material",
+        "french": "Passage interdit aux camions transportant des matières dangereuses",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع مرور الشاحنات التي تجر قاطرة",
+        "english": "Not entry to trailer trucks",
+        "french": "Passage interdit aux camions remorque",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "180",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\81.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\81.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\81.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "موقف لحظة للآليات الزراعية",
+        "english": "One-minute parking for agricultural machinery",
+        "french": "Stationnement à durée limitée pour les véhicules agricoles",
+        "is_correct": false
+      },
+      {
+        "arabic": "طريق مخصص للآليات الزراعية",
+        "english": "Road reserved for agricultural machinery",
+        "french": "Voie réservée aux véhicules agricoles",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع مرور الآليات الزراعية",
+        "english": "Agricultural machinery not allowed",
+        "french": "Passage interdit aux véhicules agricoles",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "181",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\84.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\84.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\84.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "نهاية منع تجاوز الشاحنات",
+        "english": "End of no overtaking for trucks",
+        "french": "Fin de la zone \"interdit aux camions de dépasser\"",
+        "is_correct": false
+      },
+      {
+        "arabic": "نهاية منع التجاوز",
+        "english": "End of no overtaking zone",
+        "french": "Fin de la zone \"dépassement interdit\"",
+        "is_correct": true
+      },
+      {
+        "arabic": "إنتبه منطقة سير على خطين",
+        "english": "Caution, two-lane road",
+        "french": "Attention, route à deux voies",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "182",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\85.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\85.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\85.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "طريق مخصص للشاحنات فقط",
+        "english": "Trucks only",
+        "french": "Voie réservée aux camions",
+        "is_correct": false
+      },
+      {
+        "arabic": "نهاية منع تجاوز الشاحنات",
+        "english": "End of no overtaking for trucks",
+        "french": "Fin de la zone \"interdit aux camions de dépasser\"",
+        "is_correct": true
+      },
+      {
+        "arabic": "إنتبه منطقة سير على خطين",
+        "english": "Caution, two lane road",
+        "french": "Attention, route à deux voies",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "183",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\86.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\86.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\86.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "ممنوع الوقوف",
+        "english": "No parking",
+        "french": "Stationnement interdit",
+        "is_correct": true
+      },
+      {
+        "arabic": "ممنوع التجاوز الجميع المركبات",
+        "english": "No overtaking for all kinds of vehicles",
+        "french": "Dépassement interdit aux véhicules de tous genres",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع المرور",
+        "english": "No entry",
+        "french": "Sens interdit",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "184",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\87.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\87.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\87.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "ممنوع الوقوف والتوقف",
+        "english": "No stopping and no parking",
+        "french": "Interdit de s'arrêter et de stationner",
+        "is_correct": true
+      },
+      {
+        "arabic": "ممنوع الوقوف",
+        "english": "No parking",
+        "french": "Stationnement interdit",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع المرور",
+        "english": "No entry",
+        "french": "Sens interdit",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "185",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\88.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\88.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\88.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "ممنوع الوقوف في هذا المكان",
+        "english": "No parking in this zone",
+        "french": "Interdit de s'arrêter içi",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع المرور بهذا الإتجاه",
+        "english": "No entry in this direction",
+        "french": "Interdit de passer dans cette direction",
+        "is_correct": false
+      },
+      {
+        "arabic": "إتجاه إجباري مستقيم",
+        "english": "You must go straight",
+        "french": "Obligation d'aller tout droit",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "186",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعنى هذه الإشارة ؟؟ - C:\\DTA\\signs\\89.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\89.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\89.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "ممنوع الوقوف يساراً",
+        "english": "No parking on the left",
+        "french": "Interdit de stationner à gauche",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع الإتجاه نحو اليسار",
+        "english": "You cannot turn left",
+        "french": "Interdit de tourner à gauche",
+        "is_correct": false
+      },
+      {
+        "arabic": "وجهة السير إلى اليسار",
+        "english": "Direction to the left",
+        "french": "Direction vers la gauche",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "187",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\90.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\90.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\90.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "ممنوع الوقوقف ناحية اليمين",
+        "english": "No parking on the right",
+        "french": "Interdit de stationner à droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع الإتجاه نحو اليمين",
+        "english": "You cannot turn right",
+        "french": "Interdit de tourner à droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "وجهة السير إلى اليمين",
+        "english": "Direction to the right",
+        "french": "Direction vers la droite",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "188",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\91.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\91.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\91.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "موقع توقف",
+        "english": "Parking zone",
+        "french": "Zone de stationnement",
+        "is_correct": false
+      },
+      {
+        "arabic": "وجهة سير مستديرة",
+        "english": "Roundabout ahead",
+        "french": "Rond point",
+        "is_correct": true
+      },
+      {
+        "arabic": "ممنوع الالتفاف",
+        "english": "You cannot turn",
+        "french": "Interdit de tourner",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "189",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\92.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\92.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\92.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "ممنوع الوقوف أكثر من ثلاثين دقيقة",
+        "english": "You cannot park for more than 30 minutes",
+        "french": "Interdit de stationner pour plus de 30 minutes",
+        "is_correct": false
+      },
+      {
+        "arabic": "أقصى سرعة إجبارية",
+        "english": "Mandatory upper speed",
+        "french": "Vitesse maximale obligatoire",
+        "is_correct": false
+      },
+      {
+        "arabic": "أدنى سرعة إجبارية",
+        "english": "Mandatory lower speed",
+        "french": "Vitesse minimale obligatoire",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "190",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\93.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\93.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\93.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "السرعة القصوى 30",
+        "english": "Maximum speed: 30 km/h",
+        "french": "Vitesse maximale: 30 km/heure",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع الوقوف أكثر من ثلاثين دقيقة",
+        "english": "You cannot park for more than 30 minutes",
+        "french": "Interdit de stationner pour plus de 30 minutes",
+        "is_correct": false
+      },
+      {
+        "arabic": "نهاية أدنى سرعة",
+        "english": "End of mandatory lower speed",
+        "french": "Fin de vitesse minimale obligatoire",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "191",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\94.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\94.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\94.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "إنتبه طريق منزلق",
+        "english": "Caution, slippery road ahead",
+        "french": "Attention, route glissante",
+        "is_correct": false
+      },
+      {
+        "arabic": "يجب نزع السلاسل المعدنية",
+        "english": "Tyre chains must be removed",
+        "french": "Enlever les chaînes à neige",
+        "is_correct": false
+      },
+      {
+        "arabic": "السيارات المجهزة بسلاسل معدنية فقط",
+        "english": "Vehicles equipped with metal chains only",
+        "french": "Véhicules équipés de chaines à neige uniquement",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "192",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعنى هذه الإشارة ؟؟ - C:\\DTA\\signs\\95.jpg",
+      "english": "? - C:\\DTA\\signs\\95.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\95.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "منتزه",
+        "english": "Park",
+        "french": "Parc",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع المرور للمشاة",
+        "english": "No entry for pedestrians",
+        "french": "Passage interdit aux piétons",
+        "is_correct": false
+      },
+      {
+        "arabic": "طريق للمشاة",
+        "english": "Lane reserved for pedestrians",
+        "french": "Voie réservée aux piétons",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "193",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\96.jpg",
+      "english": "What does this sign mean? C:\\DTA\\signs\\96.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\96.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "طريق مخصص للمشاة",
+        "english": "Lane reserved for pedestrians",
+        "french": "Voie réservée aux piétons",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممر للمشاة فوق الطريق",
+        "english": "Upper ground pedestrian crossing",
+        "french": "Passage piéton au-dessus de la route",
+        "is_correct": false
+      },
+      {
+        "arabic": "نهاية طريق للمشاة",
+        "english": "End of pedestrian Lane",
+        "french": "Fin de la voie réservée aux piétons",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "194",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\97.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\97.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\97.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "ممنوع وقوف الدراجات الهوائية",
+        "english": "No parking for bicycles",
+        "french": "Stationnement interdit aux deux roues",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع مرور الدراجات الهوائية",
+        "english": "No entry for bicycles",
+        "french": "Passage interdit aux deux roues",
+        "is_correct": false
+      },
+      {
+        "arabic": "حلبة مخصصة للدراجات الهوائية",
+        "english": "Bicycles track",
+        "french": "Piste cyclable",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "195",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\98.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\98.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\98.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "إتجاه إلزامي نحو اليسار",
+        "english": "Compulsory direction to the left",
+        "french": "Obligation de tourner à gauche",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع الوقوف يساراً",
+        "english": "No parking on the left",
+        "french": "Interdit de stationner à gauche",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع الإلتفاف يساراً",
+        "english": "Cannot turn left",
+        "french": "Interdit de touner à gauche",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "196",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\99.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\99.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\99.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "إنتبه جسر متحرك",
+        "english": "Caution, moving bridge ahead",
+        "french": "Attention, pont mobile",
+        "is_correct": false
+      },
+      {
+        "arabic": "طريق على خطين موصول بجسر",
+        "english": "Two- lane road connected to a bridge",
+        "french": "Route à deux voies connectée à un pont",
+        "is_correct": false
+      },
+      {
+        "arabic": "مستشفى",
+        "english": "Hospital",
+        "french": "Hopital",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "197",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\100.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\100.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\100.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "إنتبه ممنوع مرور المشاة",
+        "english": "Caution, no entry to pedestrians",
+        "french": "Attention, passage interdit aux piétons",
+        "is_correct": false
+      },
+      {
+        "arabic": "نهاية طريق للمشاة",
+        "english": "End of pedestrian lane",
+        "french": "Fin de la voie réservée aux piétons",
+        "is_correct": false
+      },
+      {
+        "arabic": "إنتبه ممر للمشاة",
+        "english": "Caution, pedestrian crossing",
+        "french": "Attention, passage piéton",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "198",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\104.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\104.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\104.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "يمنع ركوب الدراجات الهوائية -",
+        "english": "No entry for bicycles",
+        "french": "Passage interdit aux deux roues",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممر مخصص للدراجات",
+        "english": "Lane reseved for bikes",
+        "french": "Voie résrvéee aux deux roues",
+        "is_correct": true
+      },
+      {
+        "arabic": "حلبة مخصصة للدراجات الهوائية",
+        "english": "Bicycle track",
+        "french": "Piste cyclable",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "199",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\106.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\106.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\106.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "نقطة التقاء خطين",
+        "english": "Lanes merge ahead",
+        "french": "Point de rencontre de deux voies",
+        "is_correct": false
+      },
+      {
+        "arabic": "طريق يصل بخط رئيسي",
+        "english": "Merger with a freeway",
+        "french": "Chemin menant à une route principale",
+        "is_correct": false
+      },
+      {
+        "arabic": "طريق غير نافذ",
+        "english": "Dead end road",
+        "french": "Impasse",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "200",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\107.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\107.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\107.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "إنتبه مدرج طيران",
+        "english": "Caution, airport runway",
+        "french": "Attention, piste de décollage et d'atterrissage",
+        "is_correct": false
+      },
+      {
+        "arabic": "إنتبه جسر",
+        "english": "Caution, bridge ahead",
+        "french": "Attention, pont",
+        "is_correct": false
+      },
+      {
+        "arabic": "أوتوستراد",
+        "english": "Highway",
+        "french": "Autoroute",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "201",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\108.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\108.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\108.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "جسر فوق الطريق",
+        "english": "Bridge above the road",
+        "french": "Pont au-dessus de la route",
+        "is_correct": false
+      },
+      {
+        "arabic": "نهاية الأوتوستراد",
+        "english": "End of freeway",
+        "french": "Fin de l'autoroute",
+        "is_correct": true
+      },
+      {
+        "arabic": "إنتبه طريق ضيق",
+        "english": "Caution, narrow road ahead",
+        "french": "Attention, route étroite",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "202",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\109.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\109.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\109.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "جسر",
+        "english": "Bridge",
+        "french": "Pont",
+        "is_correct": false
+      },
+      {
+        "arabic": "نفق",
+        "english": "Tunnel",
+        "french": "Tunnel",
+        "is_correct": true
+      },
+      {
+        "arabic": "إنتبه طريق وعرة",
+        "english": "Caution, rough road ahead",
+        "french": "Attention, route rugueuse",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "203",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\111.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\111.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\111.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "للأطباء فقط",
+        "english": "For doctors only",
+        "french": "Réservé aux médecins",
+        "is_correct": false
+      },
+      {
+        "arabic": "موقف مخصص للمعاقين",
+        "english": "Parking for the disabled",
+        "french": "Zone de stationnement réservée aux handicapés",
+        "is_correct": false
+      },
+      {
+        "arabic": "مركز نجدة - مساعدة",
+        "english": "Help center",
+        "french": "Centre d'assistance",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "204",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\112.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\112.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\112.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "ممنوع وقوف المعاقين",
+        "english": "No parking for the disabled",
+        "french": "Stationnement interdit aux handicapés",
+        "is_correct": false
+      },
+      {
+        "arabic": "موقف لحظة",
+        "english": "One-minute parking",
+        "french": "Stationnement à durée limitée",
+        "is_correct": false
+      },
+      {
+        "arabic": "موقف مخصص للمعوقين",
+        "english": "Parking reserved for the disabled",
+        "french": "Zone de stationnement réservée aux handicapés",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "205",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\113.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\113.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\113.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "ممنوع الوقوف",
+        "english": "Parking not allowed",
+        "french": "Stationnement interdit",
+        "is_correct": false
+      },
+      {
+        "arabic": "موقف لحظة",
+        "english": "One-minute parking",
+        "french": "Stationnement à durée limitée",
+        "is_correct": true
+      },
+      {
+        "arabic": "موقف",
+        "english": "Parking",
+        "french": "Zone de stationnement",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "206",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\116.jpg",
+      "english": "What does this sign mean? C:\\DTA\\signs\\116.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\116.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "موقف للعموم - ممنوع للتاكسي أكثر من سيارتين",
+        "english": "Parking for all - not more than two taxi cars allowed",
+        "french": "Zone de stationnement pour tous genres de véhicules- deux voitures taxi au maximum",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع وقوف سيارات التاكسي",
+        "english": "Taxis not allowed to park here",
+        "french": "Stationnement interdit aux taxis",
+        "is_correct": false
+      },
+      {
+        "arabic": "موقف تاكسي",
+        "english": "Taxi stop",
+        "french": "Zone de stationnement pour taxis",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "207",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\117.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\117.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\117.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "إزالة فورية",
+        "english": "Remove immediately",
+        "french": "Enlèvement immédiat",
+        "is_correct": false
+      },
+      {
+        "arabic": "استعلامات",
+        "english": "Inquiries",
+        "french": "Information",
+        "is_correct": false
+      },
+      {
+        "arabic": "شرطة",
+        "english": "Police",
+        "french": "Police",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "208",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\118.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\118.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\118.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "مرکز انترنت",
+        "english": "Internet Center",
+        "french": "Centre d'internet",
+        "is_correct": false
+      },
+      {
+        "arabic": "محطة وقود",
+        "english": "Petrol station",
+        "french": "Station service",
+        "is_correct": false
+      },
+      {
+        "arabic": "إستعلامات",
+        "english": "Inquiries",
+        "french": "Information",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "209",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\119.jpg",
+      "english": "What does this sign mean? C:\\DTA\\signs\\119.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\119.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "موقف مخصص للشرطة",
+        "english": "Parking reserved for the police",
+        "french": "Zone de stationnement pour police",
+        "is_correct": false
+      },
+      {
+        "arabic": "إطفاء",
+        "english": "Fire Brigade",
+        "french": "Pompiers",
+        "is_correct": false
+      },
+      {
+        "arabic": "شرطة البلدية",
+        "english": "Municipality police",
+        "french": "Police municipale",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "210",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\121.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\121.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\121.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "تقاطع خطر",
+        "english": "Dangerous interesection ahead",
+        "french": "Intersection dangereuse",
+        "is_correct": false
+      },
+      {
+        "arabic": "إنعطاف غير مباشر إلى اليسار",
+        "english": "Indirect turn to the left",
+        "french": "Virage indirect vers la gauche",
+        "is_correct": false
+      },
+      {
+        "arabic": "خط الطريق الرئيسية",
+        "english": "Freeway",
+        "french": "Voie principlae",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "211",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\127.jpg",
+      "english": "What does this sign mean?- C:\\DTA\\signs\\127.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\127.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "موقف",
+        "english": "Parking",
+        "french": "Zone de stationnement",
+        "is_correct": true
+      },
+      {
+        "arabic": "موقف لحظة",
+        "english": "One-minute parking",
+        "french": "Stationnement à durée limitée",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع الوقوف",
+        "english": "No parking",
+        "french": "Stationnement interdit",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "212",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\128.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\128.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\128.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "مركز للتصليح",
+        "english": "Repair Center",
+        "french": "Garage",
+        "is_correct": false
+      },
+      {
+        "arabic": "مطعم",
+        "english": "Restaurant",
+        "french": "Restaurant",
+        "is_correct": false
+      },
+      {
+        "arabic": "فندق",
+        "english": "Hotel",
+        "french": "Hotel",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "213",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\129.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\129.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\129.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "مرطبات",
+        "english": "Refreshments",
+        "french": "Rafraîchissements",
+        "is_correct": false
+      },
+      {
+        "arabic": "مطعم",
+        "english": "Restaurant",
+        "french": "Restaurant",
+        "is_correct": true
+      },
+      {
+        "arabic": "استعلامات",
+        "english": "Inquiries",
+        "french": "Information",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "214",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\132.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\132.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\132.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "محطة وقود",
+        "english": "Petrol station",
+        "french": "Station service",
+        "is_correct": false
+      },
+      {
+        "arabic": "هاتف",
+        "english": "Public phone",
+        "french": "Téléphone publique",
+        "is_correct": true
+      },
+      {
+        "arabic": "مطعم",
+        "english": "Restaurant",
+        "french": "Restaurant",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "215",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\133.jpg",
+      "english": "What does this sign mean? C:\\DTA\\signs\\133.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\133.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "محطة وقود",
+        "english": "Petrol station",
+        "french": "Station service",
+        "is_correct": true
+      },
+      {
+        "arabic": "مركز للتصليح",
+        "english": "Repair Center",
+        "french": "Garage",
+        "is_correct": false
+      },
+      {
+        "arabic": "مطعم",
+        "english": "Restaurant",
+        "french": "Restaurant",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "216",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\134.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\134.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\134.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "خط سير مخصص للباصات",
+        "english": "Lane reserved for buses",
+        "french": "Voie réservée aux bus",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع وقوف الباصات",
+        "english": "Buses are not allowed to stop here",
+        "french": "Stationnement interdit aux bus",
+        "is_correct": false
+      },
+      {
+        "arabic": "موقف باص",
+        "english": "Bus parking",
+        "french": "Zone de stationnement pour bus",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "217",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\136.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\136.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\136.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "موقع توقف ونداء ومساعدة",
+        "english": "Help Center",
+        "french": "Centre de secours",
+        "is_correct": false
+      },
+      {
+        "arabic": "موقع للمقطورات والخيم",
+        "english": "Camping & camping cars zone",
+        "french": "Zone de camping et camping cars",
+        "is_correct": true
+      },
+      {
+        "arabic": "ممنوع الوقوف",
+        "english": "No parking",
+        "french": "Stationnement interdit",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "218",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\139.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\139.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\139.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "خفف السرعة",
+        "english": "Reduce Speed",
+        "french": "Ralentissez",
+        "is_correct": false
+      },
+      {
+        "arabic": "إنعطاف غير مباشر إلى اليسار",
+        "english": "Indirect bend to the left",
+        "french": "Virage indirect vers la gauche",
+        "is_correct": false
+      },
+      {
+        "arabic": "إنعطاف",
+        "english": "Bend ahead",
+        "french": "Virage",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "219",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\141.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\141.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\141.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "خفف السرعة",
+        "english": "Reduce Speed",
+        "french": "Ralentissez",
+        "is_correct": false
+      },
+      {
+        "arabic": "إنعطاف غير مباشر إلى اليسار",
+        "english": "Indirect bend to the left",
+        "french": "Virage indirect vers la gauche",
+        "is_correct": true
+      },
+      {
+        "arabic": "إنعطاف",
+        "english": "Bend ahead",
+        "french": "Virage",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "220",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ - C:\\DTA\\signs\\2.jpg",
+      "english": "What does this sign mean? - C:\\DTA\\signs\\2.jpg",
+      "french": "Quel est le sens de ce signe de route? - C:\\DTA\\signs\\2.jpg"
+    },
+    "answers": [
+      {
+        "arabic": "إنتبه منعطف يمين",
+        "english": "Caution, right bend ahead",
+        "french": "Attention, virage à droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "إنتبه مطبات",
+        "english": "Caution, road Bumps ahead",
+        "french": "Attention, casse-vitesse",
+        "is_correct": true
+      },
+      {
+        "arabic": "إنتبه انخفاضات",
+        "english": "Caution, uneven roads ahead",
+        "french": "Attention, abaissement de la route",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "221",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "إذا كان الطريق مقسوماً إلى مسلكين محددين بخطوط متواصلة أو بفواصل، يجب على السائق",
+      "english": "If the road is divided into two lanes with solid lines or other lane seperator, the driver:",
+      "french": "Quand la voie est délimitée par une ligne continue, ou par autres séparateurs de voies, le conducteur"
+    },
+    "answers": [
+      {
+        "arabic": "السير في الإتجاه المعاكس",
+        "english": "Should travel in the opposite direction",
+        "french": "doit conduire dans l'autre sens",
+        "is_correct": false
+      },
+      {
+        "arabic": "إجتياز هذه الخطوط والفواصل والسير عليها",
+        "english": "Should cross these lines and drive on it",
+        "french": "franchir ou chevaucher cette ligne",
+        "is_correct": false
+      },
+      {
+        "arabic": "عدم إجتياز هذه الخطوط أو الفواصل",
+        "english": "Should not cross these lines or other lane seperators",
+        "french": "Ne doit pas franchir ni chevaucher cette ligne ou ces séparateurs de voies",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "222",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "على سائق السيارة، في حالة السير العادي",
+      "english": "In case of normal traffic, the driver should:",
+      "french": "Lorsque le flux de circulation est normal, le conducteur doit:"
+    },
+    "answers": [
+      {
+        "arabic": "أن يلتزم الجانب الأيسر من الطريق",
+        "english": "Keep to the left side of the road",
+        "french": "Rouler à gauche",
+        "is_correct": false
+      },
+      {
+        "arabic": "أن يتجاوز الخطوط بقصد التجاوز",
+        "english": "Cross the dividing lines to overtake",
+        "french": "Franchir les lignes de séparation des voies pour dépasser les autre véhicules",
+        "is_correct": false
+      },
+      {
+        "arabic": "أن يلتزم الجانب الأيمن من الطريق دون تنبيه",
+        "english": "Keep to the right side of the road",
+        "french": "Rouler à droite",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "223",
+    "type": "LAW",
+    "category": "G",
+    "question": {
+      "arabic": "تخصص الأرصفة، عند وجودها",
+      "english": "Pavements are intended:",
+      "french": "La chaussée sert à:"
+    },
+    "answers": [
+      {
+        "arabic": "الإيقاف السيارة في حال السماح بذلك",
+        "english": "To park vehicles, when parking is allowed",
+        "french": "Stationner le véhicule là où c'est permis",
+        "is_correct": false
+      },
+      {
+        "arabic": "الوضع أي شيء يعيق سير المنتفعين",
+        "english": "To put anything that obstructs the use of the pavement",
+        "french": "Ranger de côté toute chose qui empêche la circulation sur la route",
+        "is_correct": false
+      },
+      {
+        "arabic": "للمشاة وعربات الأولاد والمرضى والمقعدين المدفوعين بالأيدي",
+        "english": "To be used by pedestrians, children trolleys, the sick, and the disabled",
+        "french": "La circulation des piétions, poussettes, personnes malades et handicapées",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "224",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "على السائق الذي يتأهب لإدخال تغيير هام في سرعة مركبته أو إتجاهها",
+      "english": "When drastically changing speed or direction, the driver should:",
+      "french": "Un conducteur qui veut changer drastiquement de vitesse ou de direction doit:"
+    },
+    "answers": [
+      {
+        "arabic": "أن يتجاوز الخطوط المتواصلة فيما إذا كانت إلى يساره مباشرة",
+        "english": "Cross the solid line if the solid line is on his left",
+        "french": "Franchir la ligne continue si cette ligne est directement à sa gauche",
+        "is_correct": false
+      },
+      {
+        "arabic": "أن يتجاوز الخطوط المتقطعة دون أي سابق إنذار",
+        "english": "Cross the broken line without any signaling",
+        "french": "Franchir la ligne discontinue sans donner un signal",
+        "is_correct": false
+      },
+      {
+        "arabic": "أن يتأكد مسبقاً من إمكانية إجراء ذلك بدون خطر وأن ينبه غيره إلى ذلك",
+        "english": "Check there is no danger, and give appropriate signals to other road users",
+        "french": "S'assurer qu'il peut le faire sans danger et donner un signal",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "225",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "على السائق أن لا يستعمل المكابح في السير فجأة إلا:",
+      "english": "Sudden braking is allowed only:",
+      "french": "Le conducteur ne doit pas freiner bruquement, sauf"
+    },
+    "answers": [
+      {
+        "arabic": "بداعي التوقف",
+        "english": "If the driver needs to stop the car",
+        "french": "Pour s'arrêter",
+        "is_correct": false
+      },
+      {
+        "arabic": "بداعي تجربتها",
+        "english": "If the driver needs to test the brakes",
+        "french": "Pour essayer les freins",
+        "is_correct": false
+      },
+      {
+        "arabic": "بداعي الخطر",
+        "english": "In case of danger",
+        "french": "Pour éviter un danger",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "226",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "على السائق أن يلتزم جانب",
+      "english": "The driver should keep to:",
+      "french": "Le conducteur doit rouler:"
+    },
+    "answers": [
+      {
+        "arabic": "اليسار عندما يريد سائق آخر تجاوزه",
+        "english": "The left, when another driver is overtaking him",
+        "french": "A gauche, quand un autre conducteur est en train de le dépasser",
+        "is_correct": false
+      },
+      {
+        "arabic": "اليسار من الطريق عندما يقبل عليه سائق آخر من الجهة المعاكسة",
+        "english": "The left, when another vehicle is heading towards him way from the opposite direction",
+        "french": "A gauche, quand un autre véhicule se dirige vers lui dans l'autre sens",
+        "is_correct": false
+      },
+      {
+        "arabic": "اليمين من الطريق عندما يقبل عليه سائق آخر من الجهة المعاكسة",
+        "english": "The right, when another vehicle is heading towards him way from the opposite direction",
+        "french": "A droite, quand un autre véhicule se dirige vers lui dans l'autre sens",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "227",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يُحظر على السائق",
+      "english": "Drivers are strictly prohibited to:",
+      "french": "Il est interdit au conducteur de:"
+    },
+    "answers": [
+      {
+        "arabic": "تجاوز سائق آخر من الجانب الأيسر عندما تكون الرؤية كافية",
+        "english": "Overtake from the left when there is enough visibility",
+        "french": "Dépasser un autre véhicule par la gauche quand la visibilité est bonne",
+        "is_correct": false
+      },
+      {
+        "arabic": "السير على الجانب الأيمن عندما يُقبل عليه من الجهة المقابلة سائق آخر",
+        "english": "Travel on the right side of the road when another vehicle is heading towards him from the opposite direction",
+        "french": "Circuler à droite, quand un autre véhicule se dirige vers lui de l'autre sens",
+        "is_correct": false
+      },
+      {
+        "arabic": "تجاوز الفرق العسكرية وقوى الأمن والمواكب على إختلاف أنواعها وهي في حالة السير",
+        "english": "Overtake traveling military or police motorcades, or other processions",
+        "french": "Dépasser les convois militaires, policiers, ou autres qui sont en état de circulation",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "228",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يُحظر على سائقي المركبات",
+      "english": "Drivers are strictly prohibited to:",
+      "french": "Il est interdit au conducteur de:"
+    },
+    "answers": [
+      {
+        "arabic": "أن يتمهلوا بالسير على الجانب الأيسر",
+        "english": "Move slowly on the left side of the road",
+        "french": "Rouler lentement sur le côté gauche de la route",
+        "is_correct": false
+      },
+      {
+        "arabic": "أن يسيروا بالإتجاه المحدد",
+        "english": "Travel in the designated direction",
+        "french": "Circuler dans la direction indiquée",
+        "is_correct": false
+      },
+      {
+        "arabic": "أن يوقفوا محركات مركباتهم عن الدوران بقصد تسييرها في المنحدرات بقوة إندفاعها",
+        "english": "Drive in neutral with the intention to drive the vehicle solely through downforce",
+        "french": "Conduire au point mort sur une descente",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "229",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يُحظر على سائق المركبة",
+      "english": "Drivers are strictly prohibited to:",
+      "french": "Il est interdit au conducteur de:"
+    },
+    "answers": [
+      {
+        "arabic": "أن يتأكد من إجراء مناورة التجاوز دون خطر",
+        "english": "Check there is no danger before overtaking",
+        "french": "S'assurer qu'il peut effectuer le dépassement sans aucun danger pour lui ou pour autrui",
+        "is_correct": false
+      },
+      {
+        "arabic": "أن يسير بالإتجاه المحدد",
+        "english": "Travel in the designated direction",
+        "french": "Rouler dans le sens indiqué",
+        "is_correct": false
+      },
+      {
+        "arabic": "يجري مناورة عكس الإتجاه (Demi Tour) في وسط الطريق العام ضمن المناطق المأهولة",
+        "english": "Make a U-turn in the middle of the road in a populated area",
+        "french": "Faire demi-tour au milieu de la route dans une zone peuplée",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "230",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يُحضّر على السائق أن",
+      "english": "Drivers are strictly prohibited to:",
+      "french": "Il est interdit au conducteur de:"
+    },
+    "answers": [
+      {
+        "arabic": "يتأكد من إجراء التجاوز دون خطر",
+        "english": "Check there is no danger before overtaking",
+        "french": "S'assurer qu'il peut effectuer le dépassement sans aucun danger pour lui ou pour autrui",
+        "is_correct": false
+      },
+      {
+        "arabic": "أن يسير بالإتجاه المحدد",
+        "english": "Travel in the designated direction",
+        "french": "Rouler dans le sens indiqué",
+        "is_correct": false
+      },
+      {
+        "arabic": "يسير بغير الإتجاه المحدد",
+        "english": "Travel in other than the designated direction",
+        "french": "Rouler dans un sens autre que le sens indiqué",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "231",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يُحظر على السائق أن",
+      "english": "Drivers are strictly prohibited to:",
+      "french": "Il est interdit au conducteur de:"
+    },
+    "answers": [
+      {
+        "arabic": "السير على الجانب الأيمن من الطريق",
+        "english": "Travel on the right side of the road",
+        "french": "Rouler à droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "أن يتأكد من إجراء مناورة التجاوز دون خطر",
+        "english": "Check there is no danger before overtaking",
+        "french": "S'assurer qu'il peut effectuer le dépassement sans aucun danger pour lui ou pour autrui",
+        "is_correct": false
+      },
+      {
+        "arabic": "غسل المركبات على الطريق العام",
+        "english": "Wash their vehicles on the freeway",
+        "french": "Laver son véhicule sur la route",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "232",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "على السائق أن",
+      "english": "The driver:",
+      "french": "Le conducteur"
+    },
+    "answers": [
+      {
+        "arabic": "أن لا يأخذ بعين الإعتبار وضعية الطرق وحالتها وكثافة السير",
+        "english": "Should not take into consideration the condition of the road or the traffic density",
+        "french": "ne doit pas prendre en considération l'état de la route et ni la densité du trafic sur la route",
+        "is_correct": false
+      },
+      {
+        "arabic": "يزيد السرعة عندما تكون الرؤية سيئة",
+        "english": "Should increase his speed when visibility is low",
+        "french": "doit accélérer quand la visibilité n'est pas bonne",
+        "is_correct": false
+      },
+      {
+        "arabic": "يخفف السرعة أو أن يتوقف كلما أوجبت الظروف وخاصة عندما تكون الرؤية سيئة",
+        "english": "Should reduce his speed or stop completely when the conditions surrounding him dictate so, especially when visibility is really bad",
+        "french": "doit ralentir ou même s'arrêter quand les conditions de la circulation le nécessitent, ou quand la visibilité n'est pas bonne",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "233",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "على السائق",
+      "english": "The driver should:",
+      "french": "Le conducteur doit:"
+    },
+    "answers": [
+      {
+        "arabic": "التلاقي على اليسار",
+        "english": "Take the left",
+        "french": "Rouler à droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "التجاوز على اليمين عندما تكون الطريق ذات مسرب واحد",
+        "english": "Overtake from the right on single lane roads",
+        "french": "Dépasser par la doite sur les routes à voie unique",
+        "is_correct": false
+      },
+      {
+        "arabic": "التجاوز على اليسار",
+        "english": "Overtake from the left",
+        "french": "Dépasser par la gauche",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "234",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "على السائق في حال التلاقي",
+      "english": "When a driver is passing a vehicle, the driver should:",
+      "french": "En cas de croisement, le conducteur doit:"
+    },
+    "answers": [
+      {
+        "arabic": "أن يلتزم خط الوسط في حال كانت الطريق مسلك واحد",
+        "english": "Keep to the midlde if it is a single lane road",
+        "french": "Circuler au milieu de la route sur les routes à voie unique",
+        "is_correct": false
+      },
+      {
+        "arabic": "أن يلتزم الجهة اليسار من الطريق بقدر ما يسمح وجود سالكين آخرين عليها",
+        "english": "Keep to the left side of the road as much as possible with other road users around",
+        "french": "Conserver la gauche autant que possible",
+        "is_correct": false
+      },
+      {
+        "arabic": "أن يلتزم الجهة اليمين من الطريق بقدر ما يسمح وجود سالكين آخرين عليها",
+        "english": "Keep to the right side of the road as much as possible with other road users around",
+        "french": "Conserver la droite autant que possible",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "235",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "على السائق قبل الشروع بالتجاوز",
+      "english": "Before overtaking, the driver should:",
+      "french": "Avant d'effectuer un dépassement, le conducteur"
+    },
+    "answers": [
+      {
+        "arabic": "عدم مراعاة تدابير السير الممكن إتخاذها ضمن المناطق المأهولة",
+        "english": "Should not take into consideration driving decorum when in populated areas",
+        "french": "Ne doit pas respecter les pratiques de conduite dans les zones peuplées",
+        "is_correct": false
+      },
+      {
+        "arabic": "أن يقوم بالتجاوز حتى ولو باشر السائق الذي يتبعه بمناورة تجاوز مماثلة",
+        "english": "Overtake, even if the driver behind have have already initiated a similar overtake",
+        "french": "Peut se lancer même si un conducteur derrière lui a initié un dépassement lui aussi",
+        "is_correct": false
+      },
+      {
+        "arabic": "أن يتأكد من أن من يتبعه من السائقين لم يباشر بعد مناورة تجاوز مماثلة",
+        "english": "Check that drivers behind him have not initiated a similar overtake",
+        "french": "Doit s'assurer que les conducteurs derrière lui n'ont pas initié un dépassement eux aussi",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "236",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "على السائق قبل الشروع بالتجاوز",
+      "english": "Before overtaking, the driver should:",
+      "french": "Avant d'effectuer un dépassement, le conducteur:"
+    },
+    "answers": [
+      {
+        "arabic": "له أفضلية التجاوز ولو باشر السائق الذي يتبعه عملية مماثلة",
+        "english": "Know that he has the right to overtake even if the driver behind him is overtaking him",
+        "french": "A la priorité d'effectuer son dépassement, même si le conducteur derrière lui a initié un dépassement lui aussi",
+        "is_correct": false
+      },
+      {
+        "arabic": "عدم تنبيه السائق الذي يريد تجاوزه",
+        "english": "Not alert the driver that he is about to overtake",
+        "french": "N'est pas obligé de donner un signal au conducteur qui se trouve derrière lui",
+        "is_correct": false
+      },
+      {
+        "arabic": "أن ينبه السائق الذي يريد تجاوزه",
+        "english": "Alert the driver he is about to overtake",
+        "french": "Doit donner un signal au conducteur qu'il voudrait dépasser",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "237",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "عند التجاوز، يجب على السائق أن",
+      "english": "When overtaking, the driver should:",
+      "french": "En cas de dépassement, le conducteur:"
+    },
+    "answers": [
+      {
+        "arabic": "لا يلتزم اليمين مباشرة بعد التجاوز",
+        "english": "Not keep to the right immediately before overtaking",
+        "french": "N'est pas obligé de rester sur la droite juste après le dépassement",
+        "is_correct": false
+      },
+      {
+        "arabic": "يستعمل النصف الأيسر من الطريق، ولو كان ذلك يضايق السائرين في الإتجاه المعاكس",
+        "english": "Use the left side of the road, even if it disaccommodate drivers traveling on the opposite direction",
+        "french": "Peut circuler au milieu de la route même s'il dérange les conducteurs qui circulent dans l'autre sens",
+        "is_correct": false
+      },
+      {
+        "arabic": "يستعمل النصف الأيسر من الطريق، على أن لا يضايق ذلك السائرين في الإتجاه المعاكس",
+        "english": "Use the left side of the road without disaccommodating drivers traveling on the opposite direction",
+        "french": "Peut circuler sur le côté gauche de la route, à condition de ne pas déranger les conducteurs qui circulent dans l'autre sens",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "238",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يسمح بالتجاوز على اليمين خلافاً للقاعدة",
+      "english": "As an exception to the rule, overtaking from the right is allowed:",
+      "french": "Exceptionellement, il est permis d'effectuer un dépassement par la droite:"
+    },
+    "answers": [
+      {
+        "arabic": "في حال أشار السائق بأنه ينوي التوجه إلى اليمين",
+        "english": "If the driver signals that he is moving to the right",
+        "french": "Si le conducteur a donné un signal qu'il voudrait prendre la droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "لا يسمح بالتجاوز على اليمين إذا كان الطريق مقسم إلى عدة مسالك محددة بخطوط متقطعة",
+        "english": "Overtaking from the right is not allowed",
+        "french": "Il est interdit d'effectuer un dépassement par la droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "في المسالك والطرقات التي تحتوي أكثر من مسربين شرط أن يتأكد السائق أن إنتقاله من مسرب إلى آخر لا يسبب خطراً أو إزعاجاً للآخرين",
+        "english": "On roads that accomomdate more than two lanes, provided that the driver's movement between lanes does accommodate or does not put other road users at risk",
+        "french": "sur une route à plusieurs voies (plus que deux), à condition que le conducteur s'assure que cette manoeuvre est sans risque et sans gêne pour les autres",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "239",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يُحظر التجاوز",
+      "english": "It is prohibited to overtake:",
+      "french": "Il est interdit d'effectuer un dépassement:"
+    },
+    "answers": [
+      {
+        "arabic": "على يسار المركبة إذا كانت الطريق محددة بخطوط متقطعة",
+        "english": "A vehicle from the left, if the road is marked with broken lines",
+        "french": "Par la gauche quand la route est marquée par une ligne discontinue",
+        "is_correct": false
+      },
+      {
+        "arabic": "إذا كان الطريق مقسم إلى عدة مسالك محددة بخطوط متقطعة",
+        "english": "If the road is broken into multiple lanes with broken lines",
+        "french": "Si la route est divisée en plusieurs voies par des lignes discontinues",
+        "is_correct": false
+      },
+      {
+        "arabic": "على المنعطفات",
+        "english": "On bends",
+        "french": "Dans les virages",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "240",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يُحظر التجاوز",
+      "english": "It is prohibited to overtake:",
+      "french": "Il est interdit d'effectuer un dépassement:"
+    },
+    "answers": [
+      {
+        "arabic": "على الطرقات التي لا تحتوي أكثر من مسرب واحد",
+        "english": "On single-lane roads",
+        "french": "Sur les routes à voie unique",
+        "is_correct": false
+      },
+      {
+        "arabic": "عن جهة اليمين في جميع الحالات",
+        "english": "From the right, whatever the case may be",
+        "french": "Par la droite dans tous les cas",
+        "is_correct": false
+      },
+      {
+        "arabic": "على الجسور وفي الأنفاق",
+        "english": "On bridges and in tunnels",
+        "french": "Sur les ponts et dans les tunnels",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "241",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يُحظر التجاوز",
+      "english": "It is prohibited to overtake:",
+      "french": "Il est interdit d'effectuer un dépassement:"
+    },
+    "answers": [
+      {
+        "arabic": "في حال بقاء النصف الايسر من الطريق حراً",
+        "english": "If the left side of the road will be clear after the overtake",
+        "french": "Si le côté gauche de la route sera libre après le dépassement",
+        "is_correct": false
+      },
+      {
+        "arabic": "إذا كان المقصود تجاوزه يسير على المسلك اليمين للطريق",
+        "english": "If the vehicle you are overtaking is traveling on the right side of the road",
+        "french": "Si le véhicule que le conducteur voudrait dépasser circule du côté droit de la route",
+        "is_correct": false
+      },
+      {
+        "arabic": "في حال توقف رتل من السيارات بسبب عرقلة السير أو بسبب وجود إشارة بتوقفها",
+        "english": "In case vehicles have stopped because of a traffic obstruction or a sign to do so",
+        "french": "Si plusieurs véhicules sont arrêtées en raison d'une entrave à la circulation, ou d'un signal d'arrêt",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "242",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يُحظر التجاوز",
+      "english": "It is prohibited to overtake:",
+      "french": "Il est interdit d'effectuer un dépassement:"
+    },
+    "answers": [
+      {
+        "arabic": "في الحالات التي يسمح فيها شكل الطريق المجال الحر في عرضه بالتجاوز بسهولة وسلامة تامة",
+        "english": "When the width of the road make for a very easy and safe overtake",
+        "french": "Si la largeur de la route est suffisante pour effectuer le dépassement facilement et sans danger",
+        "is_correct": false
+      },
+      {
+        "arabic": "إذا كان الطريق مقسم إلى عدة مسالك محددة بخطوط متقطعة",
+        "english": "If the road is broken into multiple lanes with broken lines",
+        "french": "Si les voies de la route sont séparées par des lignes discontinues",
+        "is_correct": false
+      },
+      {
+        "arabic": "عند رؤوس الطرقات المرتفعة إذا كانت الرؤية إلى الأمام غير كافية إلا بشرط بقاء النصف الأيسر من الطريق حراً",
+        "english": "At the top edge of ascents, when there is not enough visibility ahead, and when the left side of the road will be clear after the takeover",
+        "french": "Au sommet d'une montée, lorsque la visibilité n'est pas assez bonne, pourvu que le côté gauche de la route soit libre",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "243",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "إذا نبهت سيارة من سيارات قوى الأمن أو الإطفائية أو الدفاع المدني أو الإسعاف إلى إقترابها بواسطة الإشارات وجب على سالكي الطريق الآخرين أن",
+      "english": "If a police car, ambulance, or fire truck gives a signal of approaching, other road users should:",
+      "french": "Si une voiture de police, une ambulance ou un camion de pompiers, donne un avertissment qu'il s'approche, les usagers des la route doivent:"
+    },
+    "answers": [
+      {
+        "arabic": "التوقف فوراً حيثما وجدوا التسهيل مرور هذه السيارات",
+        "english": "Stop immediately where they are so as to ease the movement of such vehicle",
+        "french": "S'arrêter immédiatement là où ils se trouvent pour faciliter le passage de de ce véhicule",
+        "is_correct": false
+      },
+      {
+        "arabic": "زيادة سرعتهم لتسهيل مرور هذه السيارات",
+        "english": "Increase their speed so as to ease the movement of such vehicle",
+        "french": "Accélérer pour faciliter le passage de ce véhicule",
+        "is_correct": false
+      },
+      {
+        "arabic": "يخفضوا سرعتهم وإذا لزم الأمر أن يتوقفوا أو يتنحوا جانباً لتسهيل مرور هذه السيارات",
+        "english": "Reduce their speed, and if need be, stop or move aside so as to ease the movemen of such vehicle",
+        "french": "Ralentir, ou même s'arrêter de côté pour faciliter le passage de ce véhicule",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "244",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يُحظر التجاوز",
+      "english": "It is prohibited to overtake:",
+      "french": "Il est interdit d'effectuer un dépassement:"
+    },
+    "answers": [
+      {
+        "arabic": "في الطرقات الواسعة",
+        "english": "On wide roads",
+        "french": "Sur les routes larges",
+        "is_correct": false
+      },
+      {
+        "arabic": "إذا كان الطريق مقسم إلى عدة مسالك محددة بخطوط متقطعة",
+        "english": "If the road is broken into multiple lanes with broken lines",
+        "french": "Si les voies de la route sont séparées par des lignes discontinues",
+        "is_correct": false
+      },
+      {
+        "arabic": "في الطرقات الجبلية الضيقة أو الإنحدار الشديد",
+        "english": "On narrow or steep mountain road",
+        "french": "Sur les routes montagnardes, étroites, ou à forte pente",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "245",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "على السائق عند اقترابه من تقاطع طرق",
+      "english": "On approaching an intersection, the driver should:",
+      "french": "A l'approche d'une intersection, le conducteur doit:"
+    },
+    "answers": [
+      {
+        "arabic": "المرور دون التثبت من أن الطريق حر",
+        "english": "Keep moving without checking first that the road is clear",
+        "french": "Poursuivre son chemin sans vérifier s'il y a d'autres véhicules sur la route",
+        "is_correct": false
+      },
+      {
+        "arabic": "أن يلتزم الطرف اليمين من الطريق",
+        "english": "Keep to the right side of the road",
+        "french": "Prendre sa droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "أن يتأكد من أن الطريق الذي ينوي قطعه حر",
+        "english": "Check that the road he is about to cross is clear",
+        "french": "Vérifier que la route qu'il désire croiser est libre",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "246",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "على السائق الذي يتأهب لترك طريق من أجل سلوك طريق آخر واقع إلى يمينه",
+      "english": "A driver who is about to leave the road he is on to another road on the right should:",
+      "french": "Le conducteur qui s'apprête à prendre une autre route à sa droite doit:"
+    },
+    "answers": [
+      {
+        "arabic": "أن يميل إلى اليسار دون أن يتعدى محور الطريق",
+        "english": "Tilt a little to the left but remain on the road",
+        "french": "Prendre modérément sa gauche sans dépasser le milieu de la route",
+        "is_correct": false
+      },
+      {
+        "arabic": "أن يلتزم الطرف الأيسر من الطريق",
+        "english": "Keep to the left side of the road",
+        "french": "Rester du côté gauche de la route",
+        "is_correct": false
+      },
+      {
+        "arabic": "أن يلتزم الطرف اليمين من الطريق",
+        "english": "Keep to the right side of the road",
+        "french": "Rester du côté droit de la route",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "247",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "على السائق الذي يتأهب لترك طريق من أجل سلوك طريق آخر واقع على يساره أن",
+      "english": "A driver who is about to leave the road he is on to another road on the left should:",
+      "french": "Le conducteur qui s'apprête à prendre une autre route à sa gauche doit:"
+    },
+    "answers": [
+      {
+        "arabic": "يبقى في خط الوسط دون أن يميل لا يميناً ولا يساراً",
+        "english": "Keep to the middle, without tilting left or right",
+        "french": "Rester au milieu de la route sans dévier ni à gauche ni à droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "يميل إلى يمينه دون أن يتعدى محور الطريق",
+        "english": "Tilt a little to the right but remain on the road",
+        "french": "Prendre modérément sa droite sans dépasser le milieu de la route",
+        "is_correct": false
+      },
+      {
+        "arabic": "يميل إلى اليسار دون أن يتعدى محور الطريق",
+        "english": "Tilt a little to the left but remain on the road",
+        "french": "Prendre modérément sa gauche sans dépasser le milieu de la route",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "248",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "على السائق الذي يتأهب لترك طريق من أجل سلوك طريق آخر أن",
+      "english": "When the driver is about to leave on road and get on another one, the driver should:",
+      "french": "Le conducteur qui s'apprête à prendre une autre route doit:"
+    },
+    "answers": [
+      {
+        "arabic": "يميل إلى اليمين ببطء",
+        "english": "Titlt slowly to the right",
+        "french": "Prendre la droite lentement",
+        "is_correct": false
+      },
+      {
+        "arabic": "يقوم بالإلتفاف اللازم بسرعة فائقة كي لا يسبب الإزعاج للآخرين",
+        "english": "Make the appropriate turn with utmost speed so as not to misaccommodate others",
+        "french": "Tourner très rapidement pour ne pas déranger les autres",
+        "is_correct": false
+      },
+      {
+        "arabic": "يقوم بالإلتفاف اللازم بسرعة معتدلة بعد أن يتأكد من إمكان إجراء ذلك دون أي خطر أو إزعاج للآخرين",
+        "english": "Make the turn with moderate speed, after having checked that it is possible to do so withoout misaccommodating or putting others at risk",
+        "french": "Tourner à vitesse modérée après avoir vérifé qu'il ne dérange pas les autres ni ne les met en danger",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "249",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "من الأفضل المحافظة على مسافة أمان\":",
+      "english": "It is best to keep a \"safe Distance\":",
+      "french": "Il est préférable de garder une distance de sécurité:"
+    },
+    "answers": [
+      {
+        "arabic": "فقط من جهتي اليمين واليسار",
+        "english": "From the left and the right sides only",
+        "french": "A gauche et à droite du véhicule seulement",
+        "is_correct": false
+      },
+      {
+        "arabic": "فقط من جهتي الامام والخلف",
+        "english": "From the front and the end sides only",
+        "french": "Devant et derrière le véhicule seulement",
+        "is_correct": false
+      },
+      {
+        "arabic": "على كل جوانب المركبة",
+        "english": "From all sides of the vehicle",
+        "french": "De tous les côtés du véhicule",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "250",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "السماح بوجود مسافة أمان\" مهم لانه",
+      "english": "It is important to allow a \"safe distance\" because",
+      "french": "Il est important de garder une distance de sécurité, parce qu'elle:"
+    },
+    "answers": [
+      {
+        "arabic": "يعطي فسحة لدخول سيارة أخرى",
+        "english": "It gives other vehicles a chance to enter the lane",
+        "french": "Permet aux autres véhicules d'intégrer la circulation",
+        "is_correct": false
+      },
+      {
+        "arabic": "يمنع الالتهاء بالمركبات الاخرى",
+        "english": "It prevents distraction with other vehicles",
+        "french": "Empêche le conducteur de se distraire",
+        "is_correct": false
+      },
+      {
+        "arabic": "يعطي وقت لردة الفعل والتفاعل مع مجريات السير",
+        "english": "It gives drivers the time to react to what happens",
+        "french": "Donne un espace pour réagir",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "251",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "الضوء الأخضر المستمر على التقاطع يعني أنه:",
+      "english": "A solid green light at the intersection means:",
+      "french": "Un feu vert continu sur l'intersection signifie:"
+    },
+    "answers": [
+      {
+        "arabic": "يجب عليك التوقف والتأكد من السير المقابل قبل متابعة السير",
+        "english": "You should stop and check traffic in the other direction before you carry on",
+        "french": "qu'il faut s'arrêter et vérifier que la route est libre avant de continuer",
+        "is_correct": false
+      },
+      {
+        "arabic": "لا تستطيع المرور إلى اليمين",
+        "english": "You cannot turn right",
+        "french": "qu'il est impossible de tourner vers la droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "يمكنك عبور التقاطع اذا كان ذلك ممكناً",
+        "english": "You can cross the intersetion if it is posisble",
+        "french": "qu'il est possible de franchir l'intersection si il n'y a pas d'empêchement",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "252",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "الضوء الأصفر المتقطع يعني",
+      "english": "A flashing yellow light means:",
+      "french": "Un feu jaune discontinu signifie:"
+    },
+    "answers": [
+      {
+        "arabic": "تابع السير اذا كانت الطريق خالية",
+        "english": "You can carry on if the road is clear",
+        "french": "qu'il est possible d'avancer si la route est libre",
+        "is_correct": false
+      },
+      {
+        "arabic": "توقف ثم تابع السير عند خلو الطريق",
+        "english": "You should stop and carry on only when the road is clear",
+        "french": "qu'il faut s'arrêter et vérifier que la route est libre avant de continuer",
+        "is_correct": false
+      },
+      {
+        "arabic": "خفف السرعة وتابع السير بحذر",
+        "english": "Reduce your speed and carry on cautiously",
+        "french": "qu'il faut ralentir et avancer prudemment",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "253",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "الضوء الأصفر على تقاطع يعني",
+      "english": "A yellow light on the intersection means:",
+      "french": "Un feu jaune sur l'intersection signifie qu' il faut:"
+    },
+    "answers": [
+      {
+        "arabic": "انطلق",
+        "english": "Go ahead",
+        "french": "Démarrer",
+        "is_correct": false
+      },
+      {
+        "arabic": "خفف السرعة واستعد للتوقف",
+        "english": "Reduce your speed and be ready to stop",
+        "french": "Ralentir et se préparer à s'arrêter",
+        "is_correct": true
+      },
+      {
+        "arabic": "قف",
+        "english": "Stop",
+        "french": "S'arrêter",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "254",
+    "type": "Safety",
+    "category": "G",
+    "question": {
+      "arabic": "إذا انفجر دولاب خلال السير",
+      "english": "If you have a flat tyre while you're traveling:",
+      "french": "Lorsqu'un pneu éclate sur la route, il faut:"
+    },
+    "answers": [
+      {
+        "arabic": "اترك حرية الحركة للمقود",
+        "english": "Let the steering wheel take the reigns",
+        "french": "Abandonner le volant",
+        "is_correct": false
+      },
+      {
+        "arabic": "احرر دواسة الوقود لتخفيف سرعة السيارة واقوم بتثبيت المقود وأوقفها خارج الطريق",
+        "english": "Release the accelerator to allow the vehicle to slow down, keep the steering wheel straight, and pull off the road",
+        "french": "Enlever le pieds délicatement de la pédale d'accélérateur pour permettre au véhicule de ralentir, retenir le volant des deux mains, et se dégager de la route",
+        "is_correct": true
+      },
+      {
+        "arabic": "أخفض سرعة السيارة باستعمال المكابح وأوقفها خارج الطريق",
+        "english": "Press on the brakes to slow down, and pull off the road",
+        "french": "Appuyer sur la pédale de frein pour ralentir, et se dégager de la route",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "255",
+    "type": "Safety",
+    "category": "G",
+    "question": {
+      "arabic": "إذا أزعجتك انوار السيارة القادمة من الجهة المقابلة عليك النظر إلى:",
+      "english": "If the lights of the vehicle traveling on the opposite direction are bothering you, you should:",
+      "french": "Si les feux du véhicule d'en face dérangent le conducteur, le conducteur doit tourner son regard vers:"
+    },
+    "answers": [
+      {
+        "arabic": "وسط الطريق",
+        "english": "Look towards the middle of the road",
+        "french": "Le milieu de la route",
+        "is_correct": false
+      },
+      {
+        "arabic": "الجانب الايسر من الطريق",
+        "english": "Look towards the left side of the road",
+        "french": "Le côté gauche de la route",
+        "is_correct": false
+      },
+      {
+        "arabic": "الأسفل وإلى الجانب الايمن من الطريق",
+        "english": "Look down, and towards the right side of the road",
+        "french": "Le bas et du côté droit de la route",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "256",
+    "type": "Safety",
+    "category": "G",
+    "question": {
+      "arabic": "إذا تعطلت مركبتك على الأوتوستراد",
+      "english": "In case of vehicle break-down on the highway",
+      "french": "En cas de panne sur l'autoroute, le conducteur doit:"
+    },
+    "answers": [
+      {
+        "arabic": "انتظر في المركبة لوصول المساعدة",
+        "english": "Wait inside the vehicle until the road assistance vehicle reaches you",
+        "french": "Attendre le véhicule d'assistance",
+        "is_correct": false
+      },
+      {
+        "arabic": "وضع المثلث التحذيري وتشغل الانوار الرئيسية التحذير باقي السائقين",
+        "english": "Place the warning triangle and turn on the headlights to warn other drivers",
+        "french": "Placer le triangle de présignalisation et allumer les feux pour alerter les autres conducteurs",
+        "is_correct": false
+      },
+      {
+        "arabic": "وضع المثلث التحذيري وتشغيل انوار الإشارات الاربعة لتحذير باقي السائقين",
+        "english": "Place the warning triangle and activate all four signal lights to warn other drivers",
+        "french": "Placer le Triangle de présignalisation et allumer les clignoteurs pour alerter les autres conducteurs",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "257",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "إذا دخلت طريق سريع عليك",
+      "english": "When you enter a highway, you should:",
+      "french": "Après avoir pris l'autoroute, le conducteur doit:"
+    },
+    "answers": [
+      {
+        "arabic": "تخفيف السرعة",
+        "english": "Slow down",
+        "french": "Ralentir",
+        "is_correct": false
+      },
+      {
+        "arabic": "أن تقود بسرعة أقل من السرعة المحددة",
+        "english": "Drive below the speed limit",
+        "french": "Circuler à une vitesse inférieure à la vitesse indiquée",
+        "is_correct": false
+      },
+      {
+        "arabic": "تقود بسرعة السير الذي على الطريق السريع",
+        "english": "Drive within the highway traffic speed",
+        "french": "Circuler à une vitesse proche de celle de la circulation sur cette autoroute",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "258",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "إذا كان المسلك محدد بخط متقطع محاذ لخط متواصل",
+      "english": "If the road is marked with one solid line and one broken line:",
+      "french": "Si la voie est délimitée par deux lignes adjacentes, l'une continue et l'autre discontinue:"
+    },
+    "answers": [
+      {
+        "arabic": "يسمح للسائق إجتياز الخط المتقاطع إذا كان إلى يساره مباشرة",
+        "english": "The driver may change lanes if the broken line is to the left",
+        "french": "Il est permis au conducteur de franchir la ligne discontinue si cette ligne est directement à sa gauche",
+        "is_correct": false
+      },
+      {
+        "arabic": "يحظر على السائق إجتياز الخط المتواصل فيما إذا كان إلى يمينه مباشرة",
+        "english": "The driver may not change lanes if the broken line is to the right",
+        "french": "Il n'est pas permis au conducteur de franchir la ligne continue si cette ligne est directement à sa gauche",
+        "is_correct": false
+      },
+      {
+        "arabic": "يُحظر على السائق اجتياز الخط المتواصل فيما إذا كان إلى يساره مباشرة",
+        "english": "The driver may not change lanes if the broken line is to the left",
+        "french": "Il n'est pas permis au conducteur de franchir la ligne discontinue si cette ligne est directement à sa gauche",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "259",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "إذا لاحقتك مركبة وأنت على الجهة اليسرى من الطريق السريع عليك",
+      "english": "If a vehicle is pressing behind you, and you are on the left lane on a freeway, you should:",
+      "french": "Si le conducteur derrière toi est pressé alors que tu es sur la voie gauche d'une autoroute, tu dois:"
+    },
+    "answers": [
+      {
+        "arabic": "زيادة السرعة",
+        "english": "Speed up",
+        "french": "Accélérer",
+        "is_correct": false
+      },
+      {
+        "arabic": "ضرب قدمك بتقطع على الكابح لجعلها تبتعد",
+        "english": "Press the brakes intermittently to drive the other vehicle to move away",
+        "french": "Appuyer sur la pédale de frein de façon intermittante pour qu'il se dégage",
+        "is_correct": false
+      },
+      {
+        "arabic": "الاتجاه بمركبتك إلى المسرب اليمين معدلاً سرعتك إلى السرعة على هذا المسرب",
+        "english": "Move to the right lane, and adjust your speed to the traffic speed on that lane",
+        "french": "Prendre la voie de droite en ajustant la vistesse de ta voiture pour qu'elle corresponde au rythme de la circulation sur cette voie",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "260",
+    "type": "Safety",
+    "category": "G",
+    "question": {
+      "arabic": "إذا لم يعمل الكابح خلال السير عليك",
+      "english": "If your brakes stops working while you are on the road, you should:",
+      "french": "Quand les freins ne fonctionnent plus alors que le conducteur est sur la route, le conducteur doit:"
+    },
+    "answers": [
+      {
+        "arabic": "توقيف المحرك عن الدوران",
+        "english": "Turn off the engine",
+        "french": "Arrêter le moteur",
+        "is_correct": false
+      },
+      {
+        "arabic": "الاتجاه مباشرة إلى مرآب التصليح",
+        "english": "Head directly to a repair shop",
+        "french": "Se diriger immédiatement vers le garage",
+        "is_correct": false
+      },
+      {
+        "arabic": "بسرعة ضرب الكابح بتردد عالي",
+        "english": "Quickly press on the brakes with high frequency",
+        "french": "Appuyer répétitivement sur la pédale de frein",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "261",
+    "type": "Safety",
+    "category": "G",
+    "question": {
+      "arabic": "في حال سوء الأحوال الجوية",
+      "english": "In case of bad weather, the driver should:",
+      "french": "Quand il fait mauvais temps, le conducteur doit:"
+    },
+    "answers": [
+      {
+        "arabic": "أتقيد بالسرعة القصوى",
+        "english": "Drive at the upper speed limit",
+        "french": "Rouler à la vitesse maximale",
+        "is_correct": false
+      },
+      {
+        "arabic": "القيادة دون السرعة القصوى وبحسب ظروف الطريق",
+        "english": "Drive below the upper speed limit so as to accommodate road conditions",
+        "french": "Rouler en dessous de la vitesse maximale, selon les conditions de la route",
+        "is_correct": true
+      },
+      {
+        "arabic": "أتقيد بالسرعة القصوى وإضاءة المصابيح",
+        "english": "Drive at the upper speed limit and turn on the lights",
+        "french": "Rouler à la vitesse maximale et allumer les feux",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "262",
+    "type": "Safety",
+    "category": "G",
+    "question": {
+      "arabic": "تحتاج مسافة توقف إضافية عند السير :",
+      "english": "The driver needs a bigger \"safe distance\":",
+      "french": "Le conducteur doit maintenir un espace de sécurité plus grand quand il roule:"
+    },
+    "answers": [
+      {
+        "arabic": "خلف سيارات اخرى",
+        "english": "Where there are other cars in front",
+        "french": "Derrière d'autres véhicules",
+        "is_correct": false
+      },
+      {
+        "arabic": "على طرقات جافة",
+        "english": "On dry roads",
+        "french": "Sur une route sèche",
+        "is_correct": false
+      },
+      {
+        "arabic": "على طرقات رطبة",
+        "english": "On wet roads",
+        "french": "Sur un route humide",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "263",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "تخصص الأرصفة، عند وجودها",
+      "english": "Pavements are intended:",
+      "french": "La chaussée sert à:"
+    },
+    "answers": [
+      {
+        "arabic": "الوضع اي شيئ يعيق سير المنتفعين",
+        "english": "To put away anything that obstructs the use of the road",
+        "french": "Ranger de côté toute chose qui empêche la circulation sur la route",
+        "is_correct": false
+      },
+      {
+        "arabic": "الايقاف السيارة في حال السماح بذلك",
+        "english": "To park vehicles, when parking is allowed",
+        "french": "Stationner le véhicule là où c'est permis",
+        "is_correct": false
+      },
+      {
+        "arabic": "للمشاة وعربات الاولاد والمرضى والمقعدين المدفوعين بالايدي",
+        "english": "To be used by pedestrians, children trolleys, by the sick and the disabled",
+        "french": "La circulation des piétions, poussettes, personnes malades et handicapées",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "264",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "تشير أنوار المكابح الخلفية إلى باقي السائقين إلى أنك:",
+      "english": "Rear brake lights alert other drivers that you are:",
+      "french": "Les feux stop arrière servent à indiquer aux autres conducteurs que tu:"
+    },
+    "answers": [
+      {
+        "arabic": "تدخل في منعطف",
+        "english": "Entering a bend",
+        "french": "prends un virage",
+        "is_correct": false
+      },
+      {
+        "arabic": "تبدل المسرب",
+        "english": "Changing lanes",
+        "french": "changes de voie",
+        "is_correct": false
+      },
+      {
+        "arabic": "تخفف السرعة او تتوقف",
+        "english": "Slowing down or stopping",
+        "french": "Ralentis ou tu t'arrêtes",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "265",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "على تقاطع أربعة اتجاهات المركبة التي تمر أولاً هي :",
+      "english": "On a four-way intersection, the vehicle that goes first is:",
+      "french": "Sur une intersection à quatre sens, la priorité revient au véhicule qui:"
+    },
+    "answers": [
+      {
+        "arabic": "المركبة التي تصل اولاً",
+        "english": "The vehicle that arrived first",
+        "french": "Arrive le premier",
+        "is_correct": false
+      },
+      {
+        "arabic": "المركبة التي تتجه إلى اليمين",
+        "english": "The vehicle that is turning right",
+        "french": "Tourne vers la droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "المركبة التي وصلت أولاً ودخلت التقاطع",
+        "english": "The vehicle that arrived first and already entered the intersection",
+        "french": "Arrive le premier et qui est déjà entré dans l'intersection",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "266",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "عليك التوقف عند رؤية",
+      "english": "You should stop when you see:",
+      "french": "Le conducteur doit s'arrêter au feu:"
+    },
+    "answers": [
+      {
+        "arabic": "ضوء أصفر مستمر",
+        "english": "A solid yellow light",
+        "french": "Jaune continu",
+        "is_correct": false
+      },
+      {
+        "arabic": "ضوء أصفر متقطع",
+        "english": "A flashing yellow light",
+        "french": "Jaune clignotant",
+        "is_correct": false
+      },
+      {
+        "arabic": "ضوء أحمر متقطع",
+        "english": "A flashing red light",
+        "french": "Rouge clignotant",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "267",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "عند استعمال الطريق مع شاحنة من المفيد التذكر بأن الشاحنات",
+      "english": "When you are sharing the road with a truck, it would be good to remember that trucks:",
+      "french": "Lorsque le conducteur partage la route avec un camion, il est bon de se rappeler que les camions:"
+    },
+    "answers": [
+      {
+        "arabic": "بحاجة لشعاع دائرة أقصر التتمكن من الإلتفاف",
+        "english": "Require a smaller turning radius",
+        "french": "Ont besoin d'un rayon plus petit pour tourner",
+        "is_correct": false
+      },
+      {
+        "arabic": "يلزمها وقت اقل للتجاوز على منحدر",
+        "english": "Require less time to overtake in descents",
+        "french": "Ont besoin de moins de temps pour dépasser sur une descente",
+        "is_correct": false
+      },
+      {
+        "arabic": "تأخذ مسافة اطول من السيارات للتوقف",
+        "english": "Need a bigger safe distance with other vehicles to be able to stop",
+        "french": "Ont besoin d'un espace plus grand pour stationner",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "268",
+    "type": "Safety",
+    "category": "G",
+    "question": {
+      "arabic": "عند الإلتفاف إلى اليمين على الضوء الأخضر عليك",
+      "english": "When turning right at the green light, you should:",
+      "french": "En tournant à droite au feu vert, le conducteur doit:"
+    },
+    "answers": [
+      {
+        "arabic": "تخفيف السرعة بسبب الالتفاف",
+        "english": "Slow down to be able to make the turn",
+        "french": "Ralentir pour tourner",
+        "is_correct": false
+      },
+      {
+        "arabic": "متابعة السير بالمسرب نفسه",
+        "english": "Carry on on the same lane",
+        "french": "Continuer sur la même voie",
+        "is_correct": false
+      },
+      {
+        "arabic": "افساح الطريق للمشاة",
+        "english": "Give way to pedestrians",
+        "french": "Céder le passage aux piétons",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "269",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يمكن التمنع عن الخضوع لفحص الكحول أو المخدرات",
+      "english": "You can refrain from taking the drug or alcohol test:",
+      "french": "Le conducteur a le droit de refuser de se soumettre au test de dépistage d'alcool ou de drogues:"
+    },
+    "answers": [
+      {
+        "arabic": "في الحالات الطارئة",
+        "english": "In emergency cases",
+        "french": "Dans les cas d'urgence",
+        "is_correct": false
+      },
+      {
+        "arabic": "في حال كان السائق دون سن 21",
+        "english": "If you are under 21",
+        "french": "S'il a moins de 21 ans",
+        "is_correct": false
+      },
+      {
+        "arabic": "ولا في أي حال من الاحوال",
+        "english": "No, you cannot in any case it may be",
+        "french": "Il n'a pas le droit de refuser le test en aucun cas",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "270",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "عند السير في الضباب عليك أن تستعمل",
+      "english": "When driving in the fog, you should turn on the:",
+      "french": "En cas de brouillard, le conducteur doit utiliser:"
+    },
+    "answers": [
+      {
+        "arabic": "انوار الطريق الضوء العالي)",
+        "english": "Hazard lights, and/or high beam",
+        "french": "Les feux de route",
+        "is_correct": false
+      },
+      {
+        "arabic": "انوار الضباب و / أو أنوار التلاقي ( الضوء الواطى)",
+        "english": "Hazard lights, and/or low beam",
+        "french": "Les feux de brouillard et/ou les feux de croisement",
+        "is_correct": true
+      },
+      {
+        "arabic": "انوار الضباب و / أو أنوار الطريق الضوء العالي)",
+        "english": "High beam",
+        "french": "Les feux de brouillard et/ou les feux de route",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "271",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "عند القيام بمناورة التجاوز على طريق سريع متعدد المسارب",
+      "english": "When overtaking on a multiple-lane highway:",
+      "french": "En effectuant un dépassement sur une autoroute à voies multiples, le conducteur:"
+    },
+    "answers": [
+      {
+        "arabic": "لا حاجة لتشغيل الاشارات",
+        "english": "No need to give a signal",
+        "french": "N'est pas obligé de donner un signal",
+        "is_correct": false
+      },
+      {
+        "arabic": "راقب السير المقابل",
+        "english": "Keep your eyes on the parallel lane",
+        "french": "Doit jeter un regard sur les véhicules circulant dans l'autre sens",
+        "is_correct": false
+      },
+      {
+        "arabic": "تأكد من وجود فسحة كافية على المسرب الذي ستتجاوز عليه",
+        "english": "Make sure there is enough gap in the lane you want to move to",
+        "french": "Doit vérifier qu'il y a un espace suffisant sur la voie qu'il voudrait joindre",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "272",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "عند دخول منعطف عليك أن",
+      "english": "When you are taking a curve:",
+      "french": "En effectuant un virage, le conducteur doit:"
+    },
+    "answers": [
+      {
+        "arabic": "تحافظ على سرعة مركبتك",
+        "english": "Maintain the speed of your veihcle",
+        "french": "Maintenir sa vitesse",
+        "is_correct": false
+      },
+      {
+        "arabic": "تزيد من سرعة مركبتك",
+        "english": "Increase the speed of your vehicle",
+        "french": "Accélérer",
+        "is_correct": false
+      },
+      {
+        "arabic": "تخفض من سرعة مركبتك",
+        "english": "Decrease the speed of your vehicle",
+        "french": "Ralentir",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "273",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "عند تعطل الإشارات الضوئية عليك",
+      "english": "If the traffic lights are not working:",
+      "french": "Quand les feux tricolores sont en panne, le conducteur doit:"
+    },
+    "answers": [
+      {
+        "arabic": "إعطاء الأفضلية للسائق على اليسار",
+        "english": "Give the right of way to the driver on the left",
+        "french": "Donner la priorité au conducteur qui se trouve à gauche",
+        "is_correct": false
+      },
+      {
+        "arabic": "التوقف بانتظار وصول شرطة السير",
+        "english": "Stop and wait until the police gets to the intersection",
+        "french": "S'arrêter et attendre la police routière",
+        "is_correct": false
+      },
+      {
+        "arabic": "التصرف كانك على تقاطع من دون اشارات ضوئية",
+        "english": "Act as if you are at an intersection without traffic lights",
+        "french": "Agir comme s'il était sur une intersection sans feux",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "274",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "عندما تقوم شاحنة بمناورة التجاوز المركبتك عليك",
+      "english": "When a truck is trying to overtake your vehicle:",
+      "french": "Un camion essaie de dépasser ton véhicule, tu dois:"
+    },
+    "answers": [
+      {
+        "arabic": "تغيير المسرب",
+        "english": "Change lanes",
+        "french": "Changer de voie",
+        "is_correct": false
+      },
+      {
+        "arabic": "زيادة السرعة",
+        "english": "Increase your speed",
+        "french": "Accélérer",
+        "is_correct": false
+      },
+      {
+        "arabic": "تثبيت او تخفيف السرعة",
+        "english": "Maintain or decrease your speed",
+        "french": "Maintenir ta vitesse ou ralentir",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "275",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "في حال السير خلف دراجة نارية عليك",
+      "english": "if you are moving behind a motorcycle, you should:",
+      "french": "Tu roules derrière une une motocyclette, tu dois:"
+    },
+    "answers": [
+      {
+        "arabic": "السماح للدراجة باستخدام نصف المسرب",
+        "english": "Allow the motorcycle to use half the lane",
+        "french": "Permettre à la motocyclette de circuler sur la moitié de la voie",
+        "is_correct": false
+      },
+      {
+        "arabic": "تجاوز الدراجة على ذات المسرب",
+        "english": "Overtake the motorbike on the same lane",
+        "french": "Dépasser la motocyclette sur la voie même",
+        "is_correct": false
+      },
+      {
+        "arabic": "السماح لها باستخدام المسرب كاملاً",
+        "english": "Allow the motorbike to use the entire width of the lane",
+        "french": "Permettre à la motocyclette de circuler sur toute la largeur de la voie",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "276",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "في حال إقتراب سائقين إثنين من تقاطع طرقات وهما قادمان من طريقين مختلفين",
+      "english": "If two drivers are approaching an intersection from opposite directions",
+      "french": "Deux conducteurs venant de deux sens différents s'approchent d'une intersection:"
+    },
+    "answers": [
+      {
+        "arabic": "يمر كل في طريقه دون إعطاء أفضلية مرور الأحد",
+        "english": "Each will go on his way without giving priority to the other",
+        "french": "Chacun passe sans céder la priorité à l'autre conducteur",
+        "is_correct": false
+      },
+      {
+        "arabic": "وجب على السائق القادم من اليسار أن يفسح المجال المرور السائق الآخر",
+        "english": "The driver coming from the left should give the right of way to the other driver",
+        "french": "Le conducteur venant de la gauche doit céder le passage à l'autre conducteur",
+        "is_correct": true
+      },
+      {
+        "arabic": "وجب على السائق القادم من اليمين أن يفسح المجال المرور السائق الآخر",
+        "english": "The driver coming from the right should give the right of way to the other driver",
+        "french": "Le conducteur venant de la droite doit céder le passage à l'autre conducteur",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "277",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "قبل تجاوز مركبة اخرى، دخول في منعطف أو التجاوز عليك",
+      "english": "Before overtaking, entering a curve, or being overtaken, you should",
+      "french": "Avant de dépasser, d'être dépassé, ou d'effectuer un virage, le conducteur doit:"
+    },
+    "answers": [
+      {
+        "arabic": "تخفيف السرعة، تشغيل اشارات التنبيه لتحذير السائقين، والتأكد من المرايا",
+        "english": "Reduce your speed, give a signal to other drivers, and check the mirrors",
+        "french": "Ralentir, activer les clignotants pour avertir les autres conducteurs, et vérifier les miroirs",
+        "is_correct": false
+      },
+      {
+        "arabic": "تخفيف السرعة وتشغيل الاشارة عند بدء تغير المسرب",
+        "english": "Reduce your speed, give a signal as you take the other lane",
+        "french": "Ralentir et activer le clignotant au moment du virage",
+        "is_correct": false
+      },
+      {
+        "arabic": "تخفيف السرعة، تشغيل الاشارة قبل فترة زمنية كافية التنبيه باقي مستخدمي الطريق والتأكد من المرايا والالتفات إلى البقع المعمية",
+        "english": "Slow down, give enough signal to other road users, and check the mirrors and the blind spots",
+        "french": "Ralentir, activer le clignotant bien en avance pour avertir les autres usagers de la route, vérifier les miroirs et les angles morts",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "278",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "لا يجوز للسائق في حال التجاوزات العادية |",
+      "english": "When overtaking, the driver should:",
+      "french": "Il est interdit au conducteur qui effectue un dépassement"
+    },
+    "answers": [
+      {
+        "arabic": "ان يضايق السائريين الى يمينه",
+        "english": "Disaccommodate drivers traveling on his right",
+        "french": "de déranger les conducteurs à sa droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "ان يستعمل المسرب الايمن الى الطريق",
+        "english": "Use the right side of the road",
+        "french": "d'utiliser la voie de droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "أن يستعمل المسرب الايسر من الطريق",
+        "english": "Use the left side of the road",
+        "french": "d'utiliser la voie de gauche",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "279",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "لمن تعود افضلية المرور في حال التفاف المركبة ومرور أحد المشاة دون وجود اشارة ضوئية ؟",
+      "english": "When a vehicle is turning and a pedestrian is crossing the street, and there is no traffic light, who has the right of way?",
+      "french": "En l'absence d'un feu de signalisation, si un véhicule prend un virage alors qu'un piéton voudrait franchir la route, à qui revient la priorité?"
+    },
+    "answers": [
+      {
+        "arabic": "الذي يمر بسرعة اكبر الذي وصل اولا\"\"",
+        "english": "Whomever goes faster and reachs first",
+        "french": "A celui qui a la plus grande vitesse",
+        "is_correct": false
+      },
+      {
+        "arabic": "السيارة",
+        "english": "The vehicle",
+        "french": "Au véhicule",
+        "is_correct": false
+      },
+      {
+        "arabic": "المشاة",
+        "english": "The pedestrian",
+        "french": "Au piéton",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "280",
+    "type": "Safety",
+    "category": "G",
+    "question": {
+      "arabic": "يتكون الجليد بسرعة أكبر على الطرق",
+      "english": "Ice forms quickly on roads that:",
+      "french": "Le gel se forme plus rapidement sur les routes:"
+    },
+    "answers": [
+      {
+        "arabic": "المسطحة",
+        "english": "Are plane",
+        "french": "Planes",
+        "is_correct": false
+      },
+      {
+        "arabic": "التي سطحها متعرج وفيه تجاويف",
+        "english": "Have an uneven surface, with lots of bends",
+        "french": "Sinueuses",
+        "is_correct": false
+      },
+      {
+        "arabic": "التي يقع عليها ظل",
+        "english": "Are shaded",
+        "french": "Qui sont dans l'ombre",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "281",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يحظر على سائق المركبة",
+      "english": "Drivers are strictly prohibited to:",
+      "french": "Il est interdit au conducteur de:"
+    },
+    "answers": [
+      {
+        "arabic": "يسير بغير الاتجاه المحدد",
+        "english": "Travel in other than the designated direction",
+        "french": "Circuler dans une direction autre que la direction indiquée",
+        "is_correct": true
+      },
+      {
+        "arabic": "يبقى يقظاً ومسيطراً على سيارته بشكل يمكنه من إجراء جميع العمليات والمناورات المتوجبة",
+        "english": "Stay awake and in control of their vehicles",
+        "french": "Rester éveillé et en contrôle de son véhicule",
+        "is_correct": false
+      },
+      {
+        "arabic": "يتأكد من إجراء التجاوز دون خطر",
+        "english": "Check there is no danger before overtaking",
+        "french": "Vérifier qu'il peut effectuer le dépassement sans aucun danger",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "282",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يحظر على سائق المركبة",
+      "english": "Drivers are strictly prohibited to:",
+      "french": "Il est interdit au conducteur de:"
+    },
+    "answers": [
+      {
+        "arabic": "السير على الجانب الايمن من الطريق",
+        "english": "Travel on the right side of the road",
+        "french": "Circuler sur le côté droit de la route",
+        "is_correct": false
+      },
+      {
+        "arabic": "غسل المركبات على الطريق العام",
+        "english": "Wash their vehicles on the higway",
+        "french": "Laver les véhicules sur la route",
+        "is_correct": true
+      },
+      {
+        "arabic": "أن يتأكد من إجراء مناورة التجاوز دون خطر",
+        "english": "Check there is no danger before overtaking",
+        "french": "Vérifier qu'il peut effectuer le dépassement sans aucun danger",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "283",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يحظر على سائق المركبة",
+      "english": "Drivers are strictly prohibited to:",
+      "french": "Il est interdit au conducteur de:"
+    },
+    "answers": [
+      {
+        "arabic": "أن يسير بالاتجاه المحدد",
+        "english": "Travel in the designated direction",
+        "french": "Circuler dans la direction indiquée",
+        "is_correct": false
+      },
+      {
+        "arabic": "يجري المناورة عكس الاتجاه في وسط الطريق العام",
+        "english": "Make a U-turn on the high way",
+        "french": "Effectuer un demi tour au milieu de la route",
+        "is_correct": true
+      },
+      {
+        "arabic": "أن يتأكد من إجراء مناورة التجاوز دون خطر",
+        "english": "Check there is no danger before overtaking",
+        "french": "Vérifier qu'il peut effectuer le dépassement sans aucun danger",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "284",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يفترض المنطق السليم أن",
+      "english": "Common logic dictates that you should not:",
+      "french": "Logiquement, le conducteur ne dois pas:"
+    },
+    "answers": [
+      {
+        "arabic": "لا تتجاوز السرعة القصوى 80 كلم بالساعة",
+        "english": "Go beyond the upper speed limit of 80 km/hour",
+        "french": "Rouler au delà de la vitesse maximale de 80 km/heure",
+        "is_correct": false
+      },
+      {
+        "arabic": "لا تسرع أكثر من السرعة المحددة",
+        "english": "Go beyond the indicated speed limit",
+        "french": "Rouler au delà de la vitesse maximale",
+        "is_correct": false
+      },
+      {
+        "arabic": "لا تسرع أكثر من السرعة الآمنة لحالة الطريق",
+        "english": "Go faster than what is appropriate to the road you are traveling on",
+        "french": "Rouler au delà de la vitesse de circulation des autres véhicules sur la route",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "285",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يمكنك الخروج عن الطريق لتجاوز مركبة أخرى",
+      "english": "You can exit the road to overtake another vehicle",
+      "french": "Tu peux sortir de la route pour dépasser un autre véhicule:"
+    },
+    "answers": [
+      {
+        "arabic": "اذا كانت السيارة التي امامك تتجه نحو اليسار",
+        "english": "If the vehicle in front is turning left",
+        "french": "Si le véhicule devant toi se dirige vers la gauche",
+        "is_correct": false
+      },
+      {
+        "arabic": "اذا كان الطريق أو ممر المشاة يسع سيارتك",
+        "english": "If the road or pedestrian lane can accomomdate you vehicle",
+        "french": "S'il y a assez de place pour ton véhicule sur la rue ou sur le passage piéton",
+        "is_correct": false
+      },
+      {
+        "arabic": "ولا في أي حال من الاحوال",
+        "english": "No, you cannot in any case it may be",
+        "french": "Ceci n'est pas permis en aucun cas",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "286",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يمكنك متابعة السير بانتباه على الضوء الأصفر اذا كنت",
+      "english": "You can carry on on a yellow light if you are:",
+      "french": "Le conducteur peut continuer à rouler avec prudence au feu jaune:"
+    },
+    "answers": [
+      {
+        "arabic": "خلف مركبة عندها الافضلية مثل اسعاف، دفاع مدني اطفاء)",
+        "english": "Behind a vehicle that has the right of way (ambulance, civil defence, firetruck)",
+        "french": "S'il est derrière un véhicule prioritaire (ambulance, camion pompier)",
+        "is_correct": false
+      },
+      {
+        "arabic": "تتجه نحو اليسار",
+        "english": "Turning right",
+        "french": "S'il se dirige vers la droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "دخلت التقاطع",
+        "english": "Already in the intersection",
+        "french": "S'il est déjà entré dans l'intersection",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "287",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يحظر على سائق المركبة",
+      "english": "Drivers are strictly prohibited to:",
+      "french": "Il est interdit au conducteur de:"
+    },
+    "answers": [
+      {
+        "arabic": "السير على الجانب الايمن من الطريق",
+        "english": "Travel on the right side of the road",
+        "french": "Circuler sur le côté droit de la route",
+        "is_correct": false
+      },
+      {
+        "arabic": "إصلاح المركبات على الطريق العام إلا في الضرورات القصوى",
+        "english": "Repair vehicles on the freeway, except in extreme situations",
+        "french": "Reparer les véhicules sur l'autoroute sauf dans le cas d'urgence extrême",
+        "is_correct": true
+      },
+      {
+        "arabic": "أن يتأكد من إجراء مناورة التجاوز دون خطر",
+        "english": "Check there is no danger before overtaking",
+        "french": "Vérifier qu'il peut effectuer le dépassement sans aucun danger",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "288",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "على السائق أن يلتزم أقصى الجانب الأيمن من الطريق",
+      "english": "The driver should keep to the extreme right:",
+      "french": "Le conducteur doit prendre son extrême droite:"
+    },
+    "answers": [
+      {
+        "arabic": "عندما تكون سرعة سيارته دون السرعة المعمول بها",
+        "english": "When the driver is traveling below traffic speed",
+        "french": "Quand il roule à une vitesse inférieure à la vitesse applicable sur cette route",
+        "is_correct": true
+      },
+      {
+        "arabic": "عندما يريد أن يتجاوز سائق آخر",
+        "english": "When the driver wants to overtake another vehicle",
+        "french": "Quand il veut dépasser un autre véhicule",
+        "is_correct": false
+      },
+      {
+        "arabic": "عندما تكون رؤية الطريق إلى الأمام كافية",
+        "english": "When the driver has enough visibility ahead",
+        "french": "Quand la visibilité est bonne",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "289",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يحظر على سائقي المركبات، بعد ثلاث سنوات من حيازتهم دفتر السوق القيادة تحت تأثير الكحول بنسبة تتعدى",
+      "english": "Drivers who have had their drivers' license for more than three years, should not drive under the influence of alcohol where the level of alcohol in their blood exceeds:",
+      "french": "Il est interdit au conducteur qui dispose d'un permis de conduire depuis plus de trois ans de conduire avec un taux d'alcoolémie supérieur à:"
+    },
+    "answers": [
+      {
+        "arabic": "0.3 غ ال",
+        "english": "0.3 grams/liter",
+        "french": "0.3 grammes/litre",
+        "is_correct": false
+      },
+      {
+        "arabic": "0.4 غ ال",
+        "english": "0.4 grams/liter",
+        "french": "0.4 grammes/litre",
+        "is_correct": false
+      },
+      {
+        "arabic": "0.5 غ/ل",
+        "english": "0.5 grams/liter",
+        "french": "0.5 grammes/litre",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "290",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "خلال أول ثلاث سنوات من حيازتك على رخصة سوق، لا يجب أن تتجاوز معدل نسبة الكحول في الدم",
+      "english": "In the first three years of having a drivers' license, the level of alcohol in the blood should not exceed:",
+      "french": "Il est interdit au conducteur qui dispose d'un permis de conduire depuis moins de trois ans de conduire avec un taux d'alcoolémie supérieur à:"
+    },
+    "answers": [
+      {
+        "arabic": "0 غال",
+        "english": "0 grams/liter",
+        "french": "0 grammes/litre",
+        "is_correct": true
+      },
+      {
+        "arabic": "0.3 غ ال",
+        "english": "0.3 grams/liter",
+        "french": "0.3 grammes/litre",
+        "is_correct": false
+      },
+      {
+        "arabic": "0.5 غ/ل",
+        "english": "0.5 grams/liter",
+        "french": "0.5 grammes/litre",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "291",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يحظر على سائقي المركبات أثناء القيادة",
+      "english": "It is strictly prohibited for drivers to:",
+      "french": "Il est interdit au conducteur qui roule sur la route de:"
+    },
+    "answers": [
+      {
+        "arabic": "استعمال اي وسيلة من اجهزة الاتصالات",
+        "english": "Use any communication devices",
+        "french": "Utiliser tous les moyens de télécommunication",
+        "is_correct": true
+      },
+      {
+        "arabic": "استعمال يد واحدة للقيادة والرد على المكالمة باستعمال اليد الاخرى",
+        "english": "Use one hand to drive and the other to answer the phone",
+        "french": "Tenir le volant d'une main, et prendre un appel téléphonique de l'autre",
+        "is_correct": false
+      },
+      {
+        "arabic": "استعمال اليدين للقيادة والرد على المكالمة بواسطة الـ Bluetooth",
+        "english": "Use both hands to drive, and answer the call using bluetooth technology",
+        "french": "Conduire avec les deux mains, et répondre aux appels téléphoniques via bluetooth",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "292",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "في حال عدم وجود لوحات تحدد السرعة تكون السرعة القصوى المسموح بها على الأتوستراد:",
+      "english": "Where there is no speed limit signs, the upper speed limit on the freeway is:",
+      "french": "En l'absence d'un panneau de signalisation, la vitesse maximale autorisée sur l'autoroute est de:"
+    },
+    "answers": [
+      {
+        "arabic": "80 كلماس",
+        "english": "80 km/hour",
+        "french": "80 km/heure",
+        "is_correct": false
+      },
+      {
+        "arabic": "100 كلمس",
+        "english": "100 km/hour",
+        "french": "100 km/heure",
+        "is_correct": true
+      },
+      {
+        "arabic": "120 كلماس",
+        "english": "120 km/hour",
+        "french": "120 km/heure",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "293",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "في حال عدم وجود لوحات تحدد السرعة تكون السرعة القصوى المسموح خارج المناطق المأهولة",
+      "english": "Where there is no speed limit signs, the upper speed limit outside populated areas is:",
+      "french": "En l'absence d'un panneau de signalisation, la vitesse maximale autorisée en dehors des zones peuplées est de:"
+    },
+    "answers": [
+      {
+        "arabic": "50 كلم اس",
+        "english": "50 km/hour",
+        "french": "50 km/heure",
+        "is_correct": false
+      },
+      {
+        "arabic": "60 كلم اس",
+        "english": "60 km/hour",
+        "french": "60 km/heure",
+        "is_correct": false
+      },
+      {
+        "arabic": "70 كلمس",
+        "english": "70 km/hour",
+        "french": "70 km/heure",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "294",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "في حال عدم وجود لوحات تحدد السرعة تكون السرعة القصوى المسموح داخل المناطق المأهولة",
+      "english": "Where there is no speed limit signs, the upper speed limit inside populated areas is:",
+      "french": "En l'absence d'un panneau de signalisation, la vitesse maximale autorisée dans les zones peuplées est de:"
+    },
+    "answers": [
+      {
+        "arabic": "40 كلم اس",
+        "english": "40 km/hour",
+        "french": "40 km/heure",
+        "is_correct": false
+      },
+      {
+        "arabic": "50 كلماس",
+        "english": "50 km/hour",
+        "french": "50 km/heure",
+        "is_correct": true
+      },
+      {
+        "arabic": "60 كلمس",
+        "english": "60 km/hour",
+        "french": "60 km/heure",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "295",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يمكنك الرجوع إلى الوراء على الأوتوستراد، في\n حال كان المفرق قريب بمسافة",
+      "english": "You can reverse on the freeway if the exist is near, provided you do not go faster than:",
+      "french": "Le conducteur peut faire marche arrière sur l'autoroute si la sortie est à:"
+    },
+    "answers": [
+      {
+        "arabic": "امتار 10",
+        "english": "10 meters",
+        "french": "10 metres",
+        "is_correct": false
+      },
+      {
+        "arabic": "متر 20",
+        "english": "20 meters",
+        "french": "20 metres",
+        "is_correct": false
+      },
+      {
+        "arabic": "لا يمكنك الرجوع إلى الوراء\n\nبتاتا",
+        "english": "You cannot reverse at all",
+        "french": "La marche arrière est absolument interdite",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "296",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يوضع مثلث التحذير امام او خلف المركبة\n تبعاً لوجهة السير، في الطرقات العادية على\n\nمسافة",
+      "english": "On a normal road, you place the warning triangle in front or behind the vehicle, depending on the direction of traffic, at the following distance from the vehicle:",
+      "french": "Sur les routes ordinaires, Le triangle de présignalisation doit être placé devant ou derrière le véhicule, selon la direction de la circulation, à du véhicule:"
+    },
+    "answers": [
+      {
+        "arabic": "متر 20",
+        "english": "20 meters",
+        "french": "20 metres",
+        "is_correct": false
+      },
+      {
+        "arabic": "متر 30",
+        "english": "30 meters",
+        "french": "30 metres",
+        "is_correct": true
+      },
+      {
+        "arabic": "متر",
+        "english": "40 meters",
+        "french": "40 metres",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "297",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يوضع مثلث التحذير امام او خلف المركبة\n تبعاً لوجهة السير على الأتوستراد على مسافة",
+      "english": "On the freeway, you place the warning triangle in front or behind the vehicle, depending on the direction of traffic, at the following distance from the vehicle:",
+      "french": "Sur l'autoroute, Le triangle de présignalisation doit être placé devant ou derrière le véhicule, selon la direction de la circulation, à du véhicule:"
+    },
+    "answers": [
+      {
+        "arabic": "متر 50",
+        "english": "50 meters",
+        "french": "50 metres",
+        "is_correct": true
+      },
+      {
+        "arabic": "متر 60",
+        "english": "60 meters",
+        "french": "60 metres",
+        "is_correct": false
+      },
+      {
+        "arabic": "",
+        "english": "70 meters",
+        "french": "70 metres",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "298",
+    "type": "Safety",
+    "category": "G",
+    "question": {
+      "arabic": "على المشاة اعتماد الأرصفة أو الممرات أو\n الجسور المخصصة لهم ضمن مسافة",
+      "english": "Pedestrians should use pavements and pedestrians crossings and paths when they are at a distance of:",
+      "french": "Les piétons sont tenus à utiliser les chaussées, les ponts et les passages piétons qui sont à une distance de:"
+    },
+    "answers": [
+      {
+        "arabic": "130",
+        "english": "130 meters",
+        "french": "130 metres",
+        "is_correct": false
+      },
+      {
+        "arabic": "150",
+        "english": "150 meters",
+        "french": "150 metres",
+        "is_correct": true
+      },
+      {
+        "arabic": "",
+        "english": "170 meters",
+        "french": "170 metres",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "299",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "عندما تتسبب بحادث ولو مادي",
+      "english": "When the driver causes an accident, and even if damages are material damages only:",
+      "french": "Si le conducteur cause un accident de route, et même lorsque les dégâts sont limités aux dégâts materiels, le conducteur est tenu à:"
+    },
+    "answers": [
+      {
+        "arabic": "يحق للسائق الهروب وعدم\n تحمل المسؤولية",
+        "english": "The driver has the right to flee the scene and avoid responsibility",
+        "french": "Quitter les lieux et fuire toute résponsabilité",
+        "is_correct": false
+      },
+      {
+        "arabic": "متابعة السير",
+        "english": "The driver should carry on driving",
+        "french": "Continuer à rouler",
+        "is_correct": false
+      },
+      {
+        "arabic": "يجب على السائق أن يقف\n ويقوم بالاجراءات المناسبة",
+        "english": "The driver should stop and take care of the victim",
+        "french": "S'arrêter et suivre les modalités appropriées",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "300",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "في حال تعطل أضواء المكابح",
+      "english": "If the brake lights are down:",
+      "french": "Si les feux de freinage ne fontionnent pas:"
+    },
+    "answers": [
+      {
+        "arabic": "تحتجز السيارة",
+        "english": "The car may be impounded",
+        "french": "Le véhicule peut être confisqué",
+        "is_correct": false
+      },
+      {
+        "arabic": "تعتبر المخالفة من الفئة\n الثانية",
+        "english": "This is a Class 2 violation",
+        "french": "Ceci est considéré comme contravention de classe 2",
+        "is_correct": false
+      },
+      {
+        "arabic": "كل ما ورد أعلاه",
+        "english": "All of the above",
+        "french": "Toutes les réponses précédentes sont correctes",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "301",
+    "type": "SAFETY",
+    "category": "G",
+    "question": {
+      "arabic": "يجب أن لا يتعدى عمر الإطارات",
+      "english": "The shelf life of tyres does not exceed:",
+      "french": "La durée de vie maximale du pneu est atteinte:"
+    },
+    "answers": [
+      {
+        "arabic": "أربعة سنوات من تاريخ\n صنعها أو 1.6 ملم سماكة\n الغوما أيهما قبل",
+        "english": "4 years from manufacturing date or 1.6 mm thread thickness, whichever comes first",
+        "french": "à 4 ans depuis sa date de fabrication, ou à une épaisseur de gomme de 1.6 mm lequel arrive en premier",
+        "is_correct": false
+      },
+      {
+        "arabic": "خمسة سنوات من تاريخ\n صنعها أو 1.6 ملم سماكة\n الغوما أيهما بعد",
+        "english": "5 years from manufacturing date or 1.6 mm thread thickness, whichever comes last",
+        "french": "à 5 ans depuis sa date de fabrication, ou à une épaisseur de gomme de 1.6 mm - lequel arrive en premier",
+        "is_correct": false
+      },
+      {
+        "arabic": "است سنوات من تاريخ\n صنعها أو 1.6 ملم سماكة\n الغوما أيهما قبل",
+        "english": "6 years from manufacturing date or 1.6 mm thread thickness, whichever comes first",
+        "french": "à 6 ans depuis sa date de fabrication, ou à une épaisseur de gomme de 1.6 mm lequel arrive en premier",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "302",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "عندما تكون الاشارة الضوئية خضراء أثناء\n ازدحام السير على مستخدمي الطرق",
+      "english": "When the traffic light is green, but traffic is congested, road users should:",
+      "french": "Au feu vert, lors d'un embouteillage, le conducteur doit:"
+    },
+    "answers": [
+      {
+        "arabic": "السير ببطىء لعدم عرقلة\n السير",
+        "english": "Move slowly so as not to obstruct traffic",
+        "french": "Rouler lentement",
+        "is_correct": false
+      },
+      {
+        "arabic": "تجاوز الإشارة الضوئية\n الخضراء بسرعة",
+        "english": "Cross the green light quickly",
+        "french": "Traverser rapidement au feu vert",
+        "is_correct": false
+      },
+      {
+        "arabic": "عدم تجاوز الإشارة الضوئية\n الخضراء لعدم عرقلة السير",
+        "english": "Refrain from crossing the green light if it would obstruct traffic",
+        "french": "S'abstenir de traverser afin de ne pas bloquer la circulation",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "303",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يمكن استعمال وكالة بيع مركبة لمدة لا\n تتعدى",
+      "english": "A power of attorney to sell a vehicle is valid for not more than:",
+      "french": "Une procuration pour la vente d'un véhicule est valide pour une période de:"
+    },
+    "answers": [
+      {
+        "arabic": "الشهر الواحد",
+        "english": "One month",
+        "french": "Un mois",
+        "is_correct": false
+      },
+      {
+        "arabic": "الثلاثة أشهر",
+        "english": "Three months",
+        "french": "Trois mois",
+        "is_correct": false
+      },
+      {
+        "arabic": "الشهرين",
+        "english": "Two months",
+        "french": "Deux mois",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "304",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "الخطوط المتقطعة في وسط الطريق",
+      "english": "A broken line on the road means:",
+      "french": "Les lignes discontinues au milieu de la route:"
+    },
+    "answers": [
+      {
+        "arabic": "يمكن السير عليها",
+        "english": "You can travel on the line",
+        "french": "Peuvent être chevauchées",
+        "is_correct": false
+      },
+      {
+        "arabic": "لا يمكن اجتيازها",
+        "english": "You cannot cross the line",
+        "french": "Ne doivent pas être franchises",
+        "is_correct": false
+      },
+      {
+        "arabic": "يمكن اجتيازها",
+        "english": "You can cross the line",
+        "french": "Peuvent être franchises",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "305",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يحظر تجهيز كافة أنواع المركبات في مقدمتها\n بأضواء",
+      "english": "Vehicles of all types cannot be fitted in the front with lights other than:",
+      "french": "Il est strictement interdit que les feux à l'avant d'un véhicule, soient de couleur autre que:"
+    },
+    "answers": [
+      {
+        "arabic": "من غير اللونين الأزرق أو\n الأصفر",
+        "english": "Blue or yellow",
+        "french": "Le bleu ou le jaune",
+        "is_correct": false
+      },
+      {
+        "arabic": "من غير اللونين الأبيض أو\n الأزرق",
+        "english": "White or blue",
+        "french": "Le blanc ou le bleu",
+        "is_correct": false
+      },
+      {
+        "arabic": "من غير اللونين الأبيض أو\n الأصفر",
+        "english": "White or yellow",
+        "french": "Le blanc ou le jaune",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "306",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "إذا كان المعبد مقسوماً إلى مسلكين مفصولين\n بخطوط صفراء يجب على السائق في حالة\n السير العادي أن:",
+      "english": "If the road is divided into two lanes with a yellow line, the driver should, in normal traffic situation:",
+      "french": "Si la route est divisée en deux voies par une ligne jaune, le conducteur doit, en cas de circulation normale:"
+    },
+    "answers": [
+      {
+        "arabic": "يستعمل المسلك الأوسط",
+        "english": "Use the middle lane",
+        "french": "Circuler au milieu de la route",
+        "is_correct": false
+      },
+      {
+        "arabic": "يستعمل المسلك الأيسر",
+        "english": "Use the left lane",
+        "french": "Circuler à gauche",
+        "is_correct": false
+      },
+      {
+        "arabic": "يستعمل المسلك الأيمن",
+        "english": "Use the right lane",
+        "french": "Circuler à droite",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "307",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "إذا كان المسلك محدداً بخط أصفر متقطع\n محاذ لخط أصفر متواصل",
+      "english": "If the lane is marked with a solid yellow line and a broken yellow line:",
+      "french": "Quand la voie est délimitée par deux lignes jaunes adjacentes, une ligne continue, et une ligne discontinue:"
+    },
+    "answers": [
+      {
+        "arabic": "يمكن اجتياز الخطين من\n ناحية الخط المتواصل\n ويحظر الاجتياز من ناحية\n الخط المتقطع",
+        "english": "The driver can change lane if the solid line is to the right, and cannot change lane if the broken line is to the right",
+        "french": "Le conducteur peut franchir les deux lignes du côté de la ligne continue et ne peut pas les franchir du côté de la ligne discontinue",
+        "is_correct": false
+      },
+      {
+        "arabic": "يحظر اجتياز الخطين من\n ناحية الخط المتقطع\n ويحظر الاجتياز من ناحية\n الخط المتواصل",
+        "english": "The driver cannot change lane if the solid or borken line is to the right",
+        "french": "Le conducteur ne peut pas franchir les deux lignes ni du côté de la ligne discontinue ni du côté de la ligne continue",
+        "is_correct": false
+      },
+      {
+        "arabic": "يمكن اجتياز الخطين من\n ناحية الخط المتقطع ويحظر\n الاجتياز من ناحية الخط\n المتواصل",
+        "english": "The driver can change lane if the broken line is to the right, and cannot change lane if the solid line is to the right",
+        "french": "Le conducteur peut franchir les deux lignes du côté de la ligne discontinue et ne peut pas les franchir du côté de la ligne continue",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "308",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "على السائق أن يعطى أفضلية المرور",
+      "english": "The driver should give the right of way to:",
+      "french": "Le conducteur est tenu de céder la priorité aux:"
+    },
+    "answers": [
+      {
+        "arabic": "للسيارات",
+        "english": "Vehicles",
+        "french": "Voitures",
+        "is_correct": false
+      },
+      {
+        "arabic": "للشاحنات",
+        "english": "Trucks",
+        "french": "Camions",
+        "is_correct": false
+      },
+      {
+        "arabic": "للمشاة",
+        "english": "Pedestrians",
+        "french": "Piétons",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "309",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "في الطرقات ذات الإنحدار القوي حيث\n التلاقي مستحيل تكون أفضلية المرور\n للسيارات",
+      "english": "In steep descents, the right of way goes to:",
+      "french": "Sur les routes à forte pente, la priorité:"
+    },
+    "answers": [
+      {
+        "arabic": "وبحسب شكل الطريق",
+        "english": "It depends on the road itself",
+        "french": "dépend de la route elle même",
+        "is_correct": false
+      },
+      {
+        "arabic": "المتجهة صعوداً",
+        "english": "Vehicles moving upwards",
+        "french": "est donnée au véhicule qui monte",
+        "is_correct": true
+      },
+      {
+        "arabic": "المتجهة نزولاً",
+        "english": "vehicles moving downwards",
+        "french": "est donnée au véhicule qui descend",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "310",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يجب المحافظة دائما على مسافة أمان داخل\n المدن",
+      "english": "Inside cities, you should always keep a safe distance of:",
+      "french": "Dans les villes, il faut maintenir un espace de sécurité:"
+    },
+    "answers": [
+      {
+        "arabic": "ثانية",
+        "english": "1 second",
+        "french": "d'une seconde",
+        "is_correct": false
+      },
+      {
+        "arabic": "مترین",
+        "english": "2 meters",
+        "french": "de deux mètres",
+        "is_correct": false
+      },
+      {
+        "arabic": "ثانيتين",
+        "english": "2 seconds",
+        "french": "de deux secondes",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "311",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "داخل المستديرة تكون دائما الأفضلية",
+      "english": "In entering a roundabout, the right of way is for:",
+      "french": "Dans un rond point, la priorité est toujours:"
+    },
+    "answers": [
+      {
+        "arabic": "للسيارة الأتية من جهة اليسار",
+        "english": "The vehicle on the left",
+        "french": "au véhicule qui arrive de la gauche",
+        "is_correct": false
+      },
+      {
+        "arabic": "للسيارة الأتية من الجهة\n اليمني",
+        "english": "The vehicle on the right",
+        "french": "au véhicule qui arrive de la droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "للسيارة داخل المستديرة",
+        "english": "The vehicle that is already in the roundabout",
+        "french": "au véhicule qui est déjà dans le rond point",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "312",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يمنع التجاوز داخل الأنفاق ذات",
+      "english": "Overtaking is not allowed in:",
+      "french": "Il est interdit de dépasser dans un tunnel"
+    },
+    "answers": [
+      {
+        "arabic": "المتعددة الاتجاهات",
+        "english": "Mutliple lane tunnels",
+        "french": "à plusieurs voies",
+        "is_correct": false
+      },
+      {
+        "arabic": "الاتجاهين",
+        "english": "Double lane tunnels",
+        "french": "à deux vois",
+        "is_correct": false
+      },
+      {
+        "arabic": "الاتجاه الواحد",
+        "english": "Single lane tunnels",
+        "french": "à voie unique",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "313",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "عند وجود أشغال عامة يجب على السائق",
+      "english": "In case of road works, the driver should:",
+      "french": "En cas de travaux publics sur la route, le conducteur doit:"
+    },
+    "answers": [
+      {
+        "arabic": "إضاءة انوار السيارة",
+        "english": "Turn on his vehicle lights",
+        "french": "Allumer les feux",
+        "is_correct": false
+      },
+      {
+        "arabic": "السير بسرعة",
+        "english": "Drive fast",
+        "french": "Accélérer",
+        "is_correct": false
+      },
+      {
+        "arabic": "تخفيف سرعة مركبته",
+        "english": "Reduce speed",
+        "french": "Ralentir",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "314",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يجب جلوس الأطفال دون سن الخامسة على",
+      "english": "Children below the age of five should be seated:",
+      "french": "Les enfants de moins de 5 ans doivent s'asseoir:"
+    },
+    "answers": [
+      {
+        "arabic": "حضن الأهل",
+        "english": "In their parents laps",
+        "french": "Sur les genoux de leurs parents",
+        "is_correct": false
+      },
+      {
+        "arabic": "المقاعد الخلفية",
+        "english": "In the back seats",
+        "french": "Sur le siège arrière",
+        "is_correct": false
+      },
+      {
+        "arabic": "المقاعد المخصصة للأطفال",
+        "english": "In child seats",
+        "french": "Dans un siège auto pour enfant",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "315",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "في حال الإقتراب من تقاطع، تكون الأفضلية\n دائماً للسائق القادم من جهة",
+      "english": "When vehicles are still approaching an intersection, the right of way is always for the driver coming from:",
+      "french": "En approchant d'une intersection, la priorité est toujours au conducteur qui est:"
+    },
+    "answers": [
+      {
+        "arabic": "داخل التقاطع",
+        "english": "Inside the intersection",
+        "french": "Déjà dans l'intersection",
+        "is_correct": false
+      },
+      {
+        "arabic": "اليسار",
+        "english": "The left",
+        "french": "A gauche",
+        "is_correct": false
+      },
+      {
+        "arabic": "اليمين",
+        "english": "The right",
+        "french": "A droite",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "316",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يجب على السائق خلال التجاوز عن دراجة\n هوائية أو دراجة آلية أن لا تقل المسافة\n الجانبية للتجاوز عن",
+      "english": "When overtaking a motorbike, the driver should keep a side distance of no less than:",
+      "french": "En dépassant une bicyclette ou une motocyclette, le conducteur doit maintenir une distance latérale d'au moins:"
+    },
+    "answers": [
+      {
+        "arabic": "65 Cm",
+        "english": "65 CM",
+        "french": "65 Cm",
+        "is_correct": false
+      },
+      {
+        "arabic": "70 Cm",
+        "english": "70 CM",
+        "french": "70 Cm",
+        "is_correct": false
+      },
+      {
+        "arabic": "75 CM",
+        "english": "75 CM",
+        "french": "75 CM",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "317",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يجب على السائق خلال التجاوز عن سيارة او\n مركبة اخرى، أن لا تقل المسافة الجانبية\n للتجاوز عن",
+      "english": "When overtaking another vehicle, the driver should keep a side distance of no less than:",
+      "french": "En dépassant une voiture ou tout autre véhicule, le conducteur doit maintenir une distance latérale d'au moins:"
+    },
+    "answers": [
+      {
+        "arabic": "45 CM",
+        "english": "45 CM",
+        "french": "45 CM",
+        "is_correct": false
+      },
+      {
+        "arabic": "60 CM",
+        "english": "60 CM",
+        "french": "60 CM",
+        "is_correct": false
+      },
+      {
+        "arabic": "50 CM",
+        "english": "50 CM",
+        "french": "50 CM",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "318",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يحظر على السائقين عرقلة سير المركبات من\n خلال",
+      "english": "Drivers are prohibited to obstruct traffic by:",
+      "french": "Il est interdit au conducteur de bloquer la circulation:"
+    },
+    "answers": [
+      {
+        "arabic": "التوقف البطيئ",
+        "english": "Stopping slowly",
+        "french": "en stationnant lentement",
+        "is_correct": false
+      },
+      {
+        "arabic": "السير على الطريق دون\n السرعة المعمول بها",
+        "english": "Travelling below the lower speed limit",
+        "french": "en circulant à une vitesse inférieure à la vitesse de la circulation sur la route",
+        "is_correct": false
+      },
+      {
+        "arabic": "التوقف المفاجئ بدون سبب\n مشروع على المعبد",
+        "english": "Stopping suddenly without a valid reason to do so",
+        "french": "en s'arrêtant soudain sans raison",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "319",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "في حال التلاقي على طريق ذو اتجاهين يكون\n التراجع إلى الوراء :",
+      "english": "When you meet head-on with another vehicle on a two-way road, who should reverse?",
+      "french": "En cas de croisement sur une route à deux sens, qui doit faire la marche arrière?"
+    },
+    "answers": [
+      {
+        "arabic": "للمركبات الثقيلة مقابل\n المركبات المنفردة",
+        "english": "Heavy vehicles for a single vehicle",
+        "french": "Plusieurs poids lourds pour une seule voiture dans le sens opposé",
+        "is_correct": false
+      },
+      {
+        "arabic": "المجموعة المركبات مقابل\n\nالمركبة المنفردة",
+        "english": "A group of vehicles for a single vehicle",
+        "french": "Plusieurs véhicules pour une seule voiture dans le sens opposé",
+        "is_correct": false
+      },
+      {
+        "arabic": "للمركبة المنفردة مقابل\n مجموع المركبات",
+        "english": "A single vehicle for a group of vehicles",
+        "french": "Une seule voiture pour plusieurs voitures dans le sens opposé",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "320",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "في حال كان التقاطع مؤلفاً من ثلاثة تفرعات\n\nتكون أفضلية المرور",
+      "english": "Who has the right of way on a three forked road?",
+      "french": "Qui a la priorité dans une intersection à trois voies?"
+    },
+    "answers": [
+      {
+        "arabic": "للسير على الطريق بحذر\n وبروية",
+        "english": "The driver who proceeds cautiously",
+        "french": "Le conducteur qui roule avec prudence",
+        "is_correct": false
+      },
+      {
+        "arabic": "للسائق الأتي من جهة اليمين",
+        "english": "The driver on the right side",
+        "french": "Le conducteur qui vient de droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "للسائق المتجه على الطريق\n التي يشكل اثنان منهما طريقاً\n مستقيماً",
+        "english": "The driver who is on the straight lane",
+        "french": "Le conducteur qui est sur la voie directe",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "321",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "عند وجود لافتة على اوتوستراد تشير إلى\n تحويلة أو إلى إتجاه نحو طريق آخر، على\n جميع السائقين الذين يريدون الخروج فور\n رؤيتهم هذه اللافتة القيام",
+      "english": "When you see on the freeway a sign that indicates that there is a road diversion or that the lane you are on will lead you to another direction, all drivers wishing to exist the lane should:",
+      "french": "Lorsqu'il voit sur l'autoroute une plaque de signalisation qui indique un détournement de la route, ou une nouvelle direction, le conducteur doit:"
+    },
+    "answers": [
+      {
+        "arabic": "بالإنحراف السريع إلى الوسط\n بحسب إتجاه التحويلة التي\n يرغب سلوكها لعدم عرقلة\n السير",
+        "english": "Swerve very quickly to the lane that will take them to the desired direction to avoid obstructing traffic",
+        "french": "Se ranger rapidement au milieu, selon la direction à suivre",
+        "is_correct": false
+      },
+      {
+        "arabic": "بالإنحراف الفوري إلى إتجاه\n اليمين أو اليسار بحسب\n إتجاه التحويلة التي يرغب\n سلوكها لعدم عرقلة السير",
+        "english": "Swerve immediately left or right to the lane that will take them to the desired direction to avoid obstructing traffic",
+        "french": "Se ranger rapidement vers la gauche ou vers la droite, selon la direction à suivre",
+        "is_correct": false
+      },
+      {
+        "arabic": "بالإنحراف التدريجي إلى إتجاه\n اليمين أو اليسار بحسب\n إتجاه التحويلة التي يرغب\n سلوكها",
+        "english": "Swerve gradually left or right to the lane that will take them to the desired direction",
+        "french": "Se ranger progressivement vers la gauche ou vers la droite , selon la direction à suivre",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "322",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يتوجب استعمال حزام الأمان لمستعملي\n\nالمقاعد",
+      "english": "Seat belts should be fastened by passengers sitting:",
+      "french": "La ceinture de sécurité est obligatoire"
+    },
+    "answers": [
+      {
+        "arabic": "المقاعد الأمامية والخلفية\n على الأوتوسترادات في جميع\n أنواع المركبات",
+        "english": "In the front and back seats when on the highway, in all types of vehicles",
+        "french": "Sur l'auroroute, pour les passagers occupant les sièges avant et arrière, dans tous genres de véhicules",
+        "is_correct": false
+      },
+      {
+        "arabic": "المقاعد الأمامية فقط في\n جميع أنواع المركبات",
+        "english": "In the front seats, in all types of vehicles",
+        "french": "Pour les passagers occupant les sièges avant uniquement, dans tous genres de véhicules",
+        "is_correct": false
+      },
+      {
+        "arabic": "المقاعد الأمامية والخلفية في\n جميع أنواع المركبات على\n جميع الطرقات",
+        "english": "In the front and back seats, in all types of vehicles and on all roads",
+        "french": "Pour les passagers occupant les sièges avant et arrière, dans tous genres de véhicules et sur toutes les routes",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "323",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "اذا كانت يد رجل الأمن مرفوعة عامودياً",
+      "english": "When the traffic policeman lifts his hand vertically, it means:",
+      "french": "Si la main du gendarme est levée vers le haut (verticalement), cela signifie:"
+    },
+    "answers": [
+      {
+        "arabic": "تعني هذه الإشارة أبطىء\n\nالسرعة",
+        "english": "You have to slow down",
+        "french": "Ralentissez rapidement",
+        "is_correct": false
+      },
+      {
+        "arabic": "تعني هذه الإشارة انتباه هناك\n سير متوقف",
+        "english": "Traffic ahead has come to a halt",
+        "french": "Attention, la circulation est bloquée",
+        "is_correct": false
+      },
+      {
+        "arabic": "تعني هذه الإشارة (حذار\n قف لكل مستخدمي الطريق",
+        "english": "\"Careful and stop\" to all road users",
+        "french": "Attention, arrêtez-vous (s'applique à tous les usagers de la route)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "324",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "اذا كانت يدا رجل الأمن ممدودتين أفقياً",
+      "english": "When the traffic policeman's both hands are stretched horizontally, it means:",
+      "french": "Si les deux bras du gendarme sont tendus horizontalement, cela signifie:"
+    },
+    "answers": [
+      {
+        "arabic": "تعني هذه الإشارة (تمهل)\n الكل مستخدمي الطريق\n القادمين من إتجاهات\n تتقاطع مع إتجاهات اليد أو\n اليدين الممدودتي",
+        "english": "\"Slow down\" -- for all road users coming from directions that cross with the strecthed hands directions",
+        "french": "Ralentissez, s'applique à tous les usagers de la route qui viennent des deux sens qui se croisent avec les bras du gendarme",
+        "is_correct": false
+      },
+      {
+        "arabic": "تعني هذه الإشارة (افساح\n المجال لكل مستخدمي\n الطريق القادمين من\n إتجاهات تتقاطع مع\n إتجاهات اليد أو اليدين\n الممدودتين",
+        "english": "\"Make Way\" -- for all road users coming from directions that cross with the strecthed hands directions",
+        "french": "Cédez la voie, s'applique à tous les usagers de la route qui viennent des deux sens qui se croisent avec les bras du gendarme",
+        "is_correct": false
+      },
+      {
+        "arabic": "تعني هذه الإشارة التوقف\n الكل مستخدمي الطريق\n القادمين من إتجاهات\n تتقاطع مع إتجاهات اليد أو\n اليدين الممدودتين",
+        "english": "\"Stop\" -- for all road users coming from directions that cross with the strecthed hands directions",
+        "french": "Arrêtez-vous, s'applique à tous les usagers de la route qui viennent des deux sens qui se croisent avec les bras du gendarme",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "325",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يجب أن تزود كل مركبة",
+      "english": "Every vehicle should be fitted with",
+      "french": "Tout véhicule doit être muni:"
+    },
+    "answers": [
+      {
+        "arabic": "بلوحة تسجيل من الخلف",
+        "english": "A registration plate at the back side of the vehicle",
+        "french": "D'une plaque d'immatriculation arrière",
+        "is_correct": false
+      },
+      {
+        "arabic": "بلوحتي تسجيل تحملان\n رقم تسجيل المركبة في الأمام\n أو الخلف",
+        "english": "Two registration plates with the vehicle number, at front or back side of the vehicles",
+        "french": "De deux plaques d'immatriculation à l'avant ou à l'arrière, portant le numéro d'enregistrement du véhicule",
+        "is_correct": false
+      },
+      {
+        "arabic": "بلوحتي التسجيل تحملان\n رقم تسجيل المركبة في الأمام\n والخلف",
+        "english": "Two registration plates with the vehicle number, at the front and back sides of the vehicles",
+        "french": "D'une plaque d'immatriculation à l'avant et d'une autre à l'arrière portant le numéro d'enregistrement du véhicule",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "326",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "على السائق تجديد رخصة السوق\n الخصوصية حتى سن الـ ٥٠ كل :",
+      "english": "Up until the age of 50, the driver should renew his driving license, every",
+      "french": "Jusqu'à l'âge de 50 ans, le conducteur de véhicules privés doit renouveler son permis de conduire :"
+    },
+    "answers": [
+      {
+        "arabic": "سنة 20",
+        "english": "20 years",
+        "french": "Tous les 20 ans",
+        "is_correct": false
+      },
+      {
+        "arabic": "سنوات 5",
+        "english": "5 years",
+        "french": "Tous les 5 ans",
+        "is_correct": false
+      },
+      {
+        "arabic": "سنوات 10",
+        "english": "10 years",
+        "french": "Tous les 10 ans",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "327",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يحظر استعمال المنبهات الصوتية إلا في\n الحالات الآتية:",
+      "english": "Warning sounds can be used only:",
+      "french": "Il est permis au conducteur d'utiliser une alarme sonore uniquement:"
+    },
+    "answers": [
+      {
+        "arabic": "التنبيه السائقين الآخرين\n بوجوب التحرك بسرعة",
+        "english": "To alert other drivers that they should move quickly",
+        "french": "Pour dire aux autres conducteurs qu'il faut aller plus vite",
+        "is_correct": false
+      },
+      {
+        "arabic": "التفادي زحمة السير الخانقة",
+        "english": "To escape heavy traffic",
+        "french": "Pour éviter les embouteillages",
+        "is_correct": false
+      },
+      {
+        "arabic": "اعطاء مستخدمي الطريق\n الآخرين التنبيهات الضرورية\n التفادي وقوع الحوادث",
+        "english": "To alarm other road users so as to avoid accidents",
+        "french": "Pour éviter les accidents",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "328",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "في حال عدم وجود لافتات أو علامات النزول\n\nمن السيارة",
+      "english": "In case there is no sign that indicates which side of the vehicle should be used to step out of the vehicle",
+      "french": "En cas d'absence d'un panneau qui indique de quel côté sortir de la voiture:"
+    },
+    "answers": [
+      {
+        "arabic": "عليه النزول أو الصعود من\n الجهة التي يراها مناسبة\n وأسهل لحركته",
+        "english": "The passenger should step out from the side that is easier for his movement and that he deems appropriate",
+        "french": "il faut sortir / monter du côté le plus convenable",
+        "is_correct": false
+      },
+      {
+        "arabic": "عليه النزول أو الصعود من\n الجهة اليسرى لوجهته",
+        "english": "The passenger should step in and out of the vehicle from the door that is on the same side of traffic",
+        "french": "il faut sortir / monter du côté gauche du véhicule",
+        "is_correct": false
+      },
+      {
+        "arabic": "عليه النزول أو الصعود من\n الجهة اليمنى لوجهته",
+        "english": "The passenger should step in and out of the vehicle from the door that is on the other side of traffic",
+        "french": "il faut sortir / monter du côté droit du véhicule",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "329",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "اذا قام السائق بإنزال الذراع واصعادها إلى\n جانب المركبة تعنى:",
+      "english": "When the driver waives his hand up and down, it means:",
+      "french": "Lorque le conducteur bouge sa main vers le haut et vers le bas, cela signifie:"
+    },
+    "answers": [
+      {
+        "arabic": "السيارة معطلة",
+        "english": "Car brekadown",
+        "french": "que la voiture est en panne",
+        "is_correct": false
+      },
+      {
+        "arabic": "الإتحاه إلى اليسار",
+        "english": "Direction to the left",
+        "french": "qu'il se dirige vers la gauche",
+        "is_correct": false
+      },
+      {
+        "arabic": "تخفيف السرعة والتوقف",
+        "english": "Slow down and stop",
+        "french": "Ralentis et arrêtes-toi",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "330",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "اذا قام السائق بمد الذراع بشكل مستقيم أفقياً\n\nتعني",
+      "english": "When the driver streches his hand horizontally, it means the driver is:",
+      "french": "Lorsque le conducteur tend sa main horizontalement, cela signifie:"
+    },
+    "answers": [
+      {
+        "arabic": "الاتجاه للوراء",
+        "english": "Reversing",
+        "french": "qu'il veut faire marche arrière",
+        "is_correct": false
+      },
+      {
+        "arabic": "إشارة للسيارات بان السائق\n يخفف السرعة",
+        "english": "Slowing down",
+        "french": "qu'il ralentit",
+        "is_correct": false
+      },
+      {
+        "arabic": "الإتجاه لليسار",
+        "english": "Turning left",
+        "french": "qu'il se dirige vers la gauche",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "331",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "اذا قام السائق برفع الذراع عامودياً تعني",
+      "english": "When the driver streches his hand vertically, it means:",
+      "french": "Lorsque le conducteur lève sa main vers le haut, cela signifie:"
+    },
+    "answers": [
+      {
+        "arabic": "التوقف",
+        "english": "Stop",
+        "french": "qu'il s'arrête",
+        "is_correct": false
+      },
+      {
+        "arabic": "الاتجاه إلى اليسار",
+        "english": "Direction to the left",
+        "french": "qu'il se dirige vers la gauche",
+        "is_correct": false
+      },
+      {
+        "arabic": "الإتجاه إلى اليمين",
+        "english": "Direction to the right",
+        "french": "qu'il se dirige vers la droite",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "332",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يُسمح بعبور الإشارة الحمراء للمركبات\n المتجهة يميناً شريطة",
+      "english": "Vehicles turning right can cross a red light provided:",
+      "french": "Les véhicules qui se dirigent vers la droite peuvent franchir un feu rouge à condition:"
+    },
+    "answers": [
+      {
+        "arabic": "السير بسرعة",
+        "english": "They do it quickly",
+        "french": "que le conducteur le fasse rapidement",
+        "is_correct": false
+      },
+      {
+        "arabic": "لا يسمح للسيارات المتجهة\n إلى اليمين بعبور الاشارة\n الحمراء",
+        "english": "Vehicles turning right cannot cross a red light",
+        "french": "Il est absolument interdit aux véhicules qui se dirigent vers la droite de franchir un feu rouge",
+        "is_correct": false
+      },
+      {
+        "arabic": "التوقف عند الإشارة ومن ثم\n تأمين العبور دون تعريض\n المشاة وحركات السير الأخرى\n الأي خطر",
+        "english": "They stop at the traffic light, make sure they can cross without putting pedestrians and vehicles at risk",
+        "french": "que le conducteur s'arrête et vérifie qu'il peut le faire sans aucun danger sur les piétons et la circulation",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "333",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "عند وجود خطوط طويلة متواصلة",
+      "english": "When the road is marked with solid lines:",
+      "french": "Quand la voie est marquée par une ligne contine,"
+    },
+    "answers": [
+      {
+        "arabic": "يسمح اجتيازها لكن شرط\n الانتقال بسرعة",
+        "english": "The driver can change lanes, but has to do it quickly",
+        "french": "Il est permis de franchir la ligne à condition que le conducteur le fasse rapidement",
+        "is_correct": false
+      },
+      {
+        "arabic": "يسمح إجتيازها إلى المسلك\n أو المسرب المجاور بحذر\n بعد تأمين الطريق",
+        "english": "The driver can change lanes, provided he makes sure there is enough gap in the other lane",
+        "french": "Il est permis de franchir la ligne pour passer d'une file à une autre, à condition que le conducteur franchisse prudemment",
+        "is_correct": false
+      },
+      {
+        "arabic": "يمنع إجتيازها إلى المسلك أو\n المسرب المجاور",
+        "english": "The driver cannot change lanes",
+        "french": "Il est interdit de franchir la ligne pour passer d'une file à une autre",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "334",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يحظر وضع الأطفال بالمقاعد الأمامية دون\n عمر",
+      "english": "Children under ____ cannot sit in the front seat:",
+      "french": "Les sièges à l'avant sont interdits aux enfants de moins de:"
+    },
+    "answers": [
+      {
+        "arabic": "سنوات 10",
+        "english": "10 years",
+        "french": "10 ans",
+        "is_correct": true
+      },
+      {
+        "arabic": "سنة 12",
+        "english": "12 years",
+        "french": "12 ans",
+        "is_correct": false
+      },
+      {
+        "arabic": "سنوات 8",
+        "english": "8 years",
+        "french": "8 ans",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "335",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يحظر على أي كان رمي أي شيء من السيارة\n لأنها:",
+      "english": "It is strictly prohibited to throw stuff from the vehicle as this would:",
+      "french": "Il est interdit de jeter quoi que ce soit de la voiture parce ça risque:"
+    },
+    "answers": [
+      {
+        "arabic": "تسبب بعرقلة عمل رجال\n الأمن",
+        "english": "Obstruct policemen",
+        "french": "Déranger la police routière dans son travail",
+        "is_correct": false
+      },
+      {
+        "arabic": "تسبب بإزالة علامات سطح\n الطريق",
+        "english": "Cause road markings to fade away",
+        "french": "D'effacer le marquage du sol",
+        "is_correct": false
+      },
+      {
+        "arabic": "تسبب\n الحوادث وتسد\n مسارب\n المياه",
+        "english": "Cause accidents, and clog water drainage system",
+        "french": "De causer des accidents routiers, et de bloquer les drainages",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "336",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "ما هو الفرق بين الخطوط البيضاء والصفراء في\n منتصف الطريق ؟",
+      "english": "What is the difference between yellow lines and white lines when they are in the middle of the road?",
+      "french": "Quelle est la différence entre une ligne blanche et une ligne jaune au milieu de la route?"
+    },
+    "answers": [
+      {
+        "arabic": "الخطوط الصفراء توضع\n فقط على طرف الطريق في\n حين البيضاء هي للفصل بين\n\nالسيارات",
+        "english": "Yellow lines are used on road sides only, whereas white lines are used to mark vehicle lanes",
+        "french": "On utilise les lignes jaunes sur les bords de la route alors qu'on utilise les lignes blanches pour délimiter les voies",
+        "is_correct": false
+      },
+      {
+        "arabic": "الخطوط الصفراء تكون\n الوجهة سير واحدة\n والخطوط البيضاء لوجهتين\n\nمعاكستين",
+        "english": "Yellow lines are used for one-way roads whereas white lines are used for two-way streets",
+        "french": "On utilise les lignes jaunes sur les routes à sens unique et les lignes blances sur les routes à deux sens",
+        "is_correct": false
+      },
+      {
+        "arabic": "الخطوط البيضاء تفصل\n السيارات المتجهة بنفس\n الإتجاه في حين الصفراء\n تفصل السيارات التي تسير\n بوجهتين معاكستين",
+        "english": "White lines demarcate lanes that go in the same direction, yellow lines are demarcate lanes that go in opposite directions",
+        "french": "On utilise les lignes blanches pour délimiter les voies allant dans un même sens, et on utilise les lignes jaunes pour délimiter deux voies allant dans deux sens opposés",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "337",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يمنع الوقوف والتوقف على رؤوس المرتفعات\n وعلى المنعطفات والتقاطعات والمستديرات\n والإشارات الضوئية حتى مسافة",
+      "english": "Drivers cannot stop and park within a distance of _____ from the top edge of ascent, curb, intersection, roundabout, and traffic light",
+      "french": "Il est interdit de s'arrêter et de stationner à une distance de moins de des sommets des montées, des virages, des intersections, des ronds points, et des feux."
+    },
+    "answers": [
+      {
+        "arabic": "متر 50",
+        "english": "50 meters",
+        "french": "50 mètres",
+        "is_correct": false
+      },
+      {
+        "arabic": "متر 30",
+        "english": "30 meters",
+        "french": "30 mètres",
+        "is_correct": false
+      },
+      {
+        "arabic": " ",
+        "english": "25 meters",
+        "french": "25 mètres",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "338",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يحظر على سائق المركبة",
+      "english": "Drivers are strictly prohibited to:",
+      "french": "Il est interdit au conducteur de:"
+    },
+    "answers": [
+      {
+        "arabic": "نقل زجاجات أو عبوات\n كحول منتهية الصلاحية",
+        "english": "Transport expired bottles or cans o alcohol",
+        "french": "Transporter dans son véhicule des bouteilles d'alcool ayant dépassé la date d'expiration",
+        "is_correct": false
+      },
+      {
+        "arabic": "نقل زجاجات أو عبوات\n كحول مقفلة من\n داخل المركبة\n\nمصنعها",
+        "english": "Transport in their vehicles bottles or cans of alcohol that have the manufacturer seal",
+        "french": "Transporter dans son véhicule des bouteilles d'alcool scellées par le fabricant",
+        "is_correct": false
+      },
+      {
+        "arabic": "نقل زجاجات أو عبوات\n كحول غير مقفلة من\n\nمصنعها داخل المركبة",
+        "english": "Transport in their vehicles unsealed bottles or cans of alcohol",
+        "french": "Transporter dans son véhicule des bouteilles d'alcool non scellées par le fabricant",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "339",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "على المركبات التوقف أو الوقوف",
+      "english": "Drivers should stop and park:",
+      "french": "Le conducteur doit s'arrêter ou stationner:"
+    },
+    "answers": [
+      {
+        "arabic": "على الخطوط البيضاء\n المخصصصة لعبور المشاة",
+        "english": "On white pedestrian crossing stripes",
+        "french": "Sur les lignes blanches des passages piétons",
+        "is_correct": false
+      },
+      {
+        "arabic": "بعد الخطوط البيضاء\n المخصصصة لعبور المشاة",
+        "english": "After white pedestrian crossing stripes",
+        "french": "Après les lignes blanches des passages piétons",
+        "is_correct": false
+      },
+      {
+        "arabic": "قبل الخطوط البيضاء\n المخصصصة لعبور المشاة",
+        "english": "Before white pedestrian crossing stripes",
+        "french": "Avant les lignes blanches des passages piétons",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "340",
+    "type": "Law",
+    "category": "G",
+    "question": {
+      "arabic": "يحظر على سائق المركبة",
+      "english": "Drivers are strictly prohibited to:",
+      "french": "Il est interdit au conducteur de:"
+    },
+    "answers": [
+      {
+        "arabic": "تجاوز الخطوط المتقطعة\n البيضاء",
+        "english": "Cross white broken lines",
+        "french": "Franchir les lignes blanches discontinues",
+        "is_correct": false
+      },
+      {
+        "arabic": "السير بين الخطوط البيضاء",
+        "english": "Travel between white lines",
+        "french": "Circuler entre les lignes blanches",
+        "is_correct": false
+      },
+      {
+        "arabic": "السير على الخطوط البيضاء",
+        "english": "Travel on white lines",
+        "french": "Rouler sur les lignes blanches",
+        "is_correct": true
+      }
+    ]
   }
 ];
