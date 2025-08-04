@@ -35,60 +35,68 @@ class _QuestionsPageState extends State<QuestionsPage> {
 
 
   void generateQuestions() {
-    questionsData = [];
-    List<String> selectedCategories = [];
-    if(catBCSelected) {
-      selectedCategories.add("BC");
-    }
-    if(catASelected) {
-      selectedCategories.add("A");
-    }
-    if(catCSelected) {
-      selectedCategories.add("C");
-    }
-    if(catGSelected) {
-      selectedCategories.add("G");
-    }
-    for(int i = 0; i < questions.length; i++) {
-      Question questionObj = Question.fromJson(questions[i]);
-      if(selectedCategories.contains(questionObj.category)){
-        questionsData.add(questionObj);
+    try {
+      questionsData = [];
+      List<String> selectedCategories = [];
+      if(catBCSelected) {
+        selectedCategories.add("BC");
       }
-    }
-    if(radioSelection=="RQ") {
+      if(catASelected) {
+        selectedCategories.add("A");
+      }
+      if(catCSelected) {
+        selectedCategories.add("C");
+      }
+      if(catGSelected) {
+        selectedCategories.add("G");
+      }
+      for(int i = 0; i < questions.length; i++) {
+        Question questionObj = Question.fromJson(questions[i]);
+        if(selectedCategories.contains(questionObj.category)){
+          questionsData.add(questionObj);
+        }
+      }
+      if(radioSelection=="RQ") {
         if(questionsData.isNotEmpty) {
           toAskQuestions = getRandomUniqueItems(questionsData,rQNumber);
         }
-    }
-    else if(radioSelection=="CQ") {
-      if(questionsData.isNotEmpty) {
-        List<Question> onlySignsQuestion   = questionsData.where((q) => q.type == "Signs").toList();
-        if(onlySignsQuestion.isNotEmpty){
-          List<Question> randomSignsQuestion = getRandomUniqueItems(onlySignsQuestion,signsNumber);
-          toAskQuestions.addAll(randomSignsQuestion);
-        }
-
-        List<Question> onlyLawQuestion   = questionsData.where((q) => q.type == "Law").toList();
-        if(onlyLawQuestion.isEmpty) {
-          List<Question> randomLawQuestion = getRandomUniqueItems(onlyLawQuestion,lawNumber);
-          toAskQuestions.addAll(randomLawQuestion);
-        }
-
-        List<Question> onlySafetyQuestion   = questionsData.where((q) => q.type == "Safety").toList();
-        if(onlySafetyQuestion.isNotEmpty){
-          List<Question> randomSafetyQuestion = getRandomUniqueItems(onlySafetyQuestion,safetyNumber);
-          toAskQuestions.addAll(randomSafetyQuestion);
-        }
-
-
-        List<Question> onlyEDQuestion   = questionsData.where((q) => q.type == "ED").toList();
-        if(onlyEDQuestion.isNotEmpty){
-          List<Question> randomEDQuestion = getRandomUniqueItems(onlyEDQuestion,edNumber);
-          toAskQuestions.addAll(randomEDQuestion);
-        }
-
-        toAskQuestions.shuffle();
       }
+      else if(radioSelection=="CQ") {
+        if(questionsData.isNotEmpty) {
+          List<Question> onlySignsQuestion   = questionsData.where((q) => q.type == "Signs").toList();
+          if(onlySignsQuestion.isNotEmpty){
+            List<Question> randomSignsQuestion = getRandomUniqueItems(onlySignsQuestion,signsNumber);
+            toAskQuestions.addAll(randomSignsQuestion);
+          }
+
+          List<Question> onlyLawQuestion   = questionsData.where((q) => q.type == "Law").toList();
+          if(onlyLawQuestion.isEmpty) {
+            List<Question> randomLawQuestion = getRandomUniqueItems(onlyLawQuestion,lawNumber);
+            toAskQuestions.addAll(randomLawQuestion);
+          }
+
+          List<Question> onlySafetyQuestion   = questionsData.where((q) => q.type == "Safety").toList();
+          if(onlySafetyQuestion.isNotEmpty){
+            List<Question> randomSafetyQuestion = getRandomUniqueItems(onlySafetyQuestion,safetyNumber);
+            toAskQuestions.addAll(randomSafetyQuestion);
+          }
+
+
+          List<Question> onlyEDQuestion   = questionsData.where((q) => q.type == "ED").toList();
+          if(onlyEDQuestion.isNotEmpty){
+            List<Question> randomEDQuestion = getRandomUniqueItems(onlyEDQuestion,edNumber);
+            toAskQuestions.addAll(randomEDQuestion);
+          }
+
+          toAskQuestions.shuffle();
+        }
+      }
+    }
+    catch (e) {
+      print("Error: $e");
+      Future.delayed(const Duration(seconds: 1), () {
+        Get.offAll(()=> HomePage());
+      });
     }
   }
 
