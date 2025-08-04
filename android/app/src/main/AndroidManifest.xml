@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="driving_license_exam"
+        android:label="Drive Ready License Preparation"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

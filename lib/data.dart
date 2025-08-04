@@ -1774,25 +1774,25 @@ List questions = [
     "type": "Law",
     "category": "G",
     "question": {
-      "arabic": "الموجودة داخل المستديرة يلزم القانون مجمل السائقين باعطاء الافضلية للمركبات",
+      "arabic": "يلزم القانون مجمل السائقين باعطاء الافضلية للمركبات",
       "english": "By law, the driver should yield the right of way to:",
       "french": "Selon la loi, le conducteur doit céder la priorité:"
     },
     "answers": [
       {
-        "arabic": "الداخلة الى المستديرة",
+        "arabic": "الموجودة داخل المستديرة",
         "english": "Vehicles that are already in the roundabout",
         "french": "Au véhicule qui est déjà dans le rond point",
         "is_correct": true
       },
       {
-        "arabic": "الموجودة الى يمين المركبة",
+        "arabic": "الداخلة الى المستديرة",
         "english": "Vehicles that are entering a roundabout",
         "french": "Au véhicule qui prend le rond point",
         "is_correct": false
       },
       {
-        "arabic": " الموجودة الى يمي المر كبة",
+        "arabic": " الموجودة الى يمين المركبة",
         "english": "Vehicles located to the right of the vehicle",
         "french": "Au véhicule à sa droite",
         "is_correct": false
@@ -9021,19 +9021,19 @@ List questions = [
     },
     "answers": [
       {
-        "arabic": "130",
+        "arabic": "130 meters",
         "english": "130 meters",
         "french": "130 metres",
         "is_correct": false
       },
       {
-        "arabic": "150",
+        "arabic": "150 meters",
         "english": "150 meters",
         "french": "150 metres",
         "is_correct": true
       },
       {
-        "arabic": "",
+        "arabic": "170 meters",
         "english": "170 meters",
         "french": "170 metres",
         "is_correct": false
