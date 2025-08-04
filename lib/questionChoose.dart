@@ -205,7 +205,7 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
                                             }
                                           }
                                           else {
-                                            rQNumber=0;
+                                            rQNumber=-1;
                                           }
                                         },
                                       ),
@@ -277,7 +277,7 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
                                             }
                                           }
                                           else {
-                                            signsNumber=0;
+                                            signsNumber=-1;
                                           }
                                         },
                                       ),
@@ -297,13 +297,12 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
                                               lawNumber = a;
                                             }
                                             else {
-                                              lawTF.text = lawQuestionsData.length
-                                                  .toString();
+                                              lawTF.text = lawQuestionsData.length.toString();
                                               showExceedNumberDialog();
                                             }
                                           }
                                           else {
-                                            lawNumber=0;
+                                            lawNumber=-1;
                                           }
                                         },
                                       ),
@@ -327,7 +326,7 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
                                             }
                                           }
                                           else {
-                                            safetyNumber=0;
+                                            safetyNumber=-1;
                                           }
 
                                         },
@@ -353,7 +352,7 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
                                             }
                                           }
                                           else {
-                                            edNumber=0;
+                                            edNumber=-1;
                                           }
                                         },
                                       ),
@@ -441,7 +440,7 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
               isContinue:true,
               onTap:(){
                 if(radioSelection=="RQ"){
-                  if(rQNumber==0){
+                  if(rQNumber==-1){
                     showErrorDialog(
                         title:"Choose Random Questions",
                         description:"You have to choose a number of random questions to continue."
@@ -452,37 +451,37 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
                   }
                 }
                 else if(radioSelection=="CQ"){
-                  if(signsNumber==0){
+                  if(signsNumber==-1){
                     showErrorDialog(
                         title:"Choose Signs Questions",
                         description:"You have to choose a number of signs questions to continue."
                     );
                   }
-                  else if(lawNumber==0){
+                  else if(lawNumber==-1){
                     showErrorDialog(
                         title:"Choose Law Questions",
                         description:"You have to choose a number of law questions to continue."
                     );
                   }
-                  else if(safetyNumber==0){
+                  else if(safetyNumber==-1){
                     showErrorDialog(
                         title:"Choose Safety Questions",
                         description:"You have to choose a number of safety questions to continue."
                     );
                   }
-                  else if(lawNumber==0){
+                  else if(lawNumber==-1){
                     showErrorDialog(
                         title:"Choose Law Questions",
                         description:"You have to choose a number of Law questions to continue."
                     );
                   }
-                  else if(safetyNumber==0){
+                  else if(safetyNumber==-1){
                     showErrorDialog(
                         title:"Choose Safety Questions",
                         description:"You have to choose a number of Safety questions to continue."
                     );
                   }
-                  else if(edNumber==0){
+                  else if(edNumber==-1){
                     showErrorDialog(
                         title:"Choose ED Questions",
                         description:"You have to choose a number of ED questions to continue."

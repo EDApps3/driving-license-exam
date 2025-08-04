@@ -30,9 +30,11 @@ class QuestionsPage extends StatefulWidget {
 }
 
 class _QuestionsPageState extends State<QuestionsPage> {
-  List toAskQuestions = [];
+  List<Question> toAskQuestions = [];
   int rightAnswers = 0;
   bool proceed=false;
+  bool wrongAnswersOnly = false;
+  List<Question> mainAllList = [];
 
 
   void generateQuestions() {
@@ -64,26 +66,26 @@ class _QuestionsPageState extends State<QuestionsPage> {
       }
       else if(radioSelection=="CQ") {
         if(questionsData.isNotEmpty) {
-          List<Question> onlySignsQuestion   = questionsData.where((q) => q.type == "Signs").toList();
+          List<Question> onlySignsQuestion   = signQuestionsData.where((q) => selectedCategories.contains(q.category)).toList();
           if(onlySignsQuestion.isNotEmpty){
             List<Question> randomSignsQuestion = getRandomUniqueItems(onlySignsQuestion,signsNumber);
             toAskQuestions.addAll(randomSignsQuestion);
           }
 
-          List<Question> onlyLawQuestion   = questionsData.where((q) => q.type == "Law").toList();
-          if(onlyLawQuestion.isEmpty) {
+          List<Question> onlyLawQuestion   = lawQuestionsData.where((q) => selectedCategories.contains(q.category)).toList();
+          if(onlyLawQuestion.isNotEmpty) {
             List<Question> randomLawQuestion = getRandomUniqueItems(onlyLawQuestion,lawNumber);
             toAskQuestions.addAll(randomLawQuestion);
           }
 
-          List<Question> onlySafetyQuestion   = questionsData.where((q) => q.type == "Safety").toList();
+          List<Question> onlySafetyQuestion   = safetyQuestionsData.where((q) => selectedCategories.contains(q.category)).toList();
           if(onlySafetyQuestion.isNotEmpty){
             List<Question> randomSafetyQuestion = getRandomUniqueItems(onlySafetyQuestion,safetyNumber);
             toAskQuestions.addAll(randomSafetyQuestion);
           }
 
 
-          List<Question> onlyEDQuestion   = questionsData.where((q) => q.type == "ED").toList();
+          List<Question> onlyEDQuestion   = edQuestionsData.where((q) => selectedCategories.contains(q.category)).toList();
           if(onlyEDQuestion.isNotEmpty){
             List<Question> randomEDQuestion = getRandomUniqueItems(onlyEDQuestion,edNumber);
             toAskQuestions.addAll(randomEDQuestion);
@@ -107,6 +109,29 @@ class _QuestionsPageState extends State<QuestionsPage> {
     super.initState();
   }
 
+  void showOnlyWrongAnswers() {
+    if(wrongAnswersOnly==true){
+      List<Question> wrongQuestions = [];
+      for(int i = 0; i < toAskQuestions.length; i++) {
+        bool hasWrongAnswer = false;
+        for(int j = 0; j < toAskQuestions[i].answers.length; j++) {
+          if(toAskQuestions[i].answers[j].isSelected && !toAskQuestions[i].answers[j].isCorrect) {
+            hasWrongAnswer = true;
+            break;
+          }
+        }
+        if(hasWrongAnswer) {
+          wrongQuestions.add(toAskQuestions[i]);
+        }
+      }
+      toAskQuestions = wrongQuestions;
+    }
+    else {
+      toAskQuestions = mainAllList;
+    }
+    setState(() {});
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -124,13 +149,11 @@ class _QuestionsPageState extends State<QuestionsPage> {
                     mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment:(selectedLanguage=="Arabic")?CrossAxisAlignment.end: CrossAxisAlignment.start,
                     children: [
-                
+
                       SizedBox(
                         height:40,
                       ),
 
-                  
-                  
                       for(int i=0;i<toAskQuestions.length;i++)
                         Padding(
                           padding: const EdgeInsets.all(8.0),
@@ -182,7 +205,7 @@ class _QuestionsPageState extends State<QuestionsPage> {
                                       toAskQuestions[i].answers[j].english,
                                       isSelected: toAskQuestions[i].answers[j].isSelected,
                                       selectedColor:(toAskQuestions[i].answers[j].isCorrect && proceed==true)?Colors.green:(
-                                      proceed==true && toAskQuestions[i].answers[j].isSelected?Colors.red:null
+                                          proceed==true && toAskQuestions[i].answers[j].isSelected?Colors.red:null
                                       ),
                                       onTap: () {
                                         toAskQuestions[i].clearSelections(); // Clear previous selections
@@ -198,15 +221,16 @@ class _QuestionsPageState extends State<QuestionsPage> {
                             ),
                           ),
                         )
-                  
-                  
-                  
-                  
-                  
+
+
+
+
+
                     ],
                   ),
                 ),
               ),
+
               (proceed==false)?SelectionSquare(
                 text: "",
                 isSelected:false,
@@ -228,37 +252,57 @@ class _QuestionsPageState extends State<QuestionsPage> {
                   Get.dialog(
                       barrierDismissible: false,
                       AlertDialog(
-                    title: Text("Results"),
-                    content: Text("You answered $rightAnswers out of ${toAskQuestions.length} questions correctly."),
-                    actions: [
-                      SelectionSquare(
-                        text: "Close",
-                        isSelected: false,
-                        onTap: () {
-                          Get.close(
-                              closeAll:true
-                          );
-                        },
-                      ),
-                      SelectionSquare(
-                        text: "OK",
-                        isSelected: false,
-                        isContinue: true,
-                        onTap: () {
-                          Get.offAll(()=>HomePage());
-                        },
-                      ),
+                        title: Text("Results"),
+                        content: Text("You answered $rightAnswers out of ${toAskQuestions.length} questions correctly."),
+                        actions: [
+                          SelectionSquare(
+                            text: "Close",
+                            isSelected: false,
+                            onTap: () {
+                              Get.close(
+                                  closeAll:true
+                              );
+                            },
+                          ),
+                          SelectionSquare(
+                            text: "OK",
+                            isSelected: false,
+                            isContinue: true,
+                            onTap: () {
+                              Get.offAll(()=>HomePage());
+                            },
+                          ),
 
-                    ],
-                  ));
+                        ],
+                      ));
+                  mainAllList = toAskQuestions;
                 },
-              ):SelectionSquare(
-                text: "Home",
-                isSelected:false,
-                onTap:(){
-                  Get.offAll(()=>HomePage());
-                },
-              )
+              ):SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  children: [
+                    SelectionSquare(
+                      text: "Home",
+                      isSelected:false,
+                      onTap:(){
+                        Get.offAll(()=>HomePage());
+                      },
+                    ),
+                    SelectionSquare(
+                      text: (wrongAnswersOnly==true)?"Wrong Answers Only":"All Answers",
+                      isSelected:false,
+                      onTap:(){
+                        setState(() {
+                          wrongAnswersOnly = !wrongAnswersOnly;
+                        });
+                        showOnlyWrongAnswers();
+
+                      },
+                    ),
+                  ],
+                ),
+              ),
+
             ],
           ),
         ),
