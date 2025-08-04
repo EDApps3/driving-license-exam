@@ -367,27 +367,8 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
                         ),
                       ),
 
-
-
-
-
                       Divider(),
 
-                      Text(
-                          catASelected.toString()
-                      ),
-
-                      Text(
-                          catBCSelected.toString()
-                      ),
-
-                      Text(
-                          catCSelected.toString()
-                      ),
-
-                      Text(
-                          catGSelected.toString()
-                      ),
 
                       Padding(
                         padding: const EdgeInsets.all(8.0),
