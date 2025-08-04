@@ -150,10 +150,10 @@ class _QuestionsPageState extends State<QuestionsPage> {
                                 crossAxisAlignment:(selectedLanguage=="Arabic")?CrossAxisAlignment.end: CrossAxisAlignment.start,
                                 children: [
                                   Text(
-                                    "Question ${i+1} - #${toAskQuestions[i].id} - Cat ${toAskQuestions[i].category}",
+                                    "Question ${i+1} - #${toAskQuestions[i].id} - Cat ${toAskQuestions[i].category} - Type ${toAskQuestions[i].type}",
                                     textDirection: (selectedLanguage == "Arabic")?TextDirection.rtl:TextDirection.ltr,
                                     style: TextStyle(
-                                      fontSize: 21.0,
+                                      fontSize: 18.5,
                                       fontWeight: FontWeight.bold,
                                     ),
                                   ),

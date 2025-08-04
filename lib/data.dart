@@ -1504,7 +1504,7 @@ List questions = [
     "type": "Safety",
     "category": "G",
     "question": {
-      "arabic": "استعمال المكابح الرئيسية في المركبة بشكل متواصل على منحدر طويل يبطل مفعولالمكابح بسبب",
+      "arabic": "استعمال المكابح الرئيسية في المركبة بشكل متواصل على منحدر طويل يبطل مفعول المكابح بسبب",
       "english": "Using the main brakes of your heavy vehicle continuously when driving downhill for long disables the brakes due of:",
       "french": "Le freinage continu dans une longue descente diminue l'efficacité desfreins à cause:"
     },
@@ -3316,7 +3316,7 @@ List questions = [
         "is_correct": false
       },
       {
-        "arabic": "فحص ضغط الإطارات مرة في الشهر على الأقل للحفاظعلى مقاومة دحرجة منخفضة",
+        "arabic": "فحص ضغط الإطارات مرة في الشهر على الأقل للحفاظ على مقاومة دحرجة منخفضة",
         "english": "Check tire pressure at least once a month to preserve a low rolling resistance",
         "french": "Examiner la pression des pneus au moins une fois par mois pourconserver une faiblerésistance au roulement",
         "is_correct": true
@@ -3556,7 +3556,7 @@ List questions = [
         "is_correct": true
       },
       {
-        "arabic": "استخدام الوقود بكفاءة في قيادة المركبات من خلالإتباع طرق سهلة، ذكيةومسؤولة تساهم في رفع مستوى الامان خلال اقسام الطرق الصعبة",
+        "arabic": "استخدام الوقود بكفاءة في قيادة المركبات من خلال إتباع طرق سهلة، ذكيةومسؤولة تساهم في رفع مستوى الامان خلال اقسام الطرق الصعبة",
         "english": "Eco-Friendly Driving is the efficient useof fuel in roadtransportationthrough easy,smart, and socially responsible driving practices that help increase fuelconsumption and air pollution from land transportation.",
         "french": "L'eco-conduite estl'utilisation efficace du carburant dans le transport routier grâce à des pratiques de conduite facile, intelligente et responsable qui aident à augmenter lasécurité des routesdifficiles",
         "is_correct": false
@@ -3835,15 +3835,15 @@ List questions = [
       },
       {
         "arabic": "إنتبه منطقة سير على خطين",
-        "english": "Caution, intersetion without right of way",
-        "french": "Attention, intersection sans priorité",
-        "is_correct": false
-      },
-      {
-        "arabic": "إنتبه تقاطع مع طر قات بدون أفضلية",
         "english": "Caution, double lane road",
         "french": "Attention, route à deux voies",
         "is_correct": true
+      },
+      {
+        "arabic": "إنتبه تقاطع مع طرقات بدون أفضلية",
+        "english": "Caution, intersetion without right of way",
+        "french": "Attention, intersection sans priorité",
+        "is_correct": false
       }
     ],
     "image": "assets/signs/14.png"
@@ -3890,13 +3890,13 @@ List questions = [
     },
     "answers": [
       {
-        "arabic": "إنتبه أفضلية المرور للسيارات المتجهة من الجهةالمقابلة",
+        "arabic": "إنتبه تقاطع مع طر قات بدون أفضلية",
         "english": "Caution, intersection with no right of way",
         "french": "Attention, intersection sans priorité",
         "is_correct": false
       },
       {
-        "arabic": "إنتبه تقاطع",
+        "arabic": "إنتبه أفضلية المرور للسيار ات المتجهة من الجهة المقابلة",
         "english": "Caution, vehicles coming from theopposite directionhave the right of way",
         "french": "Attention, priorité aux véhicules venant en face",
         "is_correct": false
@@ -3927,7 +3927,7 @@ List questions = [
         "is_correct": false
       },
       {
-        "arabic": "إنتبه تقاطع مع طرقات بدونأفضلية",
+        "arabic": "إنتبه تقاطع مع طرقات بدون أفضلية",
         "english": "Caution,intersection with noright of way",
         "french": "Attention, intersection sans priorité",
         "is_correct": false
@@ -3958,7 +3958,7 @@ List questions = [
         "is_correct": false
       },
       {
-        "arabic": "إنتبه تقاطع مع طرقات بدونأفضلية",
+        "arabic": "إنتبه تقاطع مع طرقات بدون أفضلية",
         "english": "Caution,intersection with no right of way",
         "french": "Attention,intersection sans priorité",
         "is_correct": true
@@ -5294,13 +5294,13 @@ List questions = [
         "arabic": "ممنوع الإلتفاف",
         "english": "You cannot turn",
         "french": "Interdit de tourner",
-        "is_correct": false
+        "is_correct": true
       },
       {
         "arabic": "وجهة السير",
         "english": "Traffic direction",
         "french": "Sens de circulation",
-        "is_correct": true
+        "is_correct": false
       }
     ],
     "image": "assets/signs/76.png"
@@ -6652,13 +6652,13 @@ List questions = [
         "arabic": "خفف السرعة",
         "english": "Reduce Speed",
         "french": "Ralentissez",
-        "is_correct": false
+        "is_correct": true
       },
       {
         "arabic": "إنعطاف غير مباشر إلى اليسار",
         "english": "Indirect bend to the left",
         "french": "Virage indirect vers la gauche",
-        "is_correct": true
+        "is_correct": false
       },
       {
         "arabic": "إنعطاف",
