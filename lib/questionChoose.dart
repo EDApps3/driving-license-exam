@@ -3,6 +3,7 @@ import 'package:driving_license_exam/home.dart';
 import 'package:driving_license_exam/tf.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'historyPage.dart';
 import 'questionsPage.dart';
 import 'selectionSquare.dart';
 
@@ -19,7 +20,7 @@ int safetyNumber = 10;
 int edNumber = 10;
 int rQNumber = 30;
 
-void goToQuestionsPage() {
+void goToQuestionsPage(BuildContext context) {
   if(catASelected==false &&
       catGSelected==false &&
       catCSelected==false &&
@@ -27,11 +28,18 @@ void goToQuestionsPage() {
   ) {
     showErrorDialog(
         title: "No Category Selected",
-        description: "You have to select at least one category to continue."
+        description: "You have to select at least one category to continue.",
+        context:context
     );
   }
   else {
-    Get.offAll(()=>QuestionsPage());
+    Navigator.of(context).pushReplacement(
+      MaterialPageRoute(
+        builder: (context) => QuestionsPage(
+          key: UniqueKey(),
+        ),
+      ),
+    );
   }
 }
 
@@ -39,8 +47,11 @@ void goToQuestionsPage() {
 void showErrorDialog({
   required title,
   required description,
+  required context,
 }) {
-  Get.dialog(
+  showDialog(
+    context:context,
+      builder: (context) =>
       AlertDialog(
         title: Text(title),
         content: Text(
@@ -428,6 +439,34 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
                         },
                       ),
 
+                      Divider(),
+
+                  Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(
+                        color: Colors.black,
+                        width: 1.0,
+                      ),
+                      borderRadius: BorderRadius.circular(8.0),
+                    ),
+                    child:ListTile(
+                      title: Text("History"),
+                      trailing:  Icon(Icons.arrow_forward_ios),
+                      onTap: (){
+                        Navigator.pushReplacement(
+                            context,
+                            MaterialPageRoute(builder:
+                                (context) => HistoryPage()
+                            )
+                        );
+                      },
+
+                  ),
+                  ),
+
+
+
+
 
                     ],
                   ),
@@ -443,56 +482,65 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
                   if(rQNumber==-1){
                     showErrorDialog(
                         title:"Choose Random Questions",
-                        description:"You have to choose a number of random questions to continue."
+                        description:"You have to choose a number of random questions to continue.",
+                        context:context
                     );
                   }
                   else {
-                    goToQuestionsPage();
+                    goToQuestionsPage(context);
                   }
                 }
                 else if(radioSelection=="CQ"){
                   if(signsNumber==-1){
                     showErrorDialog(
                         title:"Choose Signs Questions",
-                        description:"You have to choose a number of signs questions to continue."
+                        description:"You have to choose a number of signs questions to continue.",
+                        context:context
                     );
                   }
                   else if(lawNumber==-1){
                     showErrorDialog(
                         title:"Choose Law Questions",
-                        description:"You have to choose a number of law questions to continue."
+                        description:"You have to choose a number of law questions to continue.",
+                        context:context
+
                     );
                   }
                   else if(safetyNumber==-1){
                     showErrorDialog(
                         title:"Choose Safety Questions",
-                        description:"You have to choose a number of safety questions to continue."
+                        description:"You have to choose a number of safety questions to continue.",
+                        context:context
                     );
                   }
                   else if(lawNumber==-1){
                     showErrorDialog(
                         title:"Choose Law Questions",
-                        description:"You have to choose a number of Law questions to continue."
+                        description:"You have to choose a number of Law questions to continue.",
+                        context:context
+
                     );
                   }
                   else if(safetyNumber==-1){
                     showErrorDialog(
                         title:"Choose Safety Questions",
-                        description:"You have to choose a number of Safety questions to continue."
+                        description:"You have to choose a number of Safety questions to continue.",
+                        context:context
                     );
                   }
                   else if(edNumber==-1){
                     showErrorDialog(
                         title:"Choose ED Questions",
-                        description:"You have to choose a number of ED questions to continue."
+                        description:"You have to choose a number of ED questions to continue.",
+                        context:context
                     );
                   }
                   else {
-                    goToQuestionsPage();
+                    goToQuestionsPage(context);
                   }
                 }
                 else{
-                  goToQuestionsPage();
+                  goToQuestionsPage(context);
                 }
               },
             ),

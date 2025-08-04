@@ -96,12 +96,18 @@ class _HomePageState extends State<HomePage> {
                     bottom:18.0
                 ),
                 child: SelectionSquare(
-                  text: "",
-                  isSelected:false,
-                  isContinue:true,
-                  onTap:(){
-                    Get.off(()=>QuestionChoosePage());
-                  },
+                    text: "",
+                    isSelected:false,
+                    isContinue:true,
+                    onTap:() {
+                      Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(builder:
+                              (context) => QuestionChoosePage()
+                          )
+                      );
+                    }
+
                 ),
               ):const SizedBox(),
             ],

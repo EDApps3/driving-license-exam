@@ -5263,13 +5263,13 @@ List questions = [
         "arabic": "ممنوع الإلتفاف يميناً",
         "english": "You cannot turn right",
         "french": "Interdit de tourner à droite",
-        "is_correct": false
+        "is_correct": true
       },
       {
         "arabic": "وجهة السير",
         "english": "Traffic direction",
         "french": "Sens de circulation",
-        "is_correct": true
+        "is_correct": false
       }
     ],
     "image": "assets/signs/75.png"

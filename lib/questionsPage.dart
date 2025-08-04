@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'dart:math';
 import 'package:driving_license_exam/data.dart';
 import 'package:driving_license_exam/questionChoose.dart';
@@ -6,6 +7,7 @@ import 'package:get/get.dart';
 import 'classData.dart';
 import 'home.dart';
 import 'selectionSquare.dart';
+import 'storage.dart';
 
 
 
@@ -23,7 +25,12 @@ List<T> getRandomUniqueItems<T>(List<T> list, int n) {
 }
 
 class QuestionsPage extends StatefulWidget {
-  const QuestionsPage({super.key});
+  final List<Question>? sentQuestions;
+
+  const QuestionsPage({
+    super.key,
+    this.sentQuestions
+  });
 
   @override
   State<QuestionsPage> createState() => _QuestionsPageState();
@@ -38,68 +45,78 @@ class _QuestionsPageState extends State<QuestionsPage> {
 
 
   void generateQuestions() {
-    try {
-      questionsData = [];
-      List<String> selectedCategories = [];
-      if(catBCSelected) {
-        selectedCategories.add("BC");
-      }
-      if(catASelected) {
-        selectedCategories.add("A");
-      }
-      if(catCSelected) {
-        selectedCategories.add("C");
-      }
-      if(catGSelected) {
-        selectedCategories.add("G");
-      }
-      for(int i = 0; i < questions.length; i++) {
-        Question questionObj = Question.fromJson(questions[i]);
-        if(selectedCategories.contains(questionObj.category)){
-          questionsData.add(questionObj);
-        }
-      }
-      if(radioSelection=="RQ") {
-        if(questionsData.isNotEmpty) {
-          toAskQuestions = getRandomUniqueItems(questionsData,rQNumber);
-        }
-      }
-      else if(radioSelection=="CQ") {
-        if(questionsData.isNotEmpty) {
-          List<Question> onlySignsQuestion   = signQuestionsData.where((q) => selectedCategories.contains(q.category)).toList();
-          if(onlySignsQuestion.isNotEmpty){
-            List<Question> randomSignsQuestion = getRandomUniqueItems(onlySignsQuestion,signsNumber);
-            toAskQuestions.addAll(randomSignsQuestion);
-          }
-
-          List<Question> onlyLawQuestion   = lawQuestionsData.where((q) => selectedCategories.contains(q.category)).toList();
-          if(onlyLawQuestion.isNotEmpty) {
-            List<Question> randomLawQuestion = getRandomUniqueItems(onlyLawQuestion,lawNumber);
-            toAskQuestions.addAll(randomLawQuestion);
-          }
-
-          List<Question> onlySafetyQuestion   = safetyQuestionsData.where((q) => selectedCategories.contains(q.category)).toList();
-          if(onlySafetyQuestion.isNotEmpty){
-            List<Question> randomSafetyQuestion = getRandomUniqueItems(onlySafetyQuestion,safetyNumber);
-            toAskQuestions.addAll(randomSafetyQuestion);
-          }
-
-
-          List<Question> onlyEDQuestion   = edQuestionsData.where((q) => selectedCategories.contains(q.category)).toList();
-          if(onlyEDQuestion.isNotEmpty){
-            List<Question> randomEDQuestion = getRandomUniqueItems(onlyEDQuestion,edNumber);
-            toAskQuestions.addAll(randomEDQuestion);
-          }
-
-          toAskQuestions.shuffle();
-        }
-      }
+    if(widget.sentQuestions!=null) {
+      toAskQuestions = widget.sentQuestions!;
     }
-    catch (e) {
-      print("Error: $e");
-      Future.delayed(const Duration(seconds: 1), () {
-        Get.offAll(()=> HomePage());
-      });
+    else {
+      try {
+        questionsData = [];
+        List<String> selectedCategories = [];
+        if(catBCSelected) {
+          selectedCategories.add("BC");
+        }
+        if(catASelected) {
+          selectedCategories.add("A");
+        }
+        if(catCSelected) {
+          selectedCategories.add("C");
+        }
+        if(catGSelected) {
+          selectedCategories.add("G");
+        }
+        for(int i = 0; i < questions.length; i++) {
+          Question questionObj = Question.fromJson(questions[i]);
+          if(selectedCategories.contains(questionObj.category)){
+            questionsData.add(questionObj);
+          }
+        }
+        if(radioSelection=="RQ") {
+          if(questionsData.isNotEmpty) {
+            toAskQuestions = getRandomUniqueItems(questionsData,rQNumber);
+          }
+        }
+        else if(radioSelection=="CQ") {
+          if(questionsData.isNotEmpty) {
+            List<Question> onlySignsQuestion   = signQuestionsData.where((q) => selectedCategories.contains(q.category)).toList();
+            if(onlySignsQuestion.isNotEmpty){
+              List<Question> randomSignsQuestion = getRandomUniqueItems(onlySignsQuestion,signsNumber);
+              toAskQuestions.addAll(randomSignsQuestion);
+            }
+
+            List<Question> onlyLawQuestion   = lawQuestionsData.where((q) => selectedCategories.contains(q.category)).toList();
+            if(onlyLawQuestion.isNotEmpty) {
+              List<Question> randomLawQuestion = getRandomUniqueItems(onlyLawQuestion,lawNumber);
+              toAskQuestions.addAll(randomLawQuestion);
+            }
+
+            List<Question> onlySafetyQuestion   = safetyQuestionsData.where((q) => selectedCategories.contains(q.category)).toList();
+            if(onlySafetyQuestion.isNotEmpty){
+              List<Question> randomSafetyQuestion = getRandomUniqueItems(onlySafetyQuestion,safetyNumber);
+              toAskQuestions.addAll(randomSafetyQuestion);
+            }
+
+
+            List<Question> onlyEDQuestion   = edQuestionsData.where((q) => selectedCategories.contains(q.category)).toList();
+            if(onlyEDQuestion.isNotEmpty){
+              List<Question> randomEDQuestion = getRandomUniqueItems(onlyEDQuestion,edNumber);
+              toAskQuestions.addAll(randomEDQuestion);
+            }
+
+            toAskQuestions.shuffle();
+          }
+        }
+      }
+      catch (e) {
+        print("Error: $e");
+        Future.delayed(const Duration(seconds: 1), () {
+          Navigator.pushReplacement(
+              context,
+              MaterialPageRoute(builder:
+                  (context) => HomePage()
+              )
+          );
+        });
+      }
     }
   }
 
@@ -142,6 +159,7 @@ class _QuestionsPageState extends State<QuestionsPage> {
           height:MediaQuery.of(context).size.height,
           child: Column(
             children: [
+
 
               Expanded(
                 child: SingleChildScrollView(
@@ -249,32 +267,43 @@ class _QuestionsPageState extends State<QuestionsPage> {
                   }
                   proceed = true;
                   setState(() {});
-                  Get.dialog(
+                  if(widget.sentQuestions==null) {
+                    KeyValueStringStorage().saveHistory(toAskQuestions);
+                  }
+                  showDialog(
+                    context:context,
                       barrierDismissible: false,
-                      AlertDialog(
-                        title: Text("Results"),
-                        content: Text("You answered $rightAnswers out of ${toAskQuestions.length} questions correctly."),
-                        actions: [
-                          SelectionSquare(
-                            text: "Close",
-                            isSelected: false,
-                            onTap: () {
-                              Get.close(
-                                  closeAll:true
-                              );
-                            },
-                          ),
-                          SelectionSquare(
-                            text: "OK",
-                            isSelected: false,
-                            isContinue: true,
-                            onTap: () {
-                              Get.offAll(()=>HomePage());
-                            },
-                          ),
+                    builder:(context) => AlertDialog(
+                      title: Text("Results"),
+                      content: Text("You answered $rightAnswers out of ${toAskQuestions.length} questions correctly."),
+                      actions: [
+                        SelectionSquare(
+                          text: "Close",
+                          isSelected: false,
+                          onTap: () {
+                            Navigator.pushReplacement(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => HomePage()),
+                            );
+                          },
+                        ),
+                        SelectionSquare(
+                          text: "OK",
+                          isSelected: false,
+                          isContinue: true,
+                          onTap: () {
+                            Navigator.pushReplacement(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => HomePage()),
+                            );
+                          },
+                        ),
 
-                        ],
-                      ));
+                      ],
+                    )
+                  );
                   mainAllList = toAskQuestions;
                 },
               ):SingleChildScrollView(
@@ -285,8 +314,13 @@ class _QuestionsPageState extends State<QuestionsPage> {
                       text: "Home",
                       isSelected:false,
                       onTap:(){
-                        Get.offAll(()=>HomePage());
-                      },
+                        Navigator.pushReplacement(
+                            context,
+                            MaterialPageRoute(builder:
+                                (context) => HomePage()
+                            )
+                        );
+                        },
                     ),
                     SelectionSquare(
                       text: (wrongAnswersOnly==true)?"Wrong Answers Only":"All Answers",

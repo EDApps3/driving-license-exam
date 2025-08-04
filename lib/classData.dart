@@ -1,9 +1,9 @@
-// The main class for a single question object.
 import 'dart:convert';
 import 'dart:developer';
 
+// The main class for a single question object.
 class Question {
-  final String id,image;
+  final String id, image;
   final String type;
   final String category;
   final QuestionData question;
@@ -38,6 +38,15 @@ class Question {
       answers: answers,
     );
   }
+
+  Map<String, dynamic> toJson() => {
+    'id': id,
+    'image': image,
+    'type': type,
+    'category': category,
+    'question': question.toJson(),
+    'answers': answers.map((a) => a.toJson()).toList(),
+  };
 }
 
 // Class to handle the multi-language question text.
@@ -59,6 +68,12 @@ class QuestionData {
       french: json['french'],
     );
   }
+
+  Map<String, dynamic> toJson() => {
+    'arabic': arabic,
+    'english': english,
+    'french': french,
+  };
 }
 
 // Class to handle each answer, including the correct status.
@@ -68,7 +83,6 @@ class Answer {
   final String french;
   final bool isCorrect;
   bool isSelected;
-
 
   Answer({
     required this.arabic,
@@ -82,7 +96,6 @@ class Answer {
     log("Answer: $arabic, Correct: $isCorrect, Selected: $isSelected");
   }
 
-
   factory Answer.fromJson(Map<String, dynamic> json) {
     return Answer(
       arabic: json['arabic'],
@@ -92,4 +105,12 @@ class Answer {
       isSelected: json['is_selected'] ?? false,
     );
   }
+
+  Map<String, dynamic> toJson() => {
+    'arabic': arabic,
+    'english': english,
+    'french': french,
+    'is_correct': isCorrect,
+    'is_selected': isSelected,
+  };
 }
