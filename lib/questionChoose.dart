@@ -63,7 +63,7 @@ void showErrorDialog({
             isSelected: false,
             isContinue: true,
             onTap: () {
-              Get.close();
+              Navigator.of(context).pop();
             },
           ),
         ],
