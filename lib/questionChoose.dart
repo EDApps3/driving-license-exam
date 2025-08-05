@@ -132,6 +132,23 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
     edNumber = 10;
     rQNumber = 30;
   }
+  
+  List<String> getAllowedCategories() {
+    List<String> allowedCategories = [];
+    if (catASelected) {
+      allowedCategories.add("A");
+    }
+    if (catGSelected) {
+      allowedCategories.add("G");
+    }
+    if (catCSelected) {
+      allowedCategories.add("C");
+    }
+    if (catBCSelected) {
+      allowedCategories.add("BC");
+    }
+    return allowedCategories;
+  }
 
 
   @override
@@ -294,7 +311,7 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
                                       ),
 
                                       Text(
-                                        "Law Out Of ${lawQuestionsData.length}",
+                                        "Law Out Of ${lawQuestionsData.where((e)=>getAllowedCategories().contains(e.category)).length}",
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
                                         ),
@@ -318,7 +335,7 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
                                         },
                                       ),
                                       Text(
-                                        "Safety Out Of ${safetyQuestionsData.length}",
+                                        "Safety Out Of ${safetyQuestionsData.where((e)=>getAllowedCategories().contains(e.category)).length}",
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
                                         ),
@@ -344,7 +361,7 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
                                       ),
 
                                       Text(
-                                        "ED Out Of ${edQuestionsData.length}",
+                                        "ED Out Of ${edQuestionsData.where((e)=>getAllowedCategories().contains(e.category)).length}",
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
                                         ),
