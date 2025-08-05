@@ -5201,13 +5201,13 @@ List questions = [
         "arabic": "نهاية حلبة الدراجات الهوائية",
         "english": "End of bicycle track",
         "french": "Fin de la piste cyclable",
-        "is_correct": false
+        "is_correct": true
       },
       {
         "arabic": "طريق مخصص للدراجات الهوائية",
         "english": "Lane reserved for bicycles",
         "french": "Voie réservée aux deux roues",
-        "is_correct": true
+        "is_correct": false
       }
     ],
     "image": "assets/signs/71.png"
