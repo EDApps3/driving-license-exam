@@ -8973,7 +8973,7 @@ List questions = [
         "is_correct": true
       },
       {
-        "arabic": "متر",
+        "arabic": "متر 40 ",
         "english": "40 meters",
         "french": "40 metres",
         "is_correct": false
@@ -9003,7 +9003,7 @@ List questions = [
         "is_correct": false
       },
       {
-        "arabic": "",
+        "arabic": "متر 70 ",
         "english": "70 meters",
         "french": "70 metres",
         "is_correct": false
@@ -10203,7 +10203,7 @@ List questions = [
         "is_correct": false
       },
       {
-        "arabic": " ",
+        "arabic": " 25 متر ",
         "english": "25 meters",
         "french": "25 mètres",
         "is_correct": true

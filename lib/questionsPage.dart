@@ -281,11 +281,7 @@ class _QuestionsPageState extends State<QuestionsPage> {
                           text: "Close",
                           isSelected: false,
                           onTap: () {
-                            Navigator.pushReplacement(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => HomePage()),
-                            );
+                            Navigator.of(context).pop();
                           },
                         ),
                         SelectionSquare(
