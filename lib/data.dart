@@ -11756,5 +11756,315 @@ List questions = [
       }
     ],
     "image": "assets/signs/m_sign_107.png"
+  },
+  {
+    "id": "388",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "انتهاء منع التجاوز",
+        "english": "End of Overtaking prohibition",
+        "french": "Fin d'interdiction de dépasser",
+        "is_correct": true
+      },
+      {
+        "arabic": "نهاية حدود السرعة القصوى",
+        "english": "End of maximum speed limit",
+        "french": "Fin de la limite de vitesse maximale",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع التجاوز",
+        "english": "No overtaking",
+        "french": "Interdit de dépasser",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_82.png"
+  },
+  {
+    "id": "389",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "انتهاء منع تجاوز الشاحنات",
+        "english": "End of Overtaking prohibition for trucks",
+        "french": "Fin d'interdiction de dépasser aux camions",
+        "is_correct": true
+      },
+      {
+        "arabic": "ممنوع دخول الشاحنات",
+        "english": "No entry for trucks",
+        "french": "Interdit aux camions de passer",
+        "is_correct": false
+      },
+      {
+        "arabic": "نهاية منع التجاوز",
+        "english": "End of overtaking prohibition",
+        "french": "Fin d'interdiction de dépasser",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_83.png"
+  },
+  {
+    "id": "390",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "نهاية ممر الفروسية الإلزامي",
+        "english": "End of mandatory way for riders",
+        "french": "Fin de chemin obligatoire pour cavaliers",
+        "is_correct": true
+      },
+      {
+        "arabic": "ممنوع دخول الدراجات",
+        "english": "No entry for bicycles",
+        "french": "Interdit aux bicyclettes de passer",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممر إجباري للدراجات",
+        "english": "Compulsory bicycle lane",
+        "french": "Chemin obligatoire pour bicyclettes",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_87.png"
+  },
+  {
+    "id": "391",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "نهاية الحد الأدنى للسرعة",
+        "english": "End of minimum speed limit",
+        "french": "Fin de vitesse minimale obligatoire",
+        "is_correct": true
+      },
+      {
+        "arabic": "نهاية حدود السرعة القصوى",
+        "english": "End of maximum speed limit",
+        "french": "Fin de vitesse maximale",
+        "is_correct": false
+      },
+      {
+        "arabic": "إتجاه إجباري",
+        "english": "Compulsory direction",
+        "french": "Direction obligatoire",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_88.png"
+  },
+  {
+    "id": "392",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "انتهاء منع استعمال الزمور",
+        "english": "End of Horn Restriction Zone",
+        "french": "Fin d'interdiction de l'usage de l'avertisseur sonore",
+        "is_correct": true
+      },
+      {
+        "arabic": "ممنوع التزمير",
+        "english": "No honking",
+        "french": "Interdiction de klaxonner",
+        "is_correct": false
+      },
+      {
+        "arabic": "إشارة خطر",
+        "english": "Danger sign",
+        "french": "Panneau de danger",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_84.png"
+  },
+  {
+    "id": "393",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "نهاية ممر مخصص للباصات",
+        "english": "End of lane reserved for public transport vehicles",
+        "french": "Fin de voie réservée aux véhicules de transport en commun",
+        "is_correct": true
+      },
+      {
+        "arabic": "موقف باصات",
+        "english": "Bus stop",
+        "french": "Arrêt d'autobus",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع دخول الباصات",
+        "english": "No entry for buses",
+        "french": "Interdit aux autobus de passer",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_89.png"
+  },
+  {
+    "id": "394",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "نهاية ممر الدراجات الهوائية",
+        "english": "End of mandatory cycle track",
+        "french": "Fin de piste obligatoire pour cycle",
+        "is_correct": true
+      },
+      {
+        "arabic": "ممنوع دخول الدراجات الهوائية",
+        "english": "No entry for bicycles",
+        "french": "Interdit aux bicyclettes de passer",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممر إجباري للدراجات الهوائية",
+        "english": "Compulsory bicycle lane",
+        "french": "Chemin obligatoire pour cycle",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_85.png"
+  },
+  {
+    "id": "395",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "نهاية ممر المشاة",
+        "english": "End of mandatory footpath",
+        "french": "Fin de chemin obligatoire pour piétons",
+        "is_correct": true
+      },
+      {
+        "arabic": "ممنوع مرور المشاة",
+        "english": "No entry for pedestrians",
+        "french": "Interdit aux piétons de passer",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممر إجباري للمشاة",
+        "english": "Compulsory footpath",
+        "french": "Chemin obligatoire pour piétons",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_86.png"
+  },
+  {
+    "id": "396",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "موقف",
+        "english": "Parking",
+        "french": "Stationnement",
+        "is_correct": true
+      },
+      {
+        "arabic": "ممنوع الوقوف",
+        "english": "No parking",
+        "french": "Stationnement interdit",
+        "is_correct": false
+      },
+      {
+        "arabic": "موقف مقابل بدل",
+        "english": "Paid Parking",
+        "french": "Stationnement payant",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_91.png"
+  },
+  {
+    "id": "397",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "منطقة وقوف مجاني",
+        "english": "Free Parking Area",
+        "french": "Stationnement gratuit",
+        "is_correct": true
+      },
+      {
+        "arabic": "ممنوع الوقوف",
+        "english": "No parking",
+        "french": "Stationnement interdit",
+        "is_correct": false
+      },
+      {
+        "arabic": "موقف مقابل بدل",
+        "english": "Paid Parking",
+        "french": "Stationnement payant",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_92.png"
   }
 ];
