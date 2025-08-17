@@ -16,6 +16,17 @@ class TextFieldApp extends StatelessWidget {
       controller: controller,
       onChanged: onChanged,
       keyboardType: TextInputType.number,
+      decoration: InputDecoration(
+        suffixIcon: IconButton(
+          icon: const Icon(Icons.clear),
+          onPressed: () {
+            controller.text=('0');
+            if (onChanged != null) {
+              onChanged!('0');
+            }
+          },
+        ),
+      ),
     );
   }
 }

@@ -7,7 +7,7 @@ class Question {
   final String type;
   final String category;
   final QuestionData question;
-  final List<Answer> answers;
+  List<Answer> answers;
 
   Question({
     required this.id,
@@ -25,7 +25,6 @@ class Question {
   }
 
   factory Question.fromJson(Map<String, dynamic> json) {
-    log("json ${jsonEncode(json)}");
     var answersList = json['answers'] as List;
     List<Answer> answers = answersList.map((i) => Answer.fromJson(i)).toList();
 

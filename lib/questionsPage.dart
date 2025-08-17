@@ -118,6 +118,11 @@ class _QuestionsPageState extends State<QuestionsPage> {
         });
       }
     }
+    for(int i=0;i<toAskQuestions.length;i++){
+      List<Answer> shuffledAnswers = toAskQuestions[i].answers;
+      shuffledAnswers.shuffle();
+      toAskQuestions[i].answers = shuffledAnswers;
+    }
   }
 
   @override
@@ -214,7 +219,7 @@ class _QuestionsPageState extends State<QuestionsPage> {
                                   ):
                                   Container(),
                                   Divider(),
-                                  for(int j=0;j<3;j++)
+                                  for(int j=0;j<toAskQuestions[i].answers.length;j++)
                                     SelectionSquare(
                                       textAlign: (selectedLanguage == "Arabic")?TextAlign.right:TextAlign.left,
                                       fullWidth: true,
