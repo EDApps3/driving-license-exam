@@ -10330,5 +10330,284 @@ List questions = [
       }
     ],
     "image": "assets/signs/m_Sign_141.png"
+  },
+  {
+    "id": "342",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعنى هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "علامة تحديد لحواف الطريق أو الأرصفة",
+        "english": "Delineator for pavement or road edges",
+        "french": "Balisage des limites de chaussées ou des trottoirs",
+        "is_correct": true
+      },
+      {
+        "arabic": "تحذير من وجود جسر",
+        "english": "Warning of a bridge ahead",
+        "french": "Avertissement de la présence d'un pont",
+        "is_correct": false
+      },
+      {
+        "arabic": "علامة لتحديد إتجاه السير",
+        "english": "Sign indicating the direction of travel",
+        "french": "Signalisation indiquant le sens de la circulation",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_Sign_140.png"
+  },
+  {
+    "id": "343",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعنى هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "   لافتة لمخرج الطريق السريع",
+        "english": "Warning sign on freeway for simple exit",
+        "french": "Panneau d'avertissement de bifurcation autoroutière simple",
+        "is_correct": true
+      },
+      {
+        "arabic": "إشارة لتحديد السرعة على الطريق السريع",
+        "english": "Sign indicating the speed limit on a freeway",
+        "french": "Panneau de limitation de vitesse sur autoroute",
+        "is_correct": false
+      },
+      {
+        "arabic": "لافتة لتأكيد إتجاه السير على الأوتوستراد",
+        "english": "Confirmation of freeway direction",
+        "french": "Panneau de confirmation de filante utilisé sur autoroute",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_132.png"
+  },
+  {
+    "id": "344",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعنى هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "لافتة تحذير من مخرج طريق سريع",
+        "english": "Warning sign for a freeway exit",
+        "french": "Panneau d'avertissement d'une sortie d'autoroute",
+        "is_correct": true
+      },
+      {
+        "arabic": "علامة لتحديد إتجاه السير",
+        "english": "Sign indicating the direction of travel",
+        "french": "Signalisation indiquant le sens de la circulation",
+        "is_correct": false
+      },
+      {
+        "arabic": "نهاية الطريق السريع",
+        "english": "End of freeway",
+        "french": "Fin d'autoroute",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_133.png"
+  },
+  {
+    "id": "345",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعنى هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "لافتة لتأكيد إتجاه السير على الطريق السريع",
+        "english": "Confirmation streamlined sign used on a highway",
+        "french": "Panneau de confirmation de filante utilisé sur autoroute",
+        "is_correct": true
+      },
+      {
+        "arabic": "تحذير من طريق ضيق",
+        "english": "Warning of a narrow road",
+        "french": "Avertissement d'une route étroite",
+        "is_correct": false
+      },
+      {
+        "arabic": "إشارة لتحديد السرعة القصوى",
+        "english": "Sign indicating the maximum speed limit",
+        "french": "Panneau de limitation de vitesse maximale",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_134.png"
+  },
+  {
+    "id": "346",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعنى هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "إشارة مطار",
+        "english": "Airport sign",
+        "french": "Panneau d'aéroport",
+        "is_correct": true
+      },
+      {
+        "arabic": "ممنوع مرور المركبات الجوية",
+        "english": "No entry for air vehicles",
+        "french": "Interdit de passer pour les véhicules aériens",
+        "is_correct": false
+      },
+      {
+        "arabic": "تحذير من طائرات على علو منخفض",
+        "english": "Warning of low flying aircraft",
+        "french": "Avertissement d'avions à basse altitude",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_135.png"
+  },
+  {
+    "id": "347",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعنى هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "علامة تحديد للمنعطفات ",
+        "english": "Delineator for bends",
+        "french": "Balisage des virages",
+        "is_correct": true
+      },
+      {
+        "arabic": "علامات حدود الطريق",
+        "english": "Delineator for pavement edges",
+        "french": "Balisage des limites de chaussées",
+        "is_correct": false
+      },
+      {
+        "arabic": "إشارة لتحديد موقع تقاطع طرق",
+        "english": "Marker for road intersection",
+        "french": "Signalisation de position des intersections de routes",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_136.png"
+  },
+  {
+    "id": "348",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعنى هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "علامات المنعطفات للطرق الثلجية",
+        "english": "Delinator of Bends on snowy roads",
+        "french": "Balisage des virages sur routes fréquemment enneigées",
+        "is_correct": true
+      },
+      {
+        "arabic": "علامة تحديد لمنتصف الطريق",
+        "english": "Delineator for the middle of the road",
+        "french": "Balisage du milieu de la chaussée",
+        "is_correct": false
+      },
+      {
+        "arabic": "إشارة لتحديد السرعة القصوى",
+        "english": "Sign indicating the maximum speed limit",
+        "french": "Panneau de limitation de vitesse maximale",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_137.png"
+  },
+  {
+    "id": "349",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعنى هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "علامة على تقاطع الطريق",
+        "english": "Markup position of road intersection",
+        "french": "Signalisation de position des intersections de r o u t e s",
+        "is_correct": true
+      },
+      {
+        "arabic": "إشارة لتحديد ممر المشاة",
+        "english": "Sign for a pedestrian crossing",
+        "french": "Signalisation de passage pour piétons",
+        "is_correct": false
+      },
+      {
+        "arabic": "علامة تحذير من جسر متحرك",
+        "english": "Warning of a movable bridge",
+        "french": "Avertissement de pont mobile",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_138.png"
+  },
+  {
+    "id": "350",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعنى هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "لافتة إرشادية لتحديد المسار على المنعطفات",
+        "english": "Guide sign for bends",
+        "french": "Panneau de balisage des virages",
+        "is_correct": true
+      },
+      {
+        "arabic": "علامة لتحديد بداية الطريق السريع",
+        "english": "Sign indicating the beginning of a freeway",
+        "french": "Panneau indiquant le début d'une autoroute",
+        "is_correct": false
+      },
+      {
+        "arabic": "تحذير من عمال في الطريق",
+        "english": "Warning of workers on the road",
+        "french": "Avertissement de travaux sur la route",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_139.png"
   }
 ];
