@@ -11291,5 +11291,470 @@ List questions = [
       }
     ],
     "image": "assets/signs/m_sign_119.png"
+  },
+  {
+    "id": "373",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "وقوف مقابل بدل",
+        "english": "Paid Parking",
+        "french": "Stationnement payant",
+        "is_correct": true
+      },
+      {
+        "arabic": "ممنوع الوقوف",
+        "english": "No parking",
+        "french": "Stationnement interdit",
+        "is_correct": false
+      },
+      {
+        "arabic": "موقف مؤقت",
+        "english": "Temporary parking",
+        "french": "Stationnement temporaire",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_93.png"
+  },
+  {
+    "id": "374",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "السرعة المقترحة",
+        "english": "Advised Speed",
+        "french": "Vitesse conseillée",
+        "is_correct": true
+      },
+      {
+        "arabic": "أقصى سرعة مسموحة",
+        "english": "Maximum speed allowed",
+        "french": "Vitesse maximale autorisée",
+        "is_correct": false
+      },
+      {
+        "arabic": "أدنى سرعة مسموحة",
+        "english": "Minimum speed allowed",
+        "french": "Vitesse minimale autorisée",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_94.png"
+  },
+  {
+    "id": "375",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "طريق غير نافذ",
+        "english": "No Through Road",
+        "french": "Pré signalisation d'une impasse",
+        "is_correct": true
+      },
+      {
+        "arabic": "إتجاه إجباري يمين",
+        "english": "Compulsory direction to the right",
+        "french": "Direction obligatoire à droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "تحذير من تقاطع",
+        "english": "Warning of a crossing",
+        "french": "Avertissement d'un croisement",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_101.png"
+  },
+  {
+    "id": "376",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "أفضلية على السيارات القادمة من الجهة المقابلة",
+        "english": "Priority over Oncoming Traffic",
+        "french": "Priorité par rapport à la circulation venant en sens inverse",
+        "is_correct": true
+      },
+      {
+        "arabic": "إتجاه السير إجباري في الأمام",
+        "english": "One Way Traffic",
+        "french": "Circulation à sens unique",
+        "is_correct": false
+      },
+      {
+        "arabic": "طريق ذو اتجاهين",
+        "english": "Two-way road",
+        "french": "Route à double sens",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_102.png"
+  },
+  {
+    "id": "377",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "نهاية حدود السرعة المقترحة",
+        "english": "End of Advised Speed",
+        "french": "Fin de vitesse conseillée",
+        "is_correct": true
+      },
+      {
+        "arabic": "نهاية حدود السرعة القصوى",
+        "english": "End of maximum speed limit",
+        "french": "Fin de la limite de vitesse maximale",
+        "is_correct": false
+      },
+      {
+        "arabic": "إشارة تحديد السرعة",
+        "english": "Speed limit sign",
+        "french": "Panneau de limitation de vitesse",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_95.png"
+  },
+  {
+    "id": "378",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "موقف سيارات أجرة",
+        "english": "Station of taxi",
+        "french": "Station de taxi",
+        "is_correct": true
+      },
+      {
+        "arabic": "ممنوع الوقوف",
+        "english": "No parking",
+        "french": "Stationnement interdit",
+        "is_correct": false
+      },
+      {
+        "arabic": "محطة باص",
+        "english": "Bus stop",
+        "french": "Arrêt de bus",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_96.png"
+  },
+  {
+    "id": "379",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "ممر مشاة",
+        "english": "Pedestrian Crossing",
+        "french": "Passage pour piétons",
+        "is_correct": true
+      },
+      {
+        "arabic": "ممنوع مرور المشاة",
+        "english": "No entry for pedestrians",
+        "french": "Interdit de passer pour les piétons",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممر للدراجات",
+        "english": "Bicycle crossing",
+        "french": "Passage pour cyclistes",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_103.png"
+  },
+  {
+    "id": "380",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "تحديد اتجاهات المسارب",
+        "english": "Lane Assignments in Two Directions",
+        "french": "Affectation des voies dans les deux sens",
+        "is_correct": true
+      },
+      {
+        "arabic": "نهاية المسار الأيمن",
+        "english": "End of right lane",
+        "french": "Fin de la voie de droite",
+        "is_correct": false
+      },
+      {
+        "arabic": "بداية طريق سريع",
+        "english": "Beginning of a highway",
+        "french": "Début d'une autoroute",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_104.png"
+  },
+  {
+    "id": "381",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "موقف باصات",
+        "english": "Bus Stop",
+        "french": "Arrêt d'autobus",
+        "is_correct": true
+      },
+      {
+        "arabic": "موقف خاص بالحافلات",
+        "english": "Bus parking only",
+        "french": "Stationnement réservé aux bus",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع وقوف الحافلات",
+        "english": "No bus stopping",
+        "french": "Interdit de s'arrêter pour les bus",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_97.png"
+  },
+  {
+    "id": "382",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "موقف ترامواي",
+        "english": "Tram Stop",
+        "french": "Arrêt de tramway",
+        "is_correct": true
+      },
+      {
+        "arabic": "سكة حديد",
+        "english": "Railway",
+        "french": "Voie ferrée",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع مرور الترام",
+        "english": "No tram traffic",
+        "french": "Interdit de passer pour les trams",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_98.png"
+  },
+  {
+    "id": "383",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "اتجاه السير إجباري في الأمام",
+        "english": "One Way Traffic",
+        "french": "Circulation à sens unique",
+        "is_correct": true
+      },
+      {
+        "arabic": "ممنوع الدخول",
+        "english": "No entry",
+        "french": "Sens interdit",
+        "is_correct": false
+      },
+      {
+        "arabic": "طريق ذو اتجاهين",
+        "english": "Two-way road",
+        "french": "Route à double sens",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_99.png"
+  },
+  {
+    "id": "384",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "طريق غير نافذ",
+        "english": "No Through Road",
+        "french": "Impasse",
+        "is_correct": true
+      },
+      {
+        "arabic": "ممنوع الدخول",
+        "english": "No entry",
+        "french": "Sens interdit",
+        "is_correct": false
+      },
+      {
+        "arabic": "إتجاه إجباري مستقيم",
+        "english": "Compulsory straight ahead",
+        "french": "Obligation d'aller tout droit",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_100.png"
+  },
+  {
+    "id": "385",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "دمج مسارب السير",
+        "english": "Lanes Merge",
+        "french": "Réduction du nombre des voies",
+        "is_correct": true
+      },
+      {
+        "arabic": "نهاية طريق متعدد المسارات",
+        "english": "End of multi-lane road",
+        "french": "Fin de la route à plusieurs voies",
+        "is_correct": false
+      },
+      {
+        "arabic": "بداية طريق سريع",
+        "english": "Beginning of highway",
+        "french": "Début d'une autoroute",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_105.png"
+  },
+  {
+    "id": "386",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "بداية طريق سريع",
+        "english": "Beginning of Highway",
+        "french": "Début d'une section d'autoroute",
+        "is_correct": true
+      },
+      {
+        "arabic": "طريق سريع",
+        "english": "Highway",
+        "french": "Autoroute",
+        "is_correct": false
+      },
+      {
+        "arabic": "مسموح الوقوف",
+        "english": "Parking allowed",
+        "french": "Stationnement autorisé",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_106.png"
+  },
+  {
+    "id": "387",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "نهاية طريق سريع",
+        "english": "End of Highway",
+        "french": "Fin d'une section d'autoroute",
+        "is_correct": true
+      },
+      {
+        "arabic": "ممنوع الوقوف",
+        "english": "No parking",
+        "french": "Stationnement interdit",
+        "is_correct": false
+      },
+      {
+        "arabic": "طريق مزدوج",
+        "english": "Dual carriageway",
+        "french": "Route à deux voies",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_107.png"
   }
 ];
