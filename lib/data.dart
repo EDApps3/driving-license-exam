@@ -10299,5 +10299,36 @@ List questions = [
         "is_correct": true
       }
     ]
+  },
+  {
+    "id": "341",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعنى هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "إنتبه جزيرة مرورية أو حاجز عاكس باللون الأصفر",
+        "english": "Caution, reflective yellow traffic island or barrier ahead",
+        "french": "Attention, îlot de circulation ou barrière réfléchissante jaune",
+        "is_correct": true
+      },
+      {
+        "arabic": "إشارة لتحديد السرعة القصوى للمركبات الثقيلة",
+        "english": "Sign indicating the maximum speed limit for heavy vehicles",
+        "french": "Signalisation indiquant la limite de vitesse maximale pour les véhicules lourds",
+        "is_correct": false
+      },
+      {
+        "arabic": "علامة تحذير من طريق منزلق أو رطب",
+        "english": "Warning sign for a slippery or wet road",
+        "french": "Panneau d'avertissement pour une route glissante ou mouillée",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_Sign_141.png"
   }
 ];
