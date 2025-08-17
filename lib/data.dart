@@ -13107,6 +13107,626 @@ List questions = [
         "is_correct": false
       }
     ]
+  },
+  {
+    "id": "439",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا يعني هذا الرمز الموجود في لوحة القيادة؟",
+      "english": "What does this dashboard symbol mean?",
+      "french": "Que signifie ce symbole sur le tableau de bord ?"
+    },
+    "answers": [
+      {
+        "arabic": "نظام الفرامل ABS",
+        "english": "ABS brake system",
+        "french": "Système de freinage ABS",
+        "is_correct": true
+      },
+      {
+        "arabic": "مؤشر ضغط الإطارات المنخفض",
+        "english": "Low tire pressure indicator",
+        "french": "Indicateur de faible pression des pneus",
+        "is_correct": false
+      },
+      {
+        "arabic": "حزام الأمان",
+        "english": "Seat belt",
+        "french": "Ceinture de sécurité",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/abs.png"
+  },
+  {
+    "id": "440",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا يعني هذا الرمز الموجود في لوحة القيادة؟",
+      "english": "What does this dashboard symbol mean?",
+      "french": "Que signifie ce symbole sur le tableau de bord ?"
+    },
+    "answers": [
+      {
+        "arabic": "مؤشر القيادة الاقتصادية ECO",
+        "english": "ECO economy driving indicator",
+        "french": "Indicateur de conduite économique ECO",
+        "is_correct": true
+      },
+      {
+        "arabic": "نظام الفرامل",
+        "english": "Brake system",
+        "french": "Système de freinage",
+        "is_correct": false
+      },
+      {
+        "arabic": "أضواء السيارة",
+        "english": "Car lights",
+        "french": "Feux de voiture",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/eco.png"
+  },
+  {
+    "id": "441",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا يعني هذا الرمز الموجود في لوحة القيادة؟",
+      "english": "What does this dashboard symbol mean?",
+      "french": "Que signifie ce symbole sur le tableau de bord ?"
+    },
+    "answers": [
+      {
+        "arabic": "أبواب السيارة",
+        "english": "Car doors",
+        "french": "Portières de voiture",
+        "is_correct": true
+      },
+      {
+        "arabic": "غطاء المحرك مفتوح",
+        "english": "Hood is open",
+        "french": "Capot ouvert",
+        "is_correct": false
+      },
+      {
+        "arabic": "صندوق الأمتعة مفتوح",
+        "english": "Trunk is open",
+        "french": "Coffre ouvert",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/doors.png"
+  },
+  {
+    "id": "442",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا يعني هذا الرمز الموجود في لوحة القيادة؟",
+      "english": "What does this dashboard symbol mean?",
+      "french": "Que signifie ce symbole sur le tableau de bord ?"
+    },
+    "answers": [
+      {
+        "arabic": "مؤشر ضغط الإطارات المنخفض",
+        "english": "Low tire pressure indicator",
+        "french": "Indicateur de faible pression des pneus",
+        "is_correct": true
+      },
+      {
+        "arabic": "نظام الفرامل ABS",
+        "english": "ABS brake system",
+        "french": "Système de freinage ABS",
+        "is_correct": false
+      },
+      {
+        "arabic": "مؤشر تعطل الوسائد الهوائية",
+        "english": "Airbag malfunction indicator",
+        "french": "Indicateur de dysfonctionnement des airbags",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/tire_pressure.png"
+  },
+  {
+    "id": "443",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا يعني هذا الرمز الموجود في لوحة القيادة؟",
+      "english": "What does this dashboard symbol mean?",
+      "french": "Que signifie ce symbole sur le tableau de bord ?"
+    },
+    "answers": [
+      {
+        "arabic": "حزام الأمان",
+        "english": "Seat belt",
+        "french": "Ceinture de sécurité",
+        "is_correct": true
+      },
+      {
+        "arabic": "أبواب السيارة",
+        "english": "Car doors",
+        "french": "Portières de voiture",
+        "is_correct": false
+      },
+      {
+        "arabic": "مؤشر تعطل الوسائد الهوائية",
+        "english": "Airbag malfunction indicator",
+        "french": "Indicateur de dysfonctionnement des airbags",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/seatbelt.png"
+  },
+  {
+    "id": "444",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا يعني هذا الرمز الموجود في لوحة القيادة؟",
+      "english": "What does this dashboard symbol mean?",
+      "french": "Que signifie ce symbole sur le tableau de bord ?"
+    },
+    "answers": [
+      {
+        "arabic": "مستوى الزيت منخفض",
+        "english": "Low oil level",
+        "french": "Niveau d'huile bas",
+        "is_correct": true
+      },
+      {
+        "arabic": "مؤشر البطارية",
+        "english": "Battery indicator",
+        "french": "Indicateur de batterie",
+        "is_correct": false
+      },
+      {
+        "arabic": "تحذير من الحرارة",
+        "english": "Heat warning",
+        "french": "Avertissement de chaleur",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/low_oil.png"
+  },
+  {
+    "id": "445",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا يعني هذا الرمز الموجود في لوحة القيادة؟",
+      "english": "What does this dashboard symbol mean?",
+      "french": "Que signifie ce symbole sur le tableau de bord ?"
+    },
+    "answers": [
+      {
+        "arabic": "الضوء المنخفض",
+        "english": "Low beam light",
+        "french": "Feu de croisement",
+        "is_correct": true
+      },
+      {
+        "arabic": "الضوء العالي",
+        "english": "High beam light",
+        "french": "Feu de route",
+        "is_correct": false
+      },
+      {
+        "arabic": "أضواء الضباب",
+        "english": "Fog lights",
+        "french": "Feux de brouillard",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/low_beam.png"
+  },
+  {
+    "id": "446",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا يعني هذا الرمز الموجود في لوحة القيادة؟",
+      "english": "What does this dashboard symbol mean?",
+      "french": "Que signifie ce symbole sur le tableau de bord ?"
+    },
+    "answers": [
+      {
+        "arabic": "الضوء العالي",
+        "english": "High beam light",
+        "french": "Feu de route",
+        "is_correct": true
+      },
+      {
+        "arabic": "الضوء المنخفض",
+        "english": "Low beam light",
+        "french": "Feu de croisement",
+        "is_correct": false
+      },
+      {
+        "arabic": "أضواء الضباب",
+        "english": "Fog lights",
+        "french": "Feux de brouillard",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/high_beam.png"
+  },
+  {
+    "id": "447",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا يعني هذا الرمز الموجود في لوحة القيادة؟",
+      "english": "What does this dashboard symbol mean?",
+      "french": "Que signifie ce symbole sur le tableau de bord ?"
+    },
+    "answers": [
+      {
+        "arabic": "أضواء الضباب",
+        "english": "Fog lights",
+        "french": "Feux de brouillard",
+        "is_correct": true
+      },
+      {
+        "arabic": "الضوء العالي",
+        "english": "High beam light",
+        "french": "Feu de route",
+        "is_correct": false
+      },
+      {
+        "arabic": "الضوء المنخفض",
+        "english": "Low beam light",
+        "french": "Feu de croisement",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/fog_lights.png"
+  },
+  {
+    "id": "448",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا يعني هذا الرمز الموجود في لوحة القيادة؟",
+      "english": "What does this dashboard symbol mean?",
+      "french": "Que signifie ce symbole sur le tableau de bord ?"
+    },
+    "answers": [
+      {
+        "arabic": "نظام مساعدة نزول المرتفعات",
+        "english": "Hill descent assist system",
+        "french": "Système d'assistance en descente",
+        "is_correct": true
+      },
+      {
+        "arabic": "مثبت السرعة",
+        "english": "Cruise control",
+        "french": "Régulateur de vitesse",
+        "is_correct": false
+      },
+      {
+        "arabic": "نظام الفرامل ABS",
+        "english": "ABS brake system",
+        "french": "Système de freinage ABS",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/hill_descent.png"
+  },
+  {
+    "id": "449",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا يعني هذا الرمز الموجود في لوحة القيادة؟",
+      "english": "What does this dashboard symbol mean?",
+      "french": "Que signifie ce symbole sur le tableau de bord ?"
+    },
+    "answers": [
+      {
+        "arabic": "مؤشر تعطل الوسائد الهوائية",
+        "english": "Airbag malfunction indicator",
+        "french": "Indicateur de dysfonctionnement des airbags",
+        "is_correct": true
+      },
+      {
+        "arabic": "مؤشر ضغط الإطارات المنخفض",
+        "english": "Low tire pressure indicator",
+        "french": "Indicateur de faible pression des pneus",
+        "is_correct": false
+      },
+      {
+        "arabic": "مؤشر البطارية",
+        "english": "Battery indicator",
+        "french": "Indicateur de batterie",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/airbag_malfunction.png"
+  },
+  {
+    "id": "450",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا يعني هذا الرمز الموجود في لوحة القيادة؟",
+      "english": "What does this dashboard symbol mean?",
+      "french": "Que signifie ce symbole sur le tableau de bord ?"
+    },
+    "answers": [
+      {
+        "arabic": "مؤشر البطارية",
+        "english": "Battery indicator",
+        "french": "Indicateur de batterie",
+        "is_correct": true
+      },
+      {
+        "arabic": "مؤشر تعطل الوسائد الهوائية",
+        "english": "Airbag malfunction indicator",
+        "french": "Indicateur de dysfonctionnement des airbags",
+        "is_correct": false
+      },
+      {
+        "arabic": "ضوء الفرامل",
+        "english": "Brake light",
+        "french": "Feu de freinage",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/battery.png"
+  },
+  {
+    "id": "451",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا يعني هذا الرمز الموجود في لوحة القيادة؟",
+      "english": "What does this dashboard symbol mean?",
+      "french": "Que signifie ce symbole sur le tableau de bord ?"
+    },
+    "answers": [
+      {
+        "arabic": "هاند بريك",
+        "english": "Handbrake",
+        "french": "Frein à main",
+        "is_correct": true
+      },
+      {
+        "arabic": "نظام الفرامل",
+        "english": "Brake system",
+        "french": "Système de freinage",
+        "is_correct": false
+      },
+      {
+        "arabic": "مؤشر تعطل الوسائد الهوائية",
+        "english": "Airbag malfunction indicator",
+        "french": "Indicateur de dysfonctionnement des airbags",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/handbrake.png"
+  },
+  {
+    "id": "452",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا يعني هذا الرمز الموجود في لوحة القيادة؟",
+      "english": "What does this dashboard symbol mean?",
+      "french": "Que signifie ce symbole sur le tableau de bord ?"
+    },
+    "answers": [
+      {
+        "arabic": "مثبت السرعة",
+        "english": "Cruise control",
+        "french": "Régulateur de vitesse",
+        "is_correct": true
+      },
+      {
+        "arabic": "عداد السرعة",
+        "english": "Speedometer",
+        "french": "Compteur de vitesse",
+        "is_correct": false
+      },
+      {
+        "arabic": "نظام الفرامل",
+        "english": "Brake system",
+        "french": "Système de freinage",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/cruise_control.png"
+  },
+  {
+    "id": "453",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا يعني هذا الرمز الموجود في لوحة القيادة؟",
+      "english": "What does this dashboard symbol mean?",
+      "french": "Que signifie ce symbole sur le tableau de bord ?"
+    },
+    "answers": [
+      {
+        "arabic": "ماء مساحات الزجاج",
+        "english": "Windshield washer fluid",
+        "french": "Liquide lave-glace",
+        "is_correct": true
+      },
+      {
+        "arabic": "مؤشر مستوى الزيت",
+        "english": "Oil level indicator",
+        "french": "Indicateur de niveau d'huile",
+        "is_correct": false
+      },
+      {
+        "arabic": "ضوء الضباب",
+        "english": "Fog light",
+        "french": "Feu de brouillard",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/washer_fluid.png"
+  },
+  {
+    "id": "454",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا يعني هذا الرمز الموجود في لوحة القيادة؟",
+      "english": "What does this dashboard symbol mean?",
+      "french": "Que signifie ce symbole sur le tableau de bord ?"
+    },
+    "answers": [
+      {
+        "arabic": "الإضاءة الخارجية",
+        "english": "Exterior lights",
+        "french": "Éclairage extérieur",
+        "is_correct": true
+      },
+      {
+        "arabic": "أضواء الضباب الأمامية",
+        "english": "Front fog lights",
+        "french": "Feux de brouillard avant",
+        "is_correct": false
+      },
+      {
+        "arabic": "ضوء الفرامل",
+        "english": "Brake light",
+        "french": "Feu de freinage",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/exterior_lights.png"
+  },
+  {
+    "id": "455",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا يعني هذا الرمز الموجود في لوحة القيادة؟",
+      "english": "What does this dashboard symbol mean?",
+      "french": "Que signifie ce symbole sur le tableau de bord ?"
+    },
+    "answers": [
+      {
+        "arabic": "مؤشر تعطل الوسائد الهوائية",
+        "english": "Airbag malfunction indicator",
+        "french": "Indicateur de dysfonctionnement des airbags",
+        "is_correct": false
+      },
+      {
+        "arabic": "الوسائد الهوائية",
+        "english": "Airbags",
+        "french": "Airbags",
+        "is_correct": true
+      },
+      {
+        "arabic": "حزام الأمان",
+        "english": "Seat belt",
+        "french": "Ceinture de sécurité",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/airbags.png"
+  },
+  {
+    "id": "456",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا يعني هذا الرمز الموجود في لوحة القيادة؟",
+      "english": "What does this dashboard symbol mean?",
+      "french": "Que signifie ce symbole sur le tableau de bord ?"
+    },
+    "answers": [
+      {
+        "arabic": "مؤشر الصيانة",
+        "english": "Service indicator",
+        "french": "Indicateur de maintenance",
+        "is_correct": true
+      },
+      {
+        "arabic": "مؤشر تعطل المحرك",
+        "english": "Engine malfunction indicator",
+        "french": "Indicateur de dysfonctionnement du moteur",
+        "is_correct": false
+      },
+      {
+        "arabic": "تحذير من الحرارة",
+        "english": "Heat warning",
+        "french": "Avertissement de chaleur",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/service.png"
+  },
+  {
+    "id": "457",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا يعني هذا الرمز الموجود في لوحة القيادة؟",
+      "english": "What does this dashboard symbol mean?",
+      "french": "Que signifie ce symbole sur le tableau de bord ?"
+    },
+    "answers": [
+      {
+        "arabic": "تحذير من الحرارة",
+        "english": "Heat warning",
+        "french": "Avertissement de chaleur",
+        "is_correct": true
+      },
+      {
+        "arabic": "مؤشر مستوى الوقود",
+        "english": "Fuel level indicator",
+        "french": "Indicateur de niveau de carburant",
+        "is_correct": false
+      },
+      {
+        "arabic": "مؤشر مستوى الزيت",
+        "english": "Oil level indicator",
+        "french": "Indicateur de niveau d'huile",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/temperature.png"
+  },
+  {
+    "id": "458",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا يعني هذا الرمز الموجود في لوحة القيادة؟",
+      "english": "What does this dashboard symbol mean?",
+      "french": "Que signifie ce symbole sur le tableau de bord ?"
+    },
+    "answers": [
+      {
+        "arabic": "مؤشر مستوى الزيت",
+        "english": "Oil level indicator",
+        "french": "Indicateur de niveau d'huile",
+        "is_correct": false
+      },
+      {
+        "arabic": "مستوى الوقود",
+        "english": "Fuel level",
+        "french": "Niveau de carburant",
+        "is_correct": true
+      },
+      {
+        "arabic": "مؤشر البطارية",
+        "english": "Battery indicator",
+        "french": "Indicateur de batterie",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/fuel.png"
   }
 
 ];
