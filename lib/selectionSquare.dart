@@ -7,6 +7,7 @@ class SelectionSquare extends StatelessWidget {
   final Function onTap;
   final TextAlign? textAlign;
   final Color? selectedColor;
+  final double? fontSize;
 
   const SelectionSquare({
     super.key,
@@ -17,6 +18,7 @@ class SelectionSquare extends StatelessWidget {
     this.fullWidth = false,
     this.textAlign,
     this.selectedColor,
+    this.fontSize,
   });
 
   Color getSelectedColor() {
@@ -57,7 +59,7 @@ class SelectionSquare extends StatelessWidget {
                 text,
                 textAlign:(textAlign!=null)?textAlign: TextAlign.center,
                 style: TextStyle(
-                  fontSize: 16.0,
+                  fontSize:fontSize?? 16.0,
                   color: getSelectedColor(),
                 ),
               ),

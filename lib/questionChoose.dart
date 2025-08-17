@@ -3,6 +3,7 @@ import 'package:driving_license_exam/home.dart';
 import 'package:driving_license_exam/tf.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'classData.dart';
 import 'historyPage.dart';
 import 'questionsPage.dart';
 import 'selectionSquare.dart';
@@ -176,6 +177,43 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
                         height:60,
                       ),
 
+
+                      Container(
+                        decoration: BoxDecoration(
+                          border: Border.all(
+                            color: Colors.black,
+                            width: 1.0,
+                          ),
+                          borderRadius: BorderRadius.circular(8.0),
+                        ),
+                        child:ListTile(
+                          title: Text("All Question"),
+                          trailing:  Icon(Icons.arrow_forward_ios),
+                          onTap: (){
+                            List<Question> allQuestions = [];
+                            for(int i=0;i<questions.length;i++){
+                              allQuestions.add(Question.fromJson(questions[i]));
+                            }
+
+                            Navigator.pushReplacement(
+                                context,
+                                MaterialPageRoute(builder:
+                                    (context) => QuestionsPage(
+                                      sentQuestions:allQuestions,
+                                      allAnswers:true,
+                                    )
+                                )
+                            );
+                          },
+
+                        ),
+                      ),
+
+                      const SizedBox(
+                        height:20,
+                      ),
+
+
                       Text(
                         "Choose How You Need to Examine Yourself",
                         style: TextStyle(
@@ -226,6 +264,7 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
                                       ),
                                       TextFieldApp(
                                         controller:qNumberTF,
+                                        max:questions.length.toString(),
                                         onChanged: (value) {
                                           if(value!=""){
                                             int a = int.parse(value);
@@ -298,6 +337,7 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
                                       ),
                                       TextFieldApp(
                                         controller:signTF,
+                                        max:signQuestionsData.length.toString(),
                                         onChanged: (value) {
                                           if(value!=""){
                                             int a = int.parse(value);
@@ -323,6 +363,7 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
                                       ),
                                       TextFieldApp(
                                         controller:lawTF,
+                                        max: lawQuestionsData.length.toString(),
                                         onChanged: (value) {
                                           if(value!=""){
                                             int a = int.parse(value);
@@ -347,6 +388,7 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
                                       ),
                                       TextFieldApp(
                                         controller:safetyTF,
+                                        max: safetyQuestionsData.length.toString(),
                                         onChanged: (value) {
                                           if(value!=""){
                                             int a = int.parse(value);
@@ -373,6 +415,7 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
                                       ),
                                       TextFieldApp(
                                         controller:edTF,
+                                        max: edQuestionsData.length.toString(),
                                         onChanged: (value) {
                                           if(value!=""){
                                             int a = int.parse(value);
@@ -398,6 +441,7 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
                                       ),
                                       TextFieldApp(
                                         controller:cQNumberTF,
+                                        max: cQQuestionsData.length.toString(),
                                         onChanged: (value) {
                                           if(value!=""){
                                             int a = int.parse(value);

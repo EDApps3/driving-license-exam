@@ -26,10 +26,12 @@ List<T> getRandomUniqueItems<T>(List<T> list, int n) {
 
 class QuestionsPage extends StatefulWidget {
   final List<Question>? sentQuestions;
+  final bool? allAnswers;
 
   const QuestionsPage({
     super.key,
-    this.sentQuestions
+    this.sentQuestions,
+    this.allAnswers,
   });
 
   @override
@@ -47,6 +49,10 @@ class _QuestionsPageState extends State<QuestionsPage> {
   void generateQuestions() {
     if(widget.sentQuestions!=null) {
       toAskQuestions = widget.sentQuestions!;
+      if(widget.allAnswers==true) {
+        proceed = true;
+        setState(() {});
+      }
     }
     else {
       try {
@@ -329,7 +335,7 @@ class _QuestionsPageState extends State<QuestionsPage> {
                         );
                         },
                     ),
-                    SelectionSquare(
+                    (widget.allAnswers==true)?const SizedBox():SelectionSquare(
                       text: (wrongAnswersOnly==true)?"Wrong Answers Only":"All Answers",
                       isSelected:false,
                       onTap:(){

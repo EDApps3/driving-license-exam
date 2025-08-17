@@ -91,6 +91,17 @@ class _HistoryPageState extends State<HistoryPage> {
   }
 
 
+  String getCarQuestionNumber(List<Question> questions){
+    int cqQuestions = 0;
+    for (var question in questions) {
+      if (question.type == "Car Question") {
+        cqQuestions++;
+      }
+    }
+    return cqQuestions.toString();
+  }
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -154,32 +165,49 @@ class _HistoryPageState extends State<HistoryPage> {
                           ),
                           Wrap(
                             children: [
-                              SizedBox(
-                                width:81,
-                                child: Text(
+                              Chip(
+                                label: Text(
                                   "Signs: ${getSignQuestionsNumber(historyQuestion[i])}",
+                                  style:TextStyle(
+                                    fontSize: 8
+                                  ),
                                 ),
                               ),
-                              SizedBox(
-                                width:81,
-                                child:Text(
-                                  "| ED: ${getEDQuestionsNumber(historyQuestion[i])}",
+                              const SizedBox(width:1.5),
+                              Chip(
+                                label:Text(
+                                  "ED: ${getEDQuestionsNumber(historyQuestion[i])}",
+                                  style:TextStyle(
+                                      fontSize: 8
+                                  ),
                                 ),
                               ),
-                              SizedBox(
-                                width:81,
-                                child:Text(
-                                  "| Safety: ${getEDQuestionsNumber(historyQuestion[i])}",
+                              const SizedBox(width:1.5),
+                              Chip(
+                                label:Text(
+                                  "Safety: ${getEDQuestionsNumber(historyQuestion[i])}",
+                                  style:TextStyle(
+                                      fontSize: 8
+                                  ),
                                 ),
-
                               ),
-
-                              SizedBox(
-                                width:81,
-                                child:Text(
-                                  "| Law: ${getLawQuestionsNumber(historyQuestion[i])}",
+                              const SizedBox(width:1.5),
+                              Chip(
+                                label:Text(
+                                  "Law: ${getLawQuestionsNumber(historyQuestion[i])}",
+                                  style:TextStyle(
+                                      fontSize: 8
+                                  ),
                                 ),
-
+                              ),
+                              const SizedBox(width:1.5),
+                              Chip(
+                                label:Text(
+                                  "Car Questions: ${getCarQuestionNumber(historyQuestion[i])}",
+                                  style:TextStyle(
+                                      fontSize: 8
+                                  ),
+                                ),
                               ),
                             ],
                           ),
@@ -194,6 +222,7 @@ class _HistoryPageState extends State<HistoryPage> {
                                 children: [
                                   SelectionSquare(
                                     text: "Repeat All",
+                                    fontSize:11,
                                     onTap: () {
                                       Navigator.pushReplacement(
                                           context,
@@ -207,6 +236,7 @@ class _HistoryPageState extends State<HistoryPage> {
                                   ),
                                   SelectionSquare(
                                     text: "Repeat Only Wrong Question",
+                                    fontSize:11,
                                     onTap: () {
                                       Navigator.pushReplacement(
                                           context,
