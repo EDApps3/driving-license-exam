@@ -8880,13 +8880,13 @@ List questions = [
         "arabic": "60 كلم اس",
         "english": "60 km/hour",
         "french": "60 km/heure",
-        "is_correct": false
+        "is_correct": true
       },
       {
         "arabic": "70 كلمس",
         "english": "70 km/hour",
         "french": "70 km/heure",
-        "is_correct": true
+        "is_correct": false
       }
     ]
   },
