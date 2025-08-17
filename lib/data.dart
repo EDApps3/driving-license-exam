@@ -12717,6 +12717,396 @@ List questions = [
       }
     ],
     "image": "assets/signs/m_sign_16.png"
+  },
+  {
+    "id": "413",
+    "type": "ED",
+    "category": "G",
+    "question": {
+      "arabic": "ما هي الوفرات التي تنتج عن القيادة الصديقة للبيئة؟ (اختر كافة الاحتمالات التي تنطبق)",
+      "english": "What savings result from eco-friendly driving? (Select all that apply)",
+      "french": "Quelles économies résultent de l'éco-conduite? (Sélectionnez toutes les possibilités applicables)"
+    },
+    "answers": [
+      {
+        "arabic": "وُفورات في فواتير التأمين",
+        "english": "Savings in insurance bills",
+        "french": "Économies sur les primes d'assurance",
+        "is_correct": false
+      },
+      {
+        "arabic": "وُفورات في مصاريف صيانة المركبة",
+        "english": "Savings on vehicle maintenance costs",
+        "french": "Économies sur les coûts d'entretien du véhicule",
+        "is_correct": true
+      },
+      {
+        "arabic": "وُفورات في فواتير الوقود والمال",
+        "english": "Savings in fuel and money bills",
+        "french": "Économies sur les factures de carburant et d'argent",
+        "is_correct": false
+      }
+    ],
+  },
+  {
+    "id": "422",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا يمثل كل من الرقمين الأول والثاني في رمز تاريخ الصنع المكون من أربعة أرقام (مثال: 2621)؟",
+      "english": "What do the first two digits of the four-digit manufacturing date code represent (e.g., 2621)?",
+      "french": "Que représentent les deux premiers chiffres du code de date de fabrication à quatre chiffres (par ex., 2621)?"
+    },
+    "answers": [
+      {
+        "arabic": "الشهر والسنة",
+        "english": "Month and year",
+        "french": "Mois et année",
+        "is_correct": false
+      },
+      {
+        "arabic": "الأسبوع والسنة",
+        "english": "Week and year",
+        "french": "Semaine et année",
+        "is_correct": true
+      },
+      {
+        "arabic": "نوع الإطار وحجمه",
+        "english": "Tire type and size",
+        "french": "Type et taille de pneu",
+        "is_correct": false
+      },
+      {
+        "arabic": "بلد الصنع والمصنع",
+        "english": "Country of origin and manufacturer",
+        "french": "Pays d'origine et fabricant",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "423",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هو رمز السرعة الذي يشير إلى أن الإطار يتحمل سرعة قصوى تبلغ 240 كم/ساعة؟",
+      "english": "Which speed rating code indicates a tire can handle a maximum speed of 240 km/h?",
+      "french": "Quel indice de vitesse indique qu'un pneu peut supporter une vitesse maximale de 240 km/h?"
+    },
+    "answers": [
+      {
+        "arabic": "R",
+        "english": "R",
+        "french": "R",
+        "is_correct": false
+      },
+      {
+        "arabic": "H",
+        "english": "H",
+        "french": "H",
+        "is_correct": false
+      },
+      {
+        "arabic": "V",
+        "english": "V",
+        "french": "V",
+        "is_correct": true
+      },
+      {
+        "arabic": "Q",
+        "english": "Q",
+        "french": "Q",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "424",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هو الحد الأقصى الموصى به لاستخدام الإطار بعد تاريخ إنتاجه؟",
+      "english": "What is the recommended maximum lifespan for a tire after its manufacturing date?",
+      "french": "Quelle est la durée de vie maximale recommandée pour un pneu après sa date de fabrication?"
+    },
+    "answers": [
+      {
+        "arabic": "سنتان",
+        "english": "2 years",
+        "french": "2 ans",
+        "is_correct": false
+      },
+      {
+        "arabic": "4 سنوات",
+        "english": "4 years",
+        "french": "4 ans",
+        "is_correct": false
+      },
+      {
+        "arabic": "6 سنوات",
+        "english": "6 years",
+        "french": "6 ans",
+        "is_correct": true
+      },
+      {
+        "arabic": "10 سنوات",
+        "english": "10 years",
+        "french": "10 ans",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "425",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "إذا كان رمز تاريخ الصنع على الإطار هو '2621'، فماذا يعني ذلك؟",
+      "english": "If the manufacturing date code on a tire is '2621', what does it mean?",
+      "french": "Si le code de date de fabrication sur un pneu est '2621', que signifie-t-il?"
+    },
+    "answers": [
+      {
+        "arabic": "تم صنع الإطار في الأسبوع السادس والعشرين من عام 2021",
+        "english": "The tire was manufactured in the 26th week of 2021",
+        "french": "Le pneu a été fabriqué la 26ème semaine de 2021",
+        "is_correct": true
+      },
+      {
+        "arabic": "تم صنع الإطار في السادس والعشرين من شهر يناير لعام 2021",
+        "english": "The tire was manufactured on the 26th of January, 2021",
+        "french": "Le pneu a été fabriqué le 26 janvier 2021",
+        "is_correct": false
+      },
+      {
+        "arabic": "سرعة الإطار القصوى هي 2621 كم/ساعة",
+        "english": "The maximum speed of the tire is 2621 km/h",
+        "french": "La vitesse maximale du pneu est de 2621 km/h",
+        "is_correct": false
+      },
+      {
+        "arabic": "تم صنع الإطار في الشهر السادس والعشرين من عام 2021",
+        "english": "The tire was manufactured in the 26th month of 2021",
+        "french": "Le pneu a été fabriqué au 26ème mois de 2021",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "426",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "وفقًا لتصنيفات السرعة المذكورة، أي الحروف يشير إلى أن الإطار يتحمل سرعة قصوى تبلغ 180 كم/ساعة؟",
+      "english": "According to the speed ratings mentioned, which letter indicates a tire can handle a maximum speed of 180 km/h?",
+      "french": "Selon les indices de vitesse mentionnés, quelle lettre indique qu'un pneu peut supporter une vitesse maximale de 180 km/h?"
+    },
+    "answers": [
+      {
+        "arabic": "H",
+        "english": "H",
+        "french": "H",
+        "is_correct": false
+      },
+      {
+        "arabic": "P",
+        "english": "P",
+        "french": "P",
+        "is_correct": false
+      },
+      {
+        "arabic": "R",
+        "english": "R",
+        "french": "R",
+        "is_correct": true
+      },
+      {
+        "arabic": "V",
+        "english": "V",
+        "french": "V",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "434",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "بناءً على تصنيفات السرعة، ما هي السرعة القصوى للإطار الذي يحمل الرمز 'L'؟",
+      "english": "Based on speed ratings, what is the maximum speed for a tire with code 'L'?",
+      "french": "Selon les indices de vitesse, quelle est la vitesse maximale d'un pneu avec le code 'L'?"
+    },
+    "answers": [
+      {
+        "arabic": "120 كم/ساعة",
+        "english": "120 km/h",
+        "french": "120 km/h",
+        "is_correct": true
+      },
+      {
+        "arabic": "130 كم/ساعة",
+        "english": "130 km/h",
+        "french": "130 km/h",
+        "is_correct": false
+      },
+      {
+        "arabic": "140 كم/ساعة",
+        "english": "140 km/h",
+        "french": "140 km/h",
+        "is_correct": false
+      },
+      {
+        "arabic": "160 كم/ساعة",
+        "english": "160 km/h",
+        "french": "160 km/h",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "435",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هو رمز السرعة الذي يشير إلى أن الإطار يتحمل سرعة قصوى تبلغ 160 كم/ساعة؟",
+      "english": "Which speed rating code indicates a tire can handle a maximum speed of 160 km/h?",
+      "french": "Quel indice de vitesse indique qu'un pneu peut supporter une vitesse maximale de 160 km/h?"
+    },
+    "answers": [
+      {
+        "arabic": "N",
+        "english": "N",
+        "french": "N",
+        "is_correct": false
+      },
+      {
+        "arabic": "P",
+        "english": "P",
+        "french": "P",
+        "is_correct": true
+      },
+      {
+        "arabic": "Q",
+        "english": "Q",
+        "french": "Q",
+        "is_correct": false
+      },
+      {
+        "arabic": "R",
+        "english": "R",
+        "french": "R",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "436",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "وفقًا لتصنيفات السرعة، ما هي السرعة القصوى للإطار الذي يحمل الرمز 'Q'؟",
+      "english": "According to speed ratings, what is the maximum speed for a tire with code 'Q'?",
+      "french": "Selon les indices de vitesse, quelle est la vitesse maximale d'un pneu avec le code 'Q'?"
+    },
+    "answers": [
+      {
+        "arabic": "140 كم/ساعة",
+        "english": "140 km/h",
+        "french": "140 km/h",
+        "is_correct": false
+      },
+      {
+        "arabic": "160 كم/ساعة",
+        "english": "160 km/h",
+        "french": "160 km/h",
+        "is_correct": false
+      },
+      {
+        "arabic": "170 كم/ساعة",
+        "english": "170 km/h",
+        "french": "170 km/h",
+        "is_correct": true
+      },
+      {
+        "arabic": "180 كم/ساعة",
+        "english": "180 km/h",
+        "french": "180 km/h",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "437",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هو رمز السرعة الذي يشير إلى أن الإطار يتحمل سرعة قصوى تبلغ 140 كم/ساعة؟",
+      "english": "Which speed rating code indicates a tire can handle a maximum speed of 140 km/h?",
+      "french": "Quel indice de vitesse indique qu'un pneu peut supporter une vitesse maximale de 140 km/h?"
+    },
+    "answers": [
+      {
+        "arabic": "M",
+        "english": "M",
+        "french": "M",
+        "is_correct": false
+      },
+      {
+        "arabic": "N",
+        "english": "N",
+        "french": "N",
+        "is_correct": true
+      },
+      {
+        "arabic": "P",
+        "english": "P",
+        "french": "P",
+        "is_correct": false
+      },
+      {
+        "arabic": "Q",
+        "english": "Q",
+        "french": "Q",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "438",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا يمثل الرقمان الأخيران في رمز تاريخ الصنع المكون من أربعة أرقام (مثال: 2621)؟",
+      "english": "What do the last two digits of the four-digit manufacturing date code represent (e.g., 2621)?",
+      "french": "Que représentent les deux derniers chiffres du code de date de fabrication à quatre chiffres (par ex., 2621)?"
+    },
+    "answers": [
+      {
+        "arabic": "الأسبوع",
+        "english": "The week",
+        "french": "La semaine",
+        "is_correct": false
+      },
+      {
+        "arabic": "الشهر",
+        "english": "The month",
+        "french": "Le mois",
+        "is_correct": false
+      },
+      {
+        "arabic": "السنة",
+        "english": "The year",
+        "french": "L'année",
+        "is_correct": true
+      },
+      {
+        "arabic": "رمز المصنع",
+        "english": "Manufacturer code",
+        "french": "Code du fabricant",
+        "is_correct": false
+      }
+    ]
   }
 
 ];

@@ -102,6 +102,12 @@ class _QuestionsPageState extends State<QuestionsPage> {
               toAskQuestions.addAll(randomEDQuestion);
             }
 
+            List<Question> onlyCQQuestion   = cQQuestionsData.where((q) => selectedCategories.contains(q.category)).toList();
+            if(onlyCQQuestion.isNotEmpty){
+              List<Question> randomCQQuestion = getRandomUniqueItems(onlyCQQuestion,cQNumber);
+              toAskQuestions.addAll(randomCQQuestion);
+            }
+
             toAskQuestions.shuffle();
           }
         }

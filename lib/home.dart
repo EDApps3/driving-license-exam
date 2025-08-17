@@ -12,6 +12,7 @@ List<Question> signQuestionsData   = [];
 List<Question> lawQuestionsData    = [];
 List<Question> safetyQuestionsData = [];
 List<Question> edQuestionsData     = [];
+List<Question> cQQuestionsData     = [];
 
 
 
@@ -37,6 +38,7 @@ class _HomePageState extends State<HomePage> {
     lawQuestionsData    = questionsData.where((q) => q.type == "Law").toList();
     safetyQuestionsData = questionsData.where((q) => q.type == "Safety").toList();
     edQuestionsData     = questionsData.where((q) => q.type == "ED").toList();
+    cQQuestionsData     = questionsData.where((q) => q.type == "Car Question").toList();
   }
 
   @override

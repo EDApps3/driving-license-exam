@@ -19,6 +19,8 @@ int lawNumber = 10;
 int safetyNumber = 10;
 int edNumber = 10;
 int rQNumber = 30;
+int cQNumber = 10;
+
 
 void goToQuestionsPage(BuildContext context) {
   if(catASelected==false &&
@@ -115,6 +117,9 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
   );
   final TextEditingController qNumberTF = TextEditingController(
       text:"30"
+  );
+  final TextEditingController cQNumberTF = TextEditingController(
+      text:"10"
   );
 
 
@@ -384,6 +389,31 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
                                           }
                                         },
                                       ),
+
+                                      Text(
+                                        "Car Questions Out Of ${cQQuestionsData.where((e)=>getAllowedCategories().contains(e.category)).length}",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
+                                      TextFieldApp(
+                                        controller:cQNumberTF,
+                                        onChanged: (value) {
+                                          if(value!=""){
+                                            int a = int.parse(value);
+                                            if(a<=cQQuestionsData.length){
+                                              cQNumber = a;
+                                            }
+                                            else {
+                                              cQNumberTF.text = cQQuestionsData.length.toString();
+                                              showExceedNumberDialog();
+                                            }
+                                          }
+                                          else {
+                                            cQNumber=-1;
+                                          }
+                                        },
+                                      ),
                                     ],
                                   ),
                                 ),
@@ -549,6 +579,13 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
                     showErrorDialog(
                         title:"Choose ED Questions",
                         description:"You have to choose a number of ED questions to continue.",
+                        context:context
+                    );
+                  }
+                  else if(cQNumber==-1){
+                    showErrorDialog(
+                        title:"Choose Car Questions Questions",
+                        description:"You have to choose a number of Car Questions questions to continue.",
                         context:context
                     );
                   }
