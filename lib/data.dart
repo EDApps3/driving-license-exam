@@ -12066,5 +12066,160 @@ List questions = [
       }
     ],
     "image": "assets/signs/m_sign_92.png"
+  },
+  {
+    "id": "398",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "انتهاء جميع القيود السابقة على حركة السير",
+        "english": "End of all moving traffic restrictions previously signed",
+        "french": "Fin de toutes les interdictions précédemment signalées",
+        "is_correct": true
+      },
+      {
+        "arabic": "نهاية جميع حدود السرعة",
+        "english": "End of all speed limits",
+        "french": "Fin de toutes les limitations de vitesse",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع الدخول",
+        "english": "No entry",
+        "french": "Sens interdit",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_80.png"
+  },
+  {
+    "id": "399",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "ممنوع دخول المركبات التي تحمل مواد ملوثة للمياه",
+        "english": "No Vehicles carrying Pollutants",
+        "french": "Accès interdit aux véhicules transportant des marchandises polluantes",
+        "is_correct": true
+      },
+      {
+        "arabic": "ممنوع دخول المركبات التي تحمل مواد قابلة للاشتعال",
+        "english": "No Vehicles carrying Flammable Substances",
+        "french": "Accès interdit aux véhicules transportant des marchandises explosives",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع دخول المركبات التي تحمل مواد خطرة",
+        "english": "No Vehicles carrying Dangerous Material",
+        "french": "Accès interdit aux véhicules transportant des marchandises dangereuses",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_58.png"
+  },
+  {
+    "id": "400",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "ممنوع دخول المركبات التي تحمل مواد متفجرة أو شديدة الاشتعال",
+        "english": "No Vehicles carrying Explosive or Highly Flammable Substances",
+        "french": "Accès interdit aux véhicules transportant des marchandises explosives",
+        "is_correct": true
+      },
+      {
+        "arabic": "ممنوع دخول المركبات التي تحمل مواد خطرة",
+        "english": "No Vehicles carrying Dangerous Material",
+        "french": "Accès interdit aux véhicules transportant des marchandises dangereuses",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع دخول المركبات التي تحمل مواد ملوثة",
+        "english": "No Vehicles carrying Pollutants",
+        "french": "Accès interdit aux véhicules transportant des marchandises polluantes",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_59.png"
+  },
+  {
+    "id": "401",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "ممنوع دخول المركبات التي تحمل مواد خطرة",
+        "english": "No Vehicles carrying Dangerous Material",
+        "french": "Accès interdit aux véhicules transportant des marchandises dangereuses",
+        "is_correct": true
+      },
+      {
+        "arabic": "ممنوع دخول المركبات التي تحمل مواد ملوثة",
+        "english": "No Vehicles carrying Pollutants",
+        "french": "Accès interdit aux véhicules transportant des marchandises polluantes",
+        "is_correct": false
+      },
+      {
+        "arabic": "ممنوع دخول المركبات التي تحمل مواد متفجرة",
+        "english": "No Vehicles carrying Explosive or Highly Flammable Substances",
+        "french": "Accès interdit aux véhicules transportant des marchandises explosives",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_60.png"
+  },
+  {
+    "id": "402",
+    "type": "Signs",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني هذه الإشارة ؟؟",
+      "english": "What does this sign mean?",
+      "french": "Quel est le sens de ce signe de route?"
+    },
+    "answers": [
+      {
+        "arabic": "بداية منطقة موقف بدل دفع",
+        "english": "Entry zone of paid parking",
+        "french": "Entrée d'une zone à stationnement payant",
+        "is_correct": true
+      },
+      {
+        "arabic": "ممنوع الوقوف",
+        "english": "No parking",
+        "french": "Stationnement interdit",
+        "is_correct": false
+      },
+      {
+        "arabic": "نهاية منطقة موقف بدل دفع",
+        "english": "End of paid parking zone",
+        "french": "Fin d'une zone à stationnement payant",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/m_sign_63.png"
   }
 ];
