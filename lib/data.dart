@@ -14682,6 +14682,99 @@ List questions = [
       }
     ],
     "image": "assets/signs/b2.png"
+  },
+  {
+    "id": "490",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني لمبة المكابح (BRAKE) التي تظهر في لوحة القيادة؟",
+      "english": "What does the BRAKE lamp on the dashboard mean?",
+      "french": "Que signifie le voyant de frein (BRAKE) sur le tableau de bord ?"
+    },
+    "answers": [
+      {
+        "arabic": "قد تعني انخفاض سائل الفرامل أو وجود عطل في نظام الفرامل",
+        "english": "It may mean low brake fluid or a fault in the brake system",
+        "french": "Cela peut signifier un niveau de liquide de frein bas ou un défaut dans le système de freinage",
+        "is_correct": true
+      },
+      {
+        "arabic": "نقص في مستوى زيت المحرك",
+        "english": "Low engine oil level",
+        "french": "Niveau d'huile moteur bas",
+        "is_correct": false
+      },
+      {
+        "arabic": "ارتفاع درجة حرارة المحرك",
+        "english": "High engine temperature",
+        "french": "Température du moteur élevée",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/brk2.png"
+  },
+  {
+    "id": "491",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هي النتيجة المحتملة لظهور لمبة المكابح؟",
+      "english": "What is the likely result of the BRAKE lamp appearing?",
+      "french": "Quelle est la conséquence probable de l'apparition du voyant BRAKE ?"
+    },
+    "answers": [
+      {
+        "arabic": "قد تتوقف السيارة عن العمل فجأة",
+        "english": "The car may suddenly stop working",
+        "french": "La voiture pourrait s'arrêter de fonctionner soudainement",
+        "is_correct": false
+      },
+      {
+        "arabic": "فقدان القدرة على التوقف",
+        "english": "Loss of stopping ability",
+        "french": "Perte de la capacité à s'arrêter",
+        "is_correct": true
+      },
+      {
+        "arabic": "تحسن في أداء الفرامل",
+        "english": "Improved brake performance",
+        "french": "Amélioration des performances de freinage",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/brk2.png"
+  },
+  {
+    "id": "492",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هو الإجراء الموصى به عند ظهور لمبة المكابح؟",
+      "english": "What is the recommended action when the BRAKE lamp appears?",
+      "french": "Quelle est l'action recommandée lorsque le voyant BRAKE s'allume ?"
+    },
+    "answers": [
+      {
+        "arabic": "مواصلة القيادة بحذر",
+        "english": "Continue driving cautiously",
+        "french": "Continuer à rouler prudemment",
+        "is_correct": false
+      },
+      {
+        "arabic": "تحقق من مستوى سائل الفرامل، ولا تقد السيارة حتى يتم الفحص",
+        "english": "Check the brake fluid level, and do not drive the car until it is checked",
+        "french": "Vérifier le niveau de liquide de frein et ne pas conduire la voiture tant qu'elle n'a pas été inspectée",
+        "is_correct": true
+      },
+      {
+        "arabic": "زيادة ضغط الإطارات إلى أقصى حد",
+        "english": "Increase the tire pressure to the maximum limit",
+        "french": "Augmenter la pression des pneus au maximum",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/brk2.png"
   }
 
 ];
