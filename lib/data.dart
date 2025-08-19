@@ -13906,7 +13906,131 @@ List questions = [
         "french": "Transparent",
         "is_correct": false
       }
-    ]
+    ],
+  },
+  {
+    "id": "465",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني لمبة الزيت الصفراء التي تظهر في لوحة القيادة؟",
+      "english": "What does the yellow oil lamp on the dashboard mean?",
+      "french": "Que signifie le voyant d'huile jaune sur le tableau de bord ?"
+    },
+    "answers": [
+      {
+        "arabic": "نقص في مستوى زيت المحرك أو وجود خلل في حساس الزيت",
+        "english": "Low engine oil level or a fault in the oil sensor",
+        "french": "Niveau d'huile moteur bas ou un défaut dans le capteur d'huile",
+        "is_correct": true
+      },
+      {
+        "arabic": "ارتفاع درجة حرارة المحرك",
+        "english": "High engine temperature",
+        "french": "Température du moteur élevée",
+        "is_correct": false
+      },
+      {
+        "arabic": "وجود عطل في نظام الفرامل",
+        "english": "A fault in the brake system",
+        "french": "Un défaut dans le système de freinage",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/yellow_oil.png"
+  },
+  {
+    "id": "466",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "إذا استمرت لمبة الزيت الصفراء بالظهور، فما هو الإجراء الموصى به؟",
+      "english": "If the yellow oil lamp stays on, what is the recommended action?",
+      "french": "Si le voyant d'huile jaune reste allumé, quelle est l'action recommandée ?"
+    },
+    "answers": [
+      {
+        "arabic": "مواصلة القيادة والتوجه إلى أقرب محطة وقود",
+        "english": "Continue driving and head to the nearest gas station",
+        "french": "Continuer à rouler et se diriger vers la station-service la plus proche",
+        "is_correct": false
+      },
+      {
+        "arabic": "تجاهل اللمبة لأنها لا تؤدي إلى مشاكل كبيرة في المحرك",
+        "english": "Ignore the lamp as it doesn't lead to major engine problems",
+        "french": "Ignorer le voyant car il ne cause pas de problèmes majeurs au moteur",
+        "is_correct": false
+      },
+      {
+        "arabic": "الرجوع لفحص الحساس أو نظام التزييت في المحرك",
+        "english": "Return to check the sensor or the engine's lubrication system",
+        "french": "Vérifier le capteur ou le système de lubrification du moteur",
+        "is_correct": true
+      }
+    ],
+    "image": "assets/signs/yellow_oil.png"
+  },
+  {
+    "id": "467",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا يجب أن تفعل فور ظهور لمبة الزيت الصفراء أثناء القيادة؟",
+      "english": "What should you do immediately when the yellow oil lamp appears while driving?",
+      "french": "Que devez-vous faire immédiatement lorsque le voyant d'huile jaune apparaît pendant la conduite ?"
+    },
+    "answers": [
+      {
+        "arabic": "تتجاهل الإشارة وتكمل طريقك",
+        "english": "Ignore the sign and continue driving",
+        "french": "Ignorer le signal et continuer à rouler",
+        "is_correct": false
+      },
+      {
+        "arabic": "توقف السيارة على الفور على جانب الطريق",
+        "english": "Stop the car immediately on the side of the road",
+        "french": "Arrêter la voiture immédiatement sur le bas-côté",
+        "is_correct": false
+      },
+      {
+        "arabic": "تفحص مستوى الزيت وتضيف إذا كان ناقصًا",
+        "english": "Check the oil level and add some if it's low",
+        "french": "Vérifier le niveau d'huile et en ajouter s'il est bas",
+        "is_correct": true
+      }
+    ],
+    "image": "assets/signs/yellow_oil.png"
+  },
+  {
+    "id": "468",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هي النتيجة المحتملة لتجاهل لمبة الزيت الصفراء؟",
+      "english": "What is the likely result of ignoring the yellow oil lamp?",
+      "french": "Quelle est la conséquence probable d'ignorer le voyant d'huile jaune ?"
+    },
+    "answers": [
+      {
+        "arabic": "تحسين أداء المحرك",
+        "english": "Improved engine performance",
+        "french": "Amélioration des performances du moteur",
+        "is_correct": false
+      },
+      {
+        "arabic": "يؤدي إلى مشاكل أكبر في المحرك",
+        "english": "It leads to bigger problems in the engine",
+        "french": "Cela entraîne des problèmes plus graves pour le moteur",
+        "is_correct": true
+      },
+      {
+        "arabic": "زيادة كفاءة استهلاك الوقود",
+        "english": "Increased fuel efficiency",
+        "french": "Efficacité énergétique accrue",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/yellow_oil.png"
   },
 
 
