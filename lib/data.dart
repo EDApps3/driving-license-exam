@@ -14155,6 +14155,130 @@ List questions = [
       }
     ],
     "image": "assets/signs/tpms.png"
+  },
+  {
+    "id": "473",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني لمبة مانع الانزلاق (Traction Control) التي تظهر في لوحة القيادة؟",
+      "english": "What does the Traction Control lamp on the dashboard mean?",
+      "french": "Que signifie le voyant d'antipatinage (Traction Control) sur le tableau de bord ?"
+    },
+    "answers": [
+      {
+        "arabic": "يعني أن النظام يتدخل لمنع انزلاق العجلات، أو أن فيه خلل بالنظام",
+        "english": "It means the system is intervening to prevent wheel slippage, or that there is a fault in the system",
+        "french": "Cela signifie que le système intervient pour empêcher le patinage des roues, ou qu'il y a un défaut dans le système",
+        "is_correct": true
+      },
+      {
+        "arabic": "ارتفاع درجة حرارة المحرك",
+        "english": "High engine temperature",
+        "french": "Température du moteur élevée",
+        "is_correct": false
+      },
+      {
+        "arabic": "نقص في مستوى زيت المحرك",
+        "english": "Low engine oil level",
+        "french": "Niveau d'huile moteur bas",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/traction_control.png"
+  },
+  {
+    "id": "474",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هي الأسباب الشائعة لظهور لمبة مانع الانزلاق؟",
+      "english": "What is a common cause for the Traction Control lamp to appear?",
+      "french": "Quelle est une cause courante de l'allumage du voyant d'antipatinage ?"
+    },
+    "answers": [
+      {
+        "arabic": "القيادة على الطرق المبللة أو الرملية",
+        "english": "Driving on wet or sandy roads",
+        "french": "Conduire sur des routes mouillées ou sablonneuses",
+        "is_correct": true
+      },
+      {
+        "arabic": "عدم ربط حزام الأمان",
+        "english": "The seat belt is not fastened",
+        "french": "La ceinture de sécurité n'est pas attachée",
+        "is_correct": false
+      },
+      {
+        "arabic": "مستوى الوقود منخفض",
+        "english": "Low fuel level",
+        "french": "Niveau de carburant bas",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/traction_control.png"
+  },
+  {
+    "id": "475",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا يجب أن تفعل إذا كانت لمبة مانع الانزلاق تعمل بشكل طبيعي (تضيء وتطفئ)؟",
+      "english": "What should you do if the Traction Control lamp is working normally (lights up and turns off)?",
+      "french": "Que devez-vous faire si le voyant d'antipatinage fonctionne normalement (s'allume et s'éteint) ?"
+    },
+    "answers": [
+      {
+        "arabic": "تتجاهل الإشارة وتكمل القيادة بسرعة عالية",
+        "english": "Ignore the signal and continue driving at high speed",
+        "french": "Ignorer le signal et continuer à rouler à grande vitesse",
+        "is_correct": false
+      },
+      {
+        "arabic": "لا شيء، فهذا يدل على أن النظام يعمل بشكل صحيح",
+        "english": "Nothing, this indicates that the system is working correctly",
+        "french": "Rien, cela indique que le système fonctionne correctement",
+        "is_correct": true
+      },
+      {
+        "arabic": "توقف السيارة على الفور على جانب الطريق",
+        "english": "Stop the car immediately on the side of the road",
+        "french": "Arrêter la voiture immédiatement sur le bas-côté",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/traction_control.png"
+  },
+  {
+    "id": "476",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هي النتيجة المحتملة لتجاهل لمبة مانع الانزلاق إذا ظلت مضاءة بشكل مستمر؟",
+      "english": "What is the likely result of ignoring the Traction Control lamp if it stays on continuously?",
+      "french": "Quelle est la conséquence probable d'ignorer le voyant d'antipatinage s'il reste allumé en permanence ?"
+    },
+    "answers": [
+      {
+        "arabic": "تحسين أداء المحرك",
+        "english": "Improved engine performance",
+        "french": "Amélioration des performances du moteur",
+        "is_correct": false
+      },
+      {
+        "arabic": "لا يؤثر على القيادة العادية لكنه يقلل الأمان في ظروف الانزلاق",
+        "english": "It does not affect normal driving but reduces safety in slippery conditions",
+        "french": "Cela n'affecte pas la conduite normale mais réduit la sécurité dans des conditions glissantes",
+        "is_correct": true
+      },
+      {
+        "arabic": "زيادة كفاءة استهلاك الوقود",
+        "english": "Increased fuel efficiency",
+        "french": "Efficacité énergétique accrue",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/traction_control.png"
   }
 
 
