@@ -14279,7 +14279,316 @@ List questions = [
       }
     ],
     "image": "assets/signs/traction_control.png"
-  }
-
+  },
+  {
+    "id": "477",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني لمبة مانع الانزلاق (ABS) التي تظهر في لوحة القيادة؟",
+      "english": "What does the Anti-lock Braking System (ABS) lamp on the dashboard mean?",
+      "french": "Que signifie le voyant du système de freinage antiblocage (ABS) sur le tableau de bord ?"
+    },
+    "answers": [
+      {
+        "arabic": "يعني وجود مشكلة في نظام الفرامل المانع للانزلاق",
+        "english": "It means there is a problem in the Anti-lock Braking System",
+        "french": "Cela signifie qu'il y a un problème dans le système de freinage antiblocage",
+        "is_correct": true
+      },
+      {
+        "arabic": "يعني أن الفرامل العادية لا تعمل",
+        "english": "It means the regular brakes are not working",
+        "french": "Cela signifie que les freins normaux ne fonctionnent pas",
+        "is_correct": false
+      },
+      {
+        "arabic": "يعني أن نظام الفرامل اليدوي لا يعمل",
+        "english": "It means the handbrake is not working",
+        "french": "Cela signifie que le frein à main ne fonctionne pas",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/abs.png"
+  },
+  {
+    "id": "478",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هي الأسباب الشائعة لظهور لمبة ABS؟",
+      "english": "What is a common cause for the ABS lamp to appear?",
+      "french": "Quelle est une cause courante de l'allumage du voyant ABS ?"
+    },
+    "answers": [
+      {
+        "arabic": "خلل في حساس سرعة العجلة",
+        "english": "A fault in a wheel speed sensor",
+        "french": "Un défaut dans un capteur de vitesse de roue",
+        "is_correct": true
+      },
+      {
+        "arabic": "انخفاض ضغط الإطارات",
+        "english": "Low tire pressure",
+        "french": "Pression des pneus basse",
+        "is_correct": false
+      },
+      {
+        "arabic": "عدم ربط حزام الأمان",
+        "english": "The seat belt is not fastened",
+        "french": "La ceinture de sécurité n'est pas attachée",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/abs.png"
+  },
+  {
+    "id": "479",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هو الإجراء الموصى به عند ظهور لمبة ABS؟",
+      "english": "What is the recommended action when the ABS lamp appears?",
+      "french": "Quelle est l'action recommandée lorsque le voyant ABS s'allume ?"
+    },
+    "answers": [
+      {
+        "arabic": "يُنصح بفحص السيارة عند فشل الفرامل على الطرق الزلقة",
+        "english": "It is recommended to have the car checked for brake failure on slippery roads",
+        "french": "Il est recommandé de faire vérifier la voiture en cas de défaillance des freins sur routes glissantes",
+        "is_correct": true
+      },
+      {
+        "arabic": "التوقف الفوري عن القيادة وإطفاء المحرك",
+        "english": "Stop driving immediately and turn off the engine",
+        "french": "Arrêter immédiatement de rouler et éteindre le moteur",
+        "is_correct": false
+      },
+      {
+        "arabic": "الضغط على دواسة الفرامل بشكل مستمر",
+        "english": "Press the brake pedal continuously",
+        "french": "Appuyer en continu sur la pédale de frein",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/abs.png"
+  },
+  {
+    "id": "480",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هي الأسباب المحتملة لعدم عمل نظام ABS؟",
+      "english": "What are the potential reasons for the ABS system not to work?",
+      "french": "Quelles sont les raisons potentielles pour que le système ABS ne fonctionne pas ?"
+    },
+    "answers": [
+      {
+        "arabic": "أسلاك مقطوعة أو متضررة",
+        "english": "Cut or damaged wires",
+        "french": "Fils coupés ou endommagés",
+        "is_correct": true
+      },
+      {
+        "arabic": "نقص في مستوى زيت المحرك",
+        "english": "Low engine oil level",
+        "french": "Niveau d'huile moteur bas",
+        "is_correct": false
+      },
+      {
+        "arabic": "انخفاض مستوى سائل التبريد",
+        "english": "Low coolant level",
+        "french": "Niveau de liquide de refroidissement bas",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/abs.png"
+  },
+  {
+    "id": "481",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني لمبة فحص المحرك (Check Engine) عندما تضيء بشكل ثابت؟",
+      "english": "What does the 'Check Engine' lamp mean when it lights up continuously?",
+      "french": "Que signifie le voyant 'Check Engine' lorsqu'il reste allumé en continu ?"
+    },
+    "answers": [
+      {
+        "arabic": "وجود مشكلة خطيرة في المحرك",
+        "english": "There is a serious problem with the engine",
+        "french": "Il y a un problème grave avec le moteur",
+        "is_correct": false
+      },
+      {
+        "arabic": "تشير إلى خلل في أحد أنظمة السيارة مثل الوقود أو العادم",
+        "english": "It indicates a fault in one of the car's systems, such as fuel or exhaust",
+        "french": "Cela indique un défaut dans l'un des systèmes de la voiture, comme le carburant ou l'échappement",
+        "is_correct": true
+      },
+      {
+        "arabic": "يعني أن الزيت بحاجة إلى التغيير الفوري",
+        "english": "It means the oil needs to be changed immediately",
+        "french": "Cela signifie que l'huile doit être changée immédiatement",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/service.png"
+  },
+  {
+    "id": "482",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هي الأسباب الشائعة لظهور لمبة فحص المحرك؟",
+      "english": "What are common causes for the 'Check Engine' lamp to appear?",
+      "french": "Quelles sont les causes courantes de l'allumage du voyant 'Check Engine' ?"
+    },
+    "answers": [
+      {
+        "arabic": "غطاء بنزين غير محكم",
+        "english": "A loose gas cap",
+        "french": "Un bouchon de réservoir d'essence mal serré",
+        "is_correct": true
+      },
+      {
+        "arabic": "نقص في ضغط الإطارات",
+        "english": "Low tire pressure",
+        "french": "Pression des pneus basse",
+        "is_correct": false
+      },
+      {
+        "arabic": "ارتفاع درجة حرارة سائل التبريد",
+        "english": "High coolant temperature",
+        "french": "Température du liquide de refroidissement élevée",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/service.png"
+  },
+  {
+    "id": "483",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هو الإجراء الذي يجب اتخاذه إذا كانت لمبة فحص المحرك تومض (Flashes)؟",
+      "english": "What action should be taken if the 'Check Engine' lamp is flashing?",
+      "french": "Quelle action faut-il entreprendre si le voyant 'Check Engine' clignote ?"
+    },
+    "answers": [
+      {
+        "arabic": "مواصلة القيادة بشكل طبيعي حتى تنطفئ اللمبة",
+        "english": "Continue driving normally until the lamp turns off",
+        "french": "Continuer à rouler normalement jusqu'à ce que le voyant s'éteigne",
+        "is_correct": false
+      },
+      {
+        "arabic": "إيقاف السيارة فوراً والتحقق من المشكلة",
+        "english": "Stop the car immediately and check for the problem",
+        "french": "Arrêter la voiture immédiatement et vérifier le problème",
+        "is_correct": true
+      },
+      {
+        "arabic": "فحص غطاء البنزين فقط",
+        "english": "Only check the gas cap",
+        "french": "Vérifier uniquement le bouchon du réservoir d'essence",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/service.png"
+  },
+  {
+    "id": "484",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني لمبة الإيرباج التي تظهر في لوحة القيادة؟",
+      "english": "What does the airbag lamp on the dashboard mean?",
+      "french": "Que signifie le voyant d'airbag sur le tableau de bord ?"
+    },
+    "answers": [
+      {
+        "arabic": "قد لا يعمل نظام الوسائد الهوائية في حالة وقوع حادث",
+        "english": "The airbag system may not work in the event of an accident",
+        "french": "Le système d'airbags pourrait ne pas fonctionner en cas d'accident",
+        "is_correct": true
+      },
+      {
+        "arabic": "يجب ربط حزام الأمان",
+        "english": "The seat belt must be fastened",
+        "french": "La ceinture de sécurité doit être attachée",
+        "is_correct": false
+      },
+      {
+        "arabic": "يجب فحص ضغط الإطارات",
+        "english": "Tire pressure must be checked",
+        "french": "La pression des pneus doit être vérifiée",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/bb.png"
+  },
+  {
+    "id": "485",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هي النتيجة المترتبة على ظهور لمبة الإيرباج؟",
+      "english": "What is the consequence of the airbag lamp appearing?",
+      "french": "Quelle est la conséquence de l'apparition du voyant d'airbag ?"
+    },
+    "answers": [
+      {
+        "arabic": "يقل خطر الإصابة في حال وقوع حادث",
+        "english": "The risk of injury is reduced in the event of an accident",
+        "french": "Le risque de blessure est réduit en cas d'accident",
+        "is_correct": false
+      },
+      {
+        "arabic": "خطر الإصابة في حال وقوع حادث",
+        "english": "Risk of injury in the event of an accident",
+        "french": "Risque de blessure en cas d'accident",
+        "is_correct": true
+      },
+      {
+        "arabic": "لا يوجد أي تأثير على سلامة القيادة",
+        "english": "There is no effect on driving safety",
+        "french": "Il n'y a aucun effet sur la sécurité de la conduite",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/bb.png"
+  },
+  {
+    "id": "486",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هو الإجراء الموصى به عند ظهور لمبة الإيرباج؟",
+      "english": "What is the recommended action when the airbag lamp appears?",
+      "french": "Quelle est l'action recommandée lorsque le voyant d'airbag s'allume ?"
+    },
+    "answers": [
+      {
+        "arabic": "فحص السيارة إلكترونيًا عند فني متخصص",
+        "english": "Have the car electronically checked by a specialized technician",
+        "french": "Faire vérifier la voiture électroniquement par un technicien spécialisé",
+        "is_correct": true
+      },
+      {
+        "arabic": "إعادة تشغيل المحرك لإطفاء اللمبة",
+        "english": "Restart the engine to turn off the lamp",
+        "french": "Redémarrer le moteur pour éteindre le voyant",
+        "is_correct": false
+      },
+      {
+        "arabic": "تجاهل اللمبة لأنها قد تنطفئ من تلقاء نفسها",
+        "english": "Ignore the lamp as it might turn off on its own",
+        "french": "Ignorer le voyant car il pourrait s'éteindre tout seul",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/bb.png"
+  },
 
 ];
