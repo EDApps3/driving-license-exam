@@ -14775,6 +14775,99 @@ List questions = [
       }
     ],
     "image": "assets/signs/brk2.png"
+  },
+  {
+    "id": "493",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني لمبة الحرارة التي تظهر في لوحة القيادة؟",
+      "english": "What does the temperature lamp on the dashboard mean?",
+      "french": "Que signifie le voyant de température sur le tableau de bord ?"
+    },
+    "answers": [
+      {
+        "arabic": "نقص في مستوى الزيت",
+        "english": "Low oil level",
+        "french": "Niveau d'huile bas",
+        "is_correct": false
+      },
+      {
+        "arabic": "ارتفاع درجة حرارة المحرك",
+        "english": "High engine temperature",
+        "french": "Température du moteur élevée",
+        "is_correct": true
+      },
+      {
+        "arabic": "مشكلة في نظام الفرامل",
+        "english": "A problem with the brake system",
+        "french": "Un problème avec le système de freinage",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/temp2.png"
+  },
+  {
+    "id": "494",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هي النتيجة المحتملة لارتفاع درجة حرارة المحرك؟",
+      "english": "What is the likely result of high engine temperature?",
+      "french": "Quelle est la conséquence probable d'une température élevée du moteur ?"
+    },
+    "answers": [
+      {
+        "arabic": "تلف رأس المحرك أو الجوان",
+        "english": "Damage to the cylinder head or gasket",
+        "french": "Dommage à la culasse ou au joint de culasse",
+        "is_correct": true
+      },
+      {
+        "arabic": "توقف نظام الفرامل عن العمل",
+        "english": "Brake system failure",
+        "french": "Défaillance du système de freinage",
+        "is_correct": false
+      },
+      {
+        "arabic": "انخفاض استهلاك الوقود",
+        "english": "Decreased fuel consumption",
+        "french": "Diminution de la consommation de carburant",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/temp2.png"
+  },
+  {
+    "id": "495",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هو الإجراء الذي يجب اتخاذه عند ظهور لمبة الحرارة؟",
+      "english": "What action should be taken when the temperature lamp appears?",
+      "french": "Quelle action faut-il entreprendre lorsque le voyant de température s'allume ?"
+    },
+    "answers": [
+      {
+        "arabic": "إيقاف السيارة وتركها تبرد، ولا تفتح غطاء الراديتر وهو ساخن",
+        "english": "Stop the car and let it cool down, and do not open the radiator cap when it is hot",
+        "french": "Arrêter la voiture et la laisser refroidir, et ne pas ouvrir le bouchon du radiateur quand il est chaud",
+        "is_correct": true
+      },
+      {
+        "arabic": "مواصلة القيادة بحذر للوصول إلى أقرب مكان",
+        "english": "Continue driving carefully to the nearest location",
+        "french": "Continuer à rouler prudemment jusqu'à l'endroit le plus proche",
+        "is_correct": false
+      },
+      {
+        "arabic": "إضافة سائل تبريد للمحرك وهو ساخن",
+        "english": "Add coolant to the hot engine",
+        "french": "Ajouter du liquide de refroidissement au moteur chaud",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/temp2.png"
   }
 
 ];
