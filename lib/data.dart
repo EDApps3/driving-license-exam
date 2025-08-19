@@ -3884,7 +3884,7 @@ List questions = [
     "type": "Signs",
     "category": "G",
     "question": {
-      "arabic": "ماذا تعني هذه الإشارة ؟؟ - إنتبه تقاطع مع طرقات بدون أفضلية Sign_17.png",
+      "arabic": "ماذا تعني هذه الإشارة ؟؟ Sign_17.png",
       "english": "What does this sign mean? - Sign_17.png",
       "french": "Quel est le sens de ce signe de route? - Sign_17.png"
     },
@@ -3893,7 +3893,7 @@ List questions = [
         "arabic": "إنتبه تقاطع مع طر قات بدون أفضلية",
         "english": "Caution, intersection with no right of way",
         "french": "Attention, intersection sans priorité",
-        "is_correct": false
+        "is_correct": true
       },
       {
         "arabic": "إنتبه أفضلية المرور للسيار ات المتجهة من الجهة المقابلة",
@@ -3905,7 +3905,7 @@ List questions = [
         "arabic": " إنتبه تقاطع",
         "english": "Caution, intersection ahead",
         "french": "Attention, intersection",
-        "is_correct": true
+        "is_correct": false
       }
     ],
     "image": "assets/signs/17.png"
@@ -8880,13 +8880,13 @@ List questions = [
         "arabic": "60 كلم اس",
         "english": "60 km/hour",
         "french": "60 km/heure",
-        "is_correct": true
+        "is_correct": false
       },
       {
         "arabic": "70 كلمس",
         "english": "70 km/hour",
         "french": "70 km/heure",
-        "is_correct": false
+        "is_correct": true
       }
     ]
   },
@@ -12192,7 +12192,7 @@ List questions = [
     "image": "assets/signs/m_sign_60.png"
   },
   {
-    "id": "402",
+    "id": "4022",
     "type": "Signs",
     "category": "G",
     "question": {
@@ -12223,7 +12223,7 @@ List questions = [
     "image": "assets/signs/m_sign_63.png"
   },
   {
-    "id": "402",
+    "id": "4023",
     "type": "Signs",
     "category": "G",
     "question": {
@@ -12254,7 +12254,7 @@ List questions = [
     "image": "assets/signs/63.png"
   },
   {
-    "id": "403",
+    "id": "4032",
     "type": "Signs",
     "category": "G",
     "question": {
@@ -12285,7 +12285,7 @@ List questions = [
     "image": "assets/signs/41.png"
   },
   {
-    "id": "402",
+    "id": "4021",
     "type": "Signs",
     "category": "G",
     "question": {
@@ -12316,7 +12316,7 @@ List questions = [
     "image": "assets/signs/63.png"
   },
   {
-    "id": "403",
+    "id": "4031",
     "type": "Signs",
     "category": "G",
     "question": {
@@ -12378,7 +12378,7 @@ List questions = [
     "image": "assets/signs/m_sign_18.png"
   },
   {
-    "id": "406",
+    "id": "4061",
     "type": "Signs",
     "category": "G",
     "question": {
@@ -12388,9 +12388,9 @@ List questions = [
     },
     "answers": [
       {
-        "arabic": "ممر سكة حديد",
-        "english": "Single track rail road crossing",
-        "french": "Passage à niveau-voie unique",
+        "arabic": "  طريق مع تقاطع بدون أفضلية",
+        "english": "Intersection with a road without priority",
+        "french": "Intersection avec une route sans priorité",
         "is_correct": true
       },
       {
@@ -12409,7 +12409,7 @@ List questions = [
     "image": "assets/signs/m_sign_19.png"
   },
   {
-    "id": "406",
+    "id": "4062",
     "type": "Signs",
     "category": "G",
     "question": {
@@ -12440,7 +12440,7 @@ List questions = [
     "image": "assets/signs/19.png"
   },
   {
-    "id": "407",
+    "id": "4071",
     "type": "Signs",
     "category": "G",
     "question": {
@@ -12471,7 +12471,7 @@ List questions = [
     "image": "assets/signs/m_sign_21.png"
   },
   {
-    "id": "408",
+    "id": "4081",
     "type": "Signs",
     "category": "G",
     "question": {
@@ -12502,7 +12502,7 @@ List questions = [
     "image": "assets/signs/m_sign_22.png"
   },
   {
-    "id": "406",
+    "id": "4063",
     "type": "Signs",
     "category": "G",
     "question": {
@@ -12533,7 +12533,7 @@ List questions = [
     "image": "assets/signs/19.png"
   },
   {
-    "id": "407",
+    "id": "4072",
     "type": "Signs",
     "category": "G",
     "question": {
@@ -12564,7 +12564,7 @@ List questions = [
     "image": "assets/signs/21.png"
   },
   {
-    "id": "408",
+    "id": "4082",
     "type": "Signs",
     "category": "G",
     "question": {
@@ -13727,6 +13727,187 @@ List questions = [
       }
     ],
     "image": "assets/signs/fuel.png"
-  }
+  },
+  {
+    "id": "459",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هو اللون الشائع لزيت المحرك؟",
+      "english": "What is the common color of engine oil?",
+      "french": "Quelle est la couleur courante de l'huile moteur?"
+    },
+    "answers": [
+      {
+        "arabic": "ذهبي أو عسلي",
+        "english": "Golden or Amber",
+        "french": "Doré ou ambré",
+        "is_correct": true
+      },
+      {
+        "arabic": "أحمر",
+        "english": "Red",
+        "french": "Rouge",
+        "is_correct": false
+      },
+      {
+        "arabic": "أخضر",
+        "english": "Green",
+        "french": "Vert",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "460",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هو لون زيت الفيتيس؟",
+      "english": "What is the color of the transmission fluid?",
+      "french": "Quelle est la couleur du liquide de transmission?"
+    },
+    "answers": [
+      {
+        "arabic": "أصفر",
+        "english": "Yellow",
+        "french": "Jaune",
+        "is_correct": false
+      },
+      {
+        "arabic": "أحمر",
+        "english": "Red",
+        "french": "Rouge",
+        "is_correct": true
+      },
+      {
+        "arabic": "أخضر",
+        "english": "Green",
+        "french": "Vert",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "461",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هو لون زيت الدفرانس؟",
+      "english": "What is the color of the differential oil?",
+      "french": "Quelle est la couleur de l'huile de différentiel?"
+    },
+    "answers": [
+      {
+        "arabic": "ذهبي أو بني غامق",
+        "english": "Amber or Dark Brown",
+        "french": "Ambré ou brun foncé",
+        "is_correct": true
+      },
+      {
+        "arabic": "بنفسجي",
+        "english": "Purple",
+        "french": "Violet",
+        "is_correct": false
+      },
+      {
+        "arabic": "أحمر",
+        "english": "Red",
+        "french": "Rouge",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "462",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هو لون زيت الفرامل؟",
+      "english": "What is the color of the brake fluid?",
+      "french": "Quelle est la couleur du liquide de frein?"
+    },
+    "answers": [
+      {
+        "arabic": "شفاف أو أصفر فاتح",
+        "english": "Clear or light yellow",
+        "french": "Transparent ou jaune clair",
+        "is_correct": true
+      },
+      {
+        "arabic": "أخضر",
+        "english": "Green",
+        "french": "Vert",
+        "is_correct": false
+      },
+      {
+        "arabic": "أحمر",
+        "english": "Red",
+        "french": "Rouge",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "463",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هو لون سائل التبريد؟",
+      "english": "What is the color of the coolant?",
+      "french": "Quelle est la couleur du liquide de refroidissement?"
+    },
+    "answers": [
+      {
+        "arabic": "أخضر (وقد يكون ألوان أخرى مثل أحمر أو أزرق حسب النوع)",
+        "english": "Green (but can also be Red or Blue depending on the type)",
+        "french": "Vert (mais peut aussi être rouge ou bleu selon le type)",
+        "is_correct": true
+      },
+      {
+        "arabic": "أصفر",
+        "english": "Yellow",
+        "french": "Jaune",
+        "is_correct": false
+      },
+      {
+        "arabic": "بنفسجي",
+        "english": "Purple",
+        "french": "Violet",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "464",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هو لون مياه المساحات؟",
+      "english": "What is the color of the windshield washer fluid?",
+      "french": "Quelle est la couleur du liquide lave-glace?"
+    },
+    "answers": [
+      {
+        "arabic": "أزرق",
+        "english": "Blue",
+        "french": "Bleu",
+        "is_correct": true
+      },
+      {
+        "arabic": "أخضر",
+        "english": "Green",
+        "french": "Vert",
+        "is_correct": false
+      },
+      {
+        "arabic": "شفاف",
+        "english": "Clear",
+        "french": "Transparent",
+        "is_correct": false
+      }
+    ]
+  },
+
 
 ];
