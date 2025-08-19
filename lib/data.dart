@@ -14868,6 +14868,128 @@ List questions = [
       }
     ],
     "image": "assets/signs/temp2.png"
+  },
+  {
+    "id": "496",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني لمبة الزيت الحمراء التي تظهر في لوحة القيادة؟",
+      "english": "What does the red oil lamp on the dashboard mean?",
+      "french": "Que signifie le voyant d'huile rouge sur le tableau de bord ?"
+    },
+    "answers": [
+      {
+        "arabic": "انخفاض ضغط الزيت أو عدم وجود زيت كافٍ",
+        "english": "Low oil pressure or insufficient oil",
+        "french": "Pression d'huile basse ou manque d'huile",
+        "is_correct": true
+      },
+      {
+        "arabic": "ارتفاع درجة حرارة المحرك",
+        "english": "High engine temperature",
+        "french": "Température du moteur élevée",
+        "is_correct": false
+      },
+      {
+        "arabic": "نقص في مستوى سائل التبريد",
+        "english": "Low coolant level",
+        "french": "Niveau de liquide de refroidissement bas",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/o2.png"
+  },
+  {
+    "id": "497",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هي النتيجة المحتملة لظهور لمبة الزيت الحمراء؟",
+      "english": "What is the likely result of the red oil lamp appearing?",
+      "french": "Quelle est la conséquence probable de l'apparition du voyant d'huile rouge ?"
+    },
+    "answers": [
+      {
+        "arabic": "قد يؤدي إلى تلف المحرك بشكل كامل",
+        "english": "It may lead to complete engine failure",
+        "french": "Cela peut entraîner une défaillance complète du moteur",
+        "is_correct": true
+      },
+      {
+        "arabic": "توقف نظام الفرامل عن العمل",
+        "english": "Brake system failure",
+        "french": "Défaillance du système de freinage",
+        "is_correct": false
+      },
+      {
+        "arabic": "زيادة كفاءة استهلاك الوقود",
+        "english": "Increased fuel efficiency",
+        "french": "Efficacité énergétique accrue",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/o2.png"
+  },
+  {
+    "id": "498",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هو الإجراء الذي يجب اتخاذه فور ظهور لمبة الزيت الحمراء؟",
+      "english": "What action should be taken immediately when the red oil lamp appears?",
+      "french": "Quelle action faut-il entreprendre immédiatement lorsque le voyant d'huile rouge s'allume ?"
+    },
+    "answers": [
+      {
+        "arabic": "أوقف السيارة فوراً وتحقق من مستوى الزيت",
+        "english": "Stop the car immediately and check the oil level",
+        "french": "Arrêter immédiatement la voiture et vérifier le niveau d'huile",
+        "is_correct": true
+      },
+      {
+        "arabic": "مواصلة القيادة بحذر للوصول إلى أقرب مكان",
+        "english": "Continue driving carefully to the nearest location",
+        "french": "Continuer à rouler prudemment jusqu'à l'endroit le plus proche",
+        "is_correct": false
+      },
+      {
+        "arabic": "إعادة تشغيل المحرك عدة مرات",
+        "english": "Restart the engine several times",
+        "french": "Redémarrer le moteur plusieurs fois",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/o2.png"
+  },
+  {
+    "id": "499",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "بناءً على الصورة، أي من المجموعات التالية تحتوي على أخطر لمبات التحذير في السيارة؟",
+      "english": "Based on the image, which of the following groups contains the most critical warning lamps in the car?",
+      "french": "D'après l'image, lequel des groupes suivants contient les voyants d'avertissement les plus critiques dans une voiture ?"
+    },
+    "answers": [
+      {
+        "arabic": "لمبة الزيت، لمبة الحرارة، لمبة المكابح، لمبة البطارية، لمبة الإيرباج",
+        "english": "Oil lamp, temperature lamp, brake lamp, battery lamp, airbag lamp",
+        "french": "Voyant d'huile, voyant de température, voyant de frein, voyant de batterie, voyant d'airbag",
+        "is_correct": true
+      },
+      {
+        "arabic": "لمبة الإضاءة الخارجية، لمبة ضغط الإطارات، لمبة الوقود، لمبة الأبواب",
+        "english": "Exterior lights lamp, tire pressure lamp, fuel lamp, doors lamp",
+        "french": "Voyant d'éclairage extérieur, voyant de pression des pneus, voyant de carburant, voyant de portes",
+        "is_correct": false
+      },
+      {
+        "arabic": "لمبة القيادة الاقتصادية (ECO)، لمبة مستوى الوقود، لمبة الضوء المنخفض",
+        "english": "ECO mode lamp, fuel level lamp, low beam lamp",
+        "french": "Voyant du mode ECO, voyant de niveau de carburant, voyant de feux de croisement",
+        "is_correct": false
+      }
+    ]
   }
-
 ];
