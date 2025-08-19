@@ -14032,6 +14032,130 @@ List questions = [
     ],
     "image": "assets/signs/yellow_oil.png"
   },
+  {
+    "id": "469",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني لمبة الكفرات (TPMS) التي تظهر في لوحة القيادة؟",
+      "english": "What does the tire pressure warning lamp (TPMS) on the dashboard mean?",
+      "french": "Que signifie le voyant de pression des pneus (TPMS) sur le tableau de bord ?"
+    },
+    "answers": [
+      {
+        "arabic": "نقص أو زيادة في ضغط هواء أحد الإطارات",
+        "english": "Low or high air pressure in one of the tires",
+        "french": "Pression d'air basse ou élevée dans l'un des pneus",
+        "is_correct": true
+      },
+      {
+        "arabic": "عطل في نظام الفرامل ABS",
+        "english": "A fault in the ABS brake system",
+        "french": "Un défaut dans le système de freinage ABS",
+        "is_correct": false
+      },
+      {
+        "arabic": "تحذير من الحرارة الزائدة في المحرك",
+        "english": "Warning of excessive engine heat",
+        "french": "Avertissement de surchauffe du moteur",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/tpms.png"
+  },
+  {
+    "id": "470",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هي الأسباب الشائعة لظهور لمبة ضغط الإطارات؟",
+      "english": "What are the common causes for the tire pressure lamp to appear?",
+      "french": "Quelles sont les causes courantes de l'allumage du voyant de pression des pneus ?"
+    },
+    "answers": [
+      {
+        "arabic": "نقص في مستوى ضغط الإطارات، تغير درجة الحرارة، أو خلل في الحساس",
+        "english": "Low tire pressure, temperature change, or a fault in the sensor",
+        "french": "Pression des pneus basse, changement de température, ou défaut du capteur",
+        "is_correct": true
+      },
+      {
+        "arabic": "مستوى زيت المحرك منخفض",
+        "english": "Low engine oil level",
+        "french": "Niveau d'huile moteur bas",
+        "is_correct": false
+      },
+      {
+        "arabic": "ارتفاع درجة حرارة المحرك",
+        "english": "High engine temperature",
+        "french": "Température du moteur élevée",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/tpms.png"
+  },
+  {
+    "id": "471",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هو الحل المقترح عند ظهور لمبة ضغط الإطارات؟",
+      "english": "What is the suggested solution when the tire pressure lamp appears?",
+      "french": "Quelle est la solution proposée lorsque le voyant de pression des pneus s'allume ?"
+    },
+    "answers": [
+      {
+        "arabic": "مواصلة القيادة بسرعة عالية للوصول إلى محطة البنزين",
+        "english": "Continue driving at high speed to reach a gas station",
+        "french": "Continuer à rouler à grande vitesse pour atteindre une station-service",
+        "is_correct": false
+      },
+      {
+        "arabic": "تفحص ضغط الإطارات وتعديله حسب الموصى به",
+        "english": "Check the tire pressure and adjust it as recommended",
+        "french": "Vérifier la pression des pneus et l'ajuster selon les recommandations",
+        "is_correct": true
+      },
+      {
+        "arabic": "تجاهل اللمبة وإطفاء المحرك",
+        "english": "Ignore the lamp and turn off the engine",
+        "french": "Ignorer le voyant et éteindre le moteur",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/tpms.png"
+  },
+  {
+    "id": "472",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا يجب أن تفعل إذا استمرت لمبة ضغط الإطارات بالظهور بعد تعديل الضغط؟",
+      "english": "What should you do if the tire pressure lamp remains on after adjusting the pressure?",
+      "french": "Que devez-vous faire si le voyant de pression des pneus reste allumé après avoir ajusté la pression ?"
+    },
+    "answers": [
+      {
+        "arabic": "الرجوع لفحص الحساسات",
+        "english": "Return to check the sensors",
+        "french": "Retourner vérifier les capteurs",
+        "is_correct": true
+      },
+      {
+        "arabic": "زيادة ضغط الإطارات إلى أقصى حد",
+        "english": "Increase the tire pressure to the maximum limit",
+        "french": "Augmenter la pression des pneus au maximum",
+        "is_correct": false
+      },
+      {
+        "arabic": "لا شيء، فاللمبة ستنطفئ تلقائيًا",
+        "english": "Nothing, the lamp will turn off automatically",
+        "french": "Rien, le voyant s'éteindra tout seul",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/tpms.png"
+  }
 
 
 ];
