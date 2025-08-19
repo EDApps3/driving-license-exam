@@ -156,6 +156,29 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
     return allowedCategories;
   }
 
+  int getAllowedLawQuestions() {
+    return lawQuestionsData.where((e)=>getAllowedCategories().contains(e.category)).length;
+  }
+
+  int getAllowedSafetyQuestions() {
+    return safetyQuestionsData.where((e)=>getAllowedCategories().contains(e.category)).length;
+  }
+
+  int getAllowedEdQuestions() {
+    return edQuestionsData.where((e)=>getAllowedCategories().contains(e.category)).length;
+  }
+
+  int getAllowedCarQuestions() {
+    return cQQuestionsData.where((e)=>getAllowedCategories().contains(e.category)).length;
+  }
+
+  int getAllowedRandomQuestions() {
+    List<Question> questionsObj = [];
+    for(int i=0;i<questions.length;i++){
+      questionsObj.add(Question.fromJson(questions[i]));
+    }
+    return questionsObj.where((e)=>getAllowedCategories().contains(e.category)).length;
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -257,7 +280,7 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     children: [
                                       Text(
-                                        "Choose Number of Random Questions Out of ${questions.length}",
+                                        "Choose Number of Random Questions Out of ${getAllowedRandomQuestions()}",
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
                                         ),
@@ -268,11 +291,12 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
                                         onChanged: (value) {
                                           if(value!=""){
                                             int a = int.parse(value);
-                                            if(a<=questions.length){
+                                            if(a<=getAllowedRandomQuestions()){
                                               rQNumber = a;
                                             }
                                             else {
-                                              qNumberTF.text = questions.length.toString();
+                                              qNumberTF.text = getAllowedRandomQuestions().toString();
+                                              rQNumber = getAllowedRandomQuestions();
                                               showExceedNumberDialog();
                                             }
                                           }
@@ -346,6 +370,7 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
                                             }
                                             else {
                                               signTF.text = signQuestionsData.length.toString();
+                                              signsNumber = signQuestionsData.length;
                                               showExceedNumberDialog();
                                             }
                                           }
@@ -356,22 +381,23 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
                                       ),
 
                                       Text(
-                                        "Law Out Of ${lawQuestionsData.where((e)=>getAllowedCategories().contains(e.category)).length}",
+                                        "Law Out Of ${getAllowedLawQuestions()}",
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
                                         ),
                                       ),
                                       TextFieldApp(
                                         controller:lawTF,
-                                        max: lawQuestionsData.length.toString(),
+                                        max: getAllowedLawQuestions().toString(),
                                         onChanged: (value) {
                                           if(value!=""){
                                             int a = int.parse(value);
-                                            if(a<=lawQuestionsData.length){
+                                            if(a<=getAllowedLawQuestions()){
                                               lawNumber = a;
                                             }
                                             else {
-                                              lawTF.text = lawQuestionsData.length.toString();
+                                              lawTF.text = getAllowedLawQuestions().toString();
+                                              lawNumber = getAllowedLawQuestions();
                                               showExceedNumberDialog();
                                             }
                                           }
@@ -381,22 +407,23 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
                                         },
                                       ),
                                       Text(
-                                        "Safety Out Of ${safetyQuestionsData.where((e)=>getAllowedCategories().contains(e.category)).length}",
+                                        "Safety Out Of ${getAllowedSafetyQuestions()}",
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
                                         ),
                                       ),
                                       TextFieldApp(
                                         controller:safetyTF,
-                                        max: safetyQuestionsData.length.toString(),
+                                        max: getAllowedSafetyQuestions().toString(),
                                         onChanged: (value) {
                                           if(value!=""){
                                             int a = int.parse(value);
-                                            if(a<=safetyQuestionsData.length){
+                                            if(a<=getAllowedSafetyQuestions()){
                                               safetyNumber = a;
                                             }
                                             else {
-                                              safetyTF.text = safetyQuestionsData.length.toString();
+                                              safetyTF.text = getAllowedSafetyQuestions().toString();
+                                              safetyNumber = getAllowedSafetyQuestions();
                                               showExceedNumberDialog();
                                             }
                                           }
@@ -408,22 +435,23 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
                                       ),
 
                                       Text(
-                                        "ED Out Of ${edQuestionsData.where((e)=>getAllowedCategories().contains(e.category)).length}",
+                                        "ED Out Of ${getAllowedEdQuestions()}",
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
                                         ),
                                       ),
                                       TextFieldApp(
                                         controller:edTF,
-                                        max: edQuestionsData.length.toString(),
+                                        max: getAllowedEdQuestions().toString(),
                                         onChanged: (value) {
                                           if(value!=""){
                                             int a = int.parse(value);
-                                            if(a<=edQuestionsData.length){
+                                            if(a<=getAllowedEdQuestions()){
                                               edNumber = a;
                                             }
                                             else {
-                                              edTF.text = edQuestionsData.length.toString();
+                                              edTF.text = getAllowedEdQuestions().toString();
+                                              edNumber = getAllowedEdQuestions();
                                               showExceedNumberDialog();
                                             }
                                           }
@@ -434,22 +462,23 @@ class _QuestionChoosePageState extends State<QuestionChoosePage> {
                                       ),
 
                                       Text(
-                                        "Car Questions Out Of ${cQQuestionsData.where((e)=>getAllowedCategories().contains(e.category)).length}",
+                                        "Car Questions Out Of ${getAllowedCarQuestions()}",
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
                                         ),
                                       ),
                                       TextFieldApp(
                                         controller:cQNumberTF,
-                                        max: cQQuestionsData.length.toString(),
+                                        max: getAllowedCarQuestions().toString(),
                                         onChanged: (value) {
                                           if(value!=""){
                                             int a = int.parse(value);
-                                            if(a<=cQQuestionsData.length){
+                                            if(a<=getAllowedCarQuestions()){
                                               cQNumber = a;
                                             }
                                             else {
-                                              cQNumberTF.text = cQQuestionsData.length.toString();
+                                              cQNumberTF.text = getAllowedCarQuestions().toString();
+                                              cQNumber = getAllowedCarQuestions();
                                               showExceedNumberDialog();
                                             }
                                           }

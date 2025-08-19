@@ -10360,7 +10360,7 @@ List questions = [
         "is_correct": false
       }
     ],
-    "image": "assets/signs/m_Sign_140.png"
+    "image": "assets/signs/m_sign_140.png"
   },
   {
     "id": "343",
@@ -10794,7 +10794,7 @@ List questions = [
         "is_correct": false
       }
     ],
-    "image": "assets/signs/m_sign125.png"
+    "image": "assets/signs/m_sign_125.png"
   },
   {
     "id": "357",
@@ -12251,7 +12251,7 @@ List questions = [
         "is_correct": false
       }
     ],
-    "image": "assets/signs/63.png"
+    "image": "assets/signs/m_sign_63.png"
   },
   {
     "id": "4032",
@@ -12282,7 +12282,7 @@ List questions = [
         "is_correct": false
       }
     ],
-    "image": "assets/signs/41.png"
+    "image": "assets/signs/m_sign_41.png"
   },
   {
     "id": "4021",
@@ -12313,7 +12313,7 @@ List questions = [
         "is_correct": false
       }
     ],
-    "image": "assets/signs/63.png"
+    "image": "assets/signs/m_sign_63.png"
   },
   {
     "id": "4031",
@@ -12406,7 +12406,7 @@ List questions = [
         "is_correct": false
       }
     ],
-    "image": "assets/signs/m_sign_19.png"
+    "image": "assets/signs/m_sign_31.png"
   },
   {
     "id": "4062",
@@ -12437,7 +12437,7 @@ List questions = [
         "is_correct": false
       }
     ],
-    "image": "assets/signs/19.png"
+    "image": "assets/signs/m_sign_19.png"
   },
   {
     "id": "4071",
@@ -12530,7 +12530,7 @@ List questions = [
         "is_correct": false
       }
     ],
-    "image": "assets/signs/19.png"
+    "image": "assets/signs/m_sign_19.png"
   },
   {
     "id": "4072",
@@ -12561,7 +12561,7 @@ List questions = [
         "is_correct": false
       }
     ],
-    "image": "assets/signs/21.png"
+    "image": "assets/signs/m_sign_21.png"
   },
   {
     "id": "4082",
@@ -12592,7 +12592,7 @@ List questions = [
         "is_correct": false
       }
     ],
-    "image": "assets/signs/22.png"
+    "image": "assets/signs/m_sign_22.png"
   },
   {
     "id": "409",
