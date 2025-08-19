@@ -14590,5 +14590,98 @@ List questions = [
     ],
     "image": "assets/signs/bb.png"
   },
+  {
+    "id": "487",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ماذا تعني لمبة البطارية التي تظهر في لوحة القيادة؟",
+      "english": "What does the battery lamp on the dashboard mean?",
+      "french": "Que signifie le voyant de batterie sur le tableau de bord ?"
+    },
+    "answers": [
+      {
+        "arabic": "مشكلة في الشحن، الدينامو، أو البطارية",
+        "english": "A problem with charging, the alternator, or the battery",
+        "french": "Un problème de charge, d'alternateur ou de batterie",
+        "is_correct": true
+      },
+      {
+        "arabic": "نقص في مستوى زيت المحرك",
+        "english": "Low engine oil level",
+        "french": "Niveau d'huile moteur bas",
+        "is_correct": false
+      },
+      {
+        "arabic": "ارتفاع درجة حرارة المحرك",
+        "english": "High engine temperature",
+        "french": "Température du moteur élevée",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/b2.png"
+  },
+  {
+    "id": "488",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هي النتيجة المحتملة لظهور لمبة البطارية؟",
+      "english": "What is the likely result of the battery lamp appearing?",
+      "french": "Quelle est la conséquence probable de l'apparition du voyant de batterie ?"
+    },
+    "answers": [
+      {
+        "arabic": "قد تتوقف السيارة عن العمل فجأة",
+        "english": "The car may suddenly stop working",
+        "french": "La voiture pourrait s'arrêter de fonctionner soudainement",
+        "is_correct": true
+      },
+      {
+        "arabic": "زيادة كفاءة استهلاك الوقود",
+        "english": "Increased fuel efficiency",
+        "french": "Efficacité énergétique accrue",
+        "is_correct": false
+      },
+      {
+        "arabic": "تحسن في أداء الفرامل",
+        "english": "Improved brake performance",
+        "french": "Amélioration des performances de freinage",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/b2.png"
+  },
+  {
+    "id": "489",
+    "type": "Car Question",
+    "category": "G",
+    "question": {
+      "arabic": "ما هو الإجراء الموصى به عند ظهور لمبة البطارية؟",
+      "english": "What is the recommended action when the battery lamp appears?",
+      "french": "Quelle est l'action recommandée lorsque le voyant de batterie s'allume ?"
+    },
+    "answers": [
+      {
+        "arabic": "تفقد سير الدينامو وشحن البطارية بأسرع وقت",
+        "english": "Check the alternator belt and charge the battery as soon as possible",
+        "french": "Vérifier la courroie de l'alternateur et charger la batterie dès que possible",
+        "is_correct": true
+      },
+      {
+        "arabic": "مواصلة القيادة بشكل طبيعي حتى تنطفئ اللمبة",
+        "english": "Continue driving normally until the lamp turns off",
+        "french": "Continuer à rouler normalement jusqu'à ce que le voyant s'éteigne",
+        "is_correct": false
+      },
+      {
+        "arabic": "إعادة تشغيل المحرك عدة مرات",
+        "english": "Restart the engine several times",
+        "french": "Redémarrer le moteur plusieurs fois",
+        "is_correct": false
+      }
+    ],
+    "image": "assets/signs/b2.png"
+  }
 
 ];
